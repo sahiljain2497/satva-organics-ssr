@@ -1,0 +1,66 @@
+.state-quick-contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.state-quick-contact-text h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.75rem;
+}
+
+.state-quick-contact-text p {
+  color: var(--text-light);
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+}
+
+.state-quick-contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.state-quick-contact-alt {
+  font-size: 0.9rem;
+}
+
+.state-quick-contact-alt a {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.state-quick-contact-form {
+  padding: 1.75rem;
+}
+
+.state-quick-contact-actions .btn {
+  min-height: 44px;
+}
+
+.state-quick-contact-form .form-control {
+  min-height: 44px;
+  font-size: 1rem;
+}
+
+.state-quick-contact-form button[type='submit'] {
+  min-height: 48px;
+  font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+  .state-quick-contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .state-quick-contact-actions {
+    flex-direction: column;
+  }
+
+  .state-quick-contact-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

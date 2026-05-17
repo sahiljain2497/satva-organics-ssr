@@ -1,0 +1,60 @@
+<section id="state-contact" class="section state-quick-contact bg-light">
+  <div class="container">
+    <div class="state-quick-contact-grid">
+      <div class="state-quick-contact-text">
+        <h2>
+          <span i18n="@@stateContact.titlePrefix">Contact for</span>
+          {{ regionName() }}
+        </h2>
+        <p i18n="@@stateContact.desc">
+          Send a quick enquiry for pricing, bulk supply, or application guidance in your area. We
+          usually respond within 2 hours.
+        </p>
+        <div class="state-quick-contact-actions">
+          <a
+            [href]="whatsappUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-whatsapp btn-sm"
+          >
+            <span class="icon">💬</span>
+            <span i18n="@@contact.cta_whatsapp">Chat on WhatsApp</span>
+          </a>
+          <a href="tel:+919340000099" class="btn btn-outline btn-sm">
+            <span class="icon">📞</span>
+            <span i18n="@@contact.call_now">Call Now</span>
+          </a>
+        </div>
+        <p class="state-quick-contact-alt">
+          <a [routerLink]="locale.localPath('/contact')" i18n="@@stateContact.allRegions"
+            >General enquiry or other states &rarr;</a
+          >
+        </p>
+      </div>
+
+      <form class="state-quick-contact-form card" [formGroup]="inquiryForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label i18n="@@form.name" for="sq-name">Your Name</label>
+          <input type="text" id="sq-name" formControlName="name" class="form-control" required />
+        </div>
+        <div class="form-group">
+          <label i18n="@@form.phone" for="sq-phone">Phone Number</label>
+          <input type="tel" id="sq-phone" formControlName="phone" class="form-control" required />
+        </div>
+        <div class="form-group">
+          <label i18n="@@form.message" for="sq-message">Message / Location</label>
+          <textarea
+            id="sq-message"
+            formControlName="message"
+            class="form-control"
+            rows="2"
+            i18n-placeholder="@@placeholder.message"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width" i18n="@@stateContact.send">
+          Send Enquiry (WhatsApp)
+        </button>
+      </form>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,286 @@
+{
+  "en": {
+    "productCta": "Choose Pack & Get Quote",
+    "whatsappCta": "Get Price on WhatsApp",
+    "badge": "Pan-India Supply",
+    "heroTitle": "Bulk & Wholesale Vermicompost Supply Across India - Satva Organics",
+    "heroLead": "Satva Organics supplies premium vermicompost in bulk and wholesale quantities to distributors, agri-store chains, cooperatives, institutional buyers, and large farm operations across India.",
+    "sectionsBeforeTable": [
+      {
+        "title": "Who We Supply Nationally",
+        "paragraphs": [
+          "Satva Organics core markets are Himachal Pradesh, Jammu & Kashmir, Uttar Pradesh, Punjab, and Haryana, but our supply network is not limited to these regions. We work with buyers across India who need a consistent, quality-controlled organic vermicompost product.",
+          "Our vermicompost is enriched with beneficial microbes including Trichoderma, Azotobacter, Pseudomonas fluorescens, PSB, and Bacillus strains, plus botanical extracts including neem, mustard cake, and castor cake."
+        ]
+      }
+    ],
+    "bestSuitedBeforeTable": true,
+    "bestSuited": {
+      "title": "Pan-India Supply Is Suited For",
+      "items": [
+        {
+          "label": "Distributors & agri-retailers:",
+          "text": "Businesses that stock and resell organic inputs to farmers."
+        },
+        {
+          "label": "Cooperative societies & FPOs:",
+          "text": "Groups purchasing collective input supply for member farmers."
+        },
+        {
+          "label": "Institutional buyers:",
+          "text": "Hotels, resorts, landscape contractors, botanical gardens, and educational farms."
+        },
+        {
+          "label": "Large farm operations & estates:",
+          "text": "Plantations, horticulture estates, and commercial polyhouse operators."
+        },
+        {
+          "label": "Export & OEM buyers:",
+          "text": "Companies seeking custom-branded or white-label vermicompost packaging."
+        }
+      ]
+    },
+    "table": {
+      "title": "Packaging & Supply Options",
+      "headers": [
+        "Pack Format",
+        "Typical Buyer",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "1 kg retail pack",
+          "Agri-retailers, garden centres, home garden buyers",
+          "Shelf-ready for consumer retail and gifting segments."
+        ],
+        [
+          "50 kg woven bag",
+          "Farm buyers, agri-store backend stock, FPO orders",
+          "Standard unit for farm application and B2B resale."
+        ],
+        [
+          "Bulk / loose (by tonne)",
+          "Large farms, estates, institutional buyers",
+          "Minimum order quantities apply. Best value for high-volume requirements."
+        ],
+        [
+          "Custom / white-label",
+          "OEM buyers, export companies, branded distributors",
+          "Discuss requirements, volume, and lead time directly with our team."
+        ]
+      ],
+      "intro": "We offer three standard pack formats and can discuss custom arrangements for large-volume buyers."
+    },
+    "sectionsAfterTable": [
+      {
+        "title": "Why Buyers Choose Satva for National Supply",
+        "items": [
+          {
+            "label": "Consistent formulation:",
+            "text": "Each batch is produced with the same microbial and botanical enrichment protocol."
+          },
+          {
+            "label": "Lab-tested quality:",
+            "text": "Microbial enrichment and pathogen control are monitored at production."
+          },
+          {
+            "label": "Flexible volumes:",
+            "text": "We work with buyers at different scales, from agri-stores to FPO bulk orders."
+          },
+          {
+            "label": "Direct communication:",
+            "text": "Buyers deal directly with us for pricing, dispatch, and quality queries."
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Frequently Asked Questions - Pan-India Supply",
+    "faqs": [
+      {
+        "question": "What is the minimum order quantity for pan-India bulk supply?",
+        "answer": "Minimum order quantities vary by pack format and destination. For 50 kg bags, we can discuss requirements from small initial orders upward, depending on logistics. For bulk tonnage, minimum quantities apply."
+      },
+      {
+        "question": "Is custom branding or white-label packaging available?",
+        "answer": "Yes. For buyers with a consistent volume requirement, we can discuss custom branding or white-label packaging options."
+      },
+      {
+        "question": "Can you share quality or certification documentation for the product?",
+        "answer": "Yes. Satva vermicompost is lab-tested for microbial enrichment and pathogen control. We can share available quality documentation on request."
+      }
+    ],
+    "links": [
+      {
+        "path": "/himachal-pradesh",
+        "label": "HP Supply"
+      },
+      {
+        "path": "/jammu-kashmir",
+        "label": "J&K Supply"
+      },
+      {
+        "path": "/uttar-pradesh",
+        "label": "UP Supply"
+      },
+      {
+        "path": "/punjab-haryana",
+        "label": "Punjab & Haryana"
+      }
+    ],
+    "cta": {
+      "title": "Enquire About Bulk or Wholesale Supply",
+      "description": "Tell us your location, buyer type, and approximate volume. We'll get back to you with pricing and logistics details."
+    },
+    "seo": {
+      "title": "Pan-India Vermicompost Supply - Bulk & Wholesale by Satva Organics",
+      "description": "Satva Organics supplies bulk and wholesale vermicompost to distributors, FPOs, cooperatives, agri-stores, and institutional buyers across India."
+    },
+    "schemaDescription": "Pan-India bulk and wholesale vermicompost supplier for distributors, cooperatives, agri-retailers, and institutional buyers.",
+    "areaServed": [
+      "India"
+    ],
+    "breadcrumbName": "Pan-India Supply"
+  },
+  "hi": {
+    "productCta": "पैक चुनें और कोट लें",
+    "whatsappCta": "व्हाट्सप्प पर कीमत पूछें",
+    "badge": "अखिल भारतीय सप्लाई",
+    "heroTitle": "भारत भर में थोक और होलसेल वर्मीकम्पोस्ट सप्लाई - सत्व ऑर्गेनिक्स",
+    "heroLead": "सत्व ऑर्गेनिक्स भारत भर में वितरकों, एग्री-स्टोर चेन, सहकारी संस्थाओं, संस्थागत खरीदारों और बड़े फार्म ऑपरेशन को प्रीमियम वर्मीकम्पोस्ट थोक और होलसेल मात्रा में सप्लाई करता है।",
+    "sectionsBeforeTable": [
+      {
+        "title": "हम राष्ट्रीय स्तर पर किसे सप्लाई करते हैं",
+        "paragraphs": [
+          "सत्व ऑर्गेनिक्स के मुख्य बाजार हिमाचल प्रदेश, जम्मू और कश्मीर, उत्तर प्रदेश, पंजाब और हरियाणा हैं, लेकिन हमारी सप्लाई नेटवर्क इन्हीं क्षेत्रों तक सीमित नहीं है।",
+          "हमारा वर्मीकम्पोस्ट Trichoderma, Azotobacter, Pseudomonas fluorescens, PSB, Bacillus strains और नीम, सरसों खली, अरंडी खली जैसे वनस्पति अर्क से समृद्ध है।"
+        ]
+      }
+    ],
+    "bestSuitedBeforeTable": true,
+    "bestSuited": {
+      "title": "अखिल भारतीय सप्लाई इनके लिए उपयुक्त है",
+      "items": [
+        {
+          "label": "वितरक और एग्री-रिटेलर:",
+          "text": "किसानों को जैविक इनपुट स्टॉक और रीसेल करने वाले व्यवसाय।"
+        },
+        {
+          "label": "सहकारी समितियाँ और FPOs:",
+          "text": "सदस्य किसानों के लिए सामूहिक इनपुट सप्लाई खरीदने वाले समूह।"
+        },
+        {
+          "label": "संस्थागत खरीदार:",
+          "text": "होटल, रिसॉर्ट, लैंडस्केप कॉन्ट्रैक्टर, बॉटनिकल गार्डन और शैक्षणिक फार्म।"
+        },
+        {
+          "label": "बड़े फार्म ऑपरेशन और एस्टेट:",
+          "text": "प्लांटेशन, बागवानी एस्टेट और कमर्शियल पॉलीहाउस।"
+        },
+        {
+          "label": "एक्सपोर्ट और OEM खरीदार:",
+          "text": "कस्टम-ब्रांडेड या व्हाइट-लेबल पैकेजिंग चाहने वाली कंपनियाँ।"
+        }
+      ]
+    },
+    "table": {
+      "title": "पैकेजिंग और सप्लाई विकल्प",
+      "headers": [
+        "पैक फॉर्मेट",
+        "सामान्य खरीदार",
+        "नोट्स"
+      ],
+      "rows": [
+        [
+          "1 kg रिटेल पैक",
+          "एग्री-रिटेलर, गार्डन सेंटर, होम गार्डन खरीदार",
+          "कंज्यूमर रिटेल और गिफ्टिंग सेगमेंट के लिए शेल्फ-रेडी।"
+        ],
+        [
+          "50 kg बुना बैग",
+          "फार्म खरीदार, एग्री-स्टोर बैकएंड स्टॉक, FPO ऑर्डर",
+          "फार्म उपयोग और B2B रीसेल के लिए मानक यूनिट।"
+        ],
+        [
+          "थोक / ढीला माल (टन के हिसाब से)",
+          "बड़े फार्म, एस्टेट, संस्थागत खरीदार",
+          "न्यूनतम ऑर्डर मात्रा लागू होती है।"
+        ],
+        [
+          "कस्टम / व्हाइट-लेबल",
+          "OEM खरीदार, एक्सपोर्ट कंपनियाँ, ब्रांडेड वितरक",
+          "अपनी जरूरत, वॉल्यूम और लीड टाइम हमारी टीम से चर्चा करें।"
+        ]
+      ],
+      "intro": "हम तीन मानक पैक फॉर्मेट देते हैं और बड़े वॉल्यूम खरीदारों के लिए कस्टम व्यवस्था पर चर्चा कर सकते हैं।"
+    },
+    "sectionsAfterTable": [
+      {
+        "title": "राष्ट्रीय सप्लाई के लिए खरीदार सत्व क्यों चुनते हैं",
+        "items": [
+          {
+            "label": "सुसंगत फ़ॉर्मूला:",
+            "text": "हर बैच एक जैसे माइक्रोबियल और वनस्पति एनरिचमेंट प्रोटोकॉल से बनता है।"
+          },
+          {
+            "label": "लैब-टेस्टेड गुणवत्ता:",
+            "text": "उत्पादन के दौरान माइक्रोबियल एनरिचमेंट और रोगजनक नियंत्रण मॉनिटर किए जाते हैं।"
+          },
+          {
+            "label": "लचीले वॉल्यूम:",
+            "text": "हम अलग-अलग स्तर के खरीदारों के साथ काम करते हैं।"
+          },
+          {
+            "label": "सीधा संवाद:",
+            "text": "खरीदार कीमत, डिस्पैच और गुणवत्ता संबंधी सवालों के लिए सीधे हमसे बात करते हैं।"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "अक्सर पूछे जाने वाले सवाल - अखिल भारतीय सप्लाई",
+    "faqs": [
+      {
+        "question": "अखिल भारतीय थोक सप्लाई के लिए न्यूनतम ऑर्डर मात्रा क्या है?",
+        "answer": "न्यूनतम ऑर्डर मात्रा पैक फॉर्मेट और गंतव्य के अनुसार बदलती है। 50 kg बैग के लिए हम लॉजिस्टिक्स के अनुसार छोटे प्रारंभिक ऑर्डर से चर्चा कर सकते हैं।"
+      },
+      {
+        "question": "क्या कस्टम ब्रांडिंग या व्हाइट-लेबल पैकेजिंग उपलब्ध है?",
+        "answer": "हाँ। नियमित वॉल्यूम जरूरत वाले खरीदारों के लिए हम कस्टम ब्रांडिंग या व्हाइट-लेबल पैकेजिंग विकल्पों पर चर्चा कर सकते हैं।"
+      },
+      {
+        "question": "क्या आप उत्पाद की गुणवत्ता या प्रमाणन दस्तावेज साझा कर सकते हैं?",
+        "answer": "हाँ। सत्व वर्मीकम्पोस्ट माइक्रोबियल एनरिचमेंट और रोगजनक नियंत्रण के लिए लैब-टेस्टेड है। अनुरोध पर गुणवत्ता दस्तावेज साझा किए जा सकते हैं।"
+      }
+    ],
+    "links": [
+      {
+        "path": "/himachal-pradesh",
+        "label": "HP सप्लाई"
+      },
+      {
+        "path": "/jammu-kashmir",
+        "label": "J&K सप्लाई"
+      },
+      {
+        "path": "/uttar-pradesh",
+        "label": "UP सप्लाई"
+      },
+      {
+        "path": "/punjab-haryana",
+        "label": "पंजाब और हरियाणा"
+      }
+    ],
+    "cta": {
+      "title": "थोक या होलसेल सप्लाई के लिए पूछताछ करें",
+      "description": "हमें अपना स्थान, खरीदार प्रकार और अनुमानित वॉल्यूम बताएं। हम कीमत और लॉजिस्टिक्स विवरण के साथ जवाब देंगे।"
+    },
+    "seo": {
+      "title": "अखिल भारतीय वर्मीकम्पोस्ट सप्लाई - थोक और होलसेल",
+      "description": "सत्व ऑर्गेनिक्स भारत भर में वितरकों, FPOs, सहकारी संस्थाओं, एग्री-स्टोर और संस्थागत खरीदारों को थोक व होलसेल वर्मीकम्पोस्ट सप्लाई करता है।"
+    },
+    "schemaDescription": "वितरकों, सहकारी संस्थाओं, एग्री-रिटेलरों और संस्थागत खरीदारों के लिए अखिल भारतीय थोक और होलसेल वर्मीकम्पोस्ट सप्लायर।",
+    "areaServed": [
+      "India"
+    ],
+    "breadcrumbName": "अखिल भारतीय सप्लाई"
+  }
+}

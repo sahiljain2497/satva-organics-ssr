@@ -2,6 +2,7 @@ import { Component, inject, signal } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 
 import { SITE_URL } from '../core/constants/seo.constants';
+import { LocaleService } from '../core/services/locale.service';
 import { SeoService } from '../core/services/seo.service';
 import { localBusinessSchema, productSchemas } from '../core/services/seo-schema';
 import { WhatsAppService } from '../core/services/whatsapp.service';
@@ -17,6 +18,7 @@ export class Home {
   private readonly seo = inject(SeoService);
   private readonly formBuilder = inject(FormBuilder);
   private readonly whatsApp = inject(WhatsAppService);
+  readonly locale = inject(LocaleService);
 
   protected readonly isVideoMuted = signal(true);
 

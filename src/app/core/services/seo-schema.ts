@@ -78,6 +78,23 @@ export function breadcrumbSchema(
   };
 }
 
+export function faqPageSchema(
+  faqs: { question: string; answer: string }[],
+): object {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
+}
+
 export function blogPostingSchema(post: {
   title: string;
   metaDescription: string;

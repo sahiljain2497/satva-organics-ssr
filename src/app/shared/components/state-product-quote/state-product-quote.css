@@ -1,0 +1,87 @@
+/* Product quote section (shared across state pages) */
+.state-products-header {
+  margin-bottom: 2rem;
+}
+
+.state-products-header .section-desc {
+  margin: 0.75rem auto 0;
+}
+
+.state-products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  max-width: 960px;
+  margin: 0 auto 2rem;
+}
+
+.state-product-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.state-product-audience {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--primary, #16a34a);
+  margin-bottom: 0.5rem;
+}
+
+.state-product-card h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.state-product-card p {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  flex: 1;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.state-product-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.state-product-actions .btn {
+  min-height: 44px;
+}
+
+.state-trust-points {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 640px;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.state-trust-points li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+.state-trust-points li::before {
+  content: '✓';
+  color: var(--primary, #16a34a);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .state-products-grid {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+  }
+}

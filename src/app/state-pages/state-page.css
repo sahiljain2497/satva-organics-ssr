@@ -47,3 +47,200 @@
 .state-cta {
   padding: 3rem 0;
 }
+
+/* Application guide */
+.application-guide {
+  margin: 1.5rem 0;
+}
+
+.application-guide table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.application-guide th,
+.application-guide td {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border, #e2e8f0);
+}
+
+.application-guide th {
+  background: var(--primary-light, #f0fdf4);
+  font-weight: 600;
+}
+
+.application-guide tr:nth-child(even) td {
+  background: var(--bg-light, #f9fafb);
+}
+
+/* Best Suited For / proof-safe block */
+.best-suited {
+  background: var(--primary-light, #f0fdf4);
+  border-left: 4px solid var(--primary, #16a34a);
+  padding: 1rem 1.25rem;
+  border-radius: 4px;
+  margin: 1.5rem 0;
+}
+
+.best-suited h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.best-suited ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0;
+}
+
+.best-suited li {
+  color: var(--text-light);
+  margin-bottom: 0.4rem;
+}
+
+/* State summary / context block */
+.state-summary {
+  background: var(--bg-light, #f9fafb);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+/* FAQ */
+.state-faq {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--border, #e2e8f0);
+  padding: 1rem 0;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-question {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text, #1a202c);
+}
+
+.faq-answer {
+  color: var(--text-light);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Hero CTAs */
+.hero-btns {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero-btns .btn {
+  min-height: 48px;
+  min-width: 160px;
+  padding: 0.75rem 1.25rem;
+}
+
+/* In-page product quote section */
+.state-products-header {
+  margin-bottom: 2rem;
+}
+
+.state-products-header .section-desc {
+  margin: 0.75rem auto 0;
+}
+
+.state-products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  max-width: 960px;
+  margin: 0 auto 2rem;
+}
+
+.state-product-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.state-product-audience {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--primary, #16a34a);
+  margin-bottom: 0.5rem;
+}
+
+.state-product-card h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.state-product-card p {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  flex: 1;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.state-product-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.state-product-actions .btn {
+  min-height: 44px;
+}
+
+.state-trust-points {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 640px;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.state-trust-points li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+.state-trust-points li::before {
+  content: '✓';
+  color: var(--primary, #16a34a);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .state-products-grid {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+  }
+
+  .hero-btns .btn {
+    width: 100%;
+    max-width: 320px;
+  }
+}

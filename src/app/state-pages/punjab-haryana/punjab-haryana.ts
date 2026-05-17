@@ -8,17 +8,17 @@ import { breadcrumbSchema, faqPageSchema, localBusinessSchema } from '../../core
 import { WhatsAppService } from '../../core/services/whatsapp.service';
 import { StateProductQuote } from '../../shared/components/state-product-quote/state-product-quote';
 import { StateQuickContact } from '../../shared/components/state-quick-contact/state-quick-contact';
-import pageContent from '../../../locale/state-pages/uttar-pradesh.json';
+import pageContent from '../../../locale/state-pages/punjab-haryana.json';
 import { getRegionB2bData, openRegionWhatsApp, scrollToSection } from '../state-page-b2b';
 import { StatePageContent, StatePageTranslations } from '../state-page-content';
 
 @Component({
-  selector: 'app-uttar-pradesh',
+  selector: 'app-punjab-haryana',
   imports: [RouterLink, StateQuickContact, StateProductQuote],
-  templateUrl: './uttar-pradesh.html',
+  templateUrl: './punjab-haryana.html',
   styleUrl: '../state-page.css',
 })
-export class UttarPradesh {
+export class PunjabHaryana {
   private readonly seo = inject(SeoService);
   private readonly whatsApp = inject(WhatsAppService);
   readonly locale = inject(LocaleService);
@@ -28,12 +28,12 @@ export class UttarPradesh {
     : this.translations.en;
 
   protected readonly regionName = this.content.breadcrumbName;
-  private readonly b2b = getRegionB2bData('uttar-pradesh', this.locale.isHindi);
+  private readonly b2b = getRegionB2bData('punjab-haryana', this.locale.isHindi);
   protected readonly productPacks = this.b2b.productPacks;
   protected readonly trustPoints = this.b2b.trustPoints;
 
   constructor() {
-    const canonicalUrl = `${SITE_URL}/uttar-pradesh`;
+    const canonicalUrl = `${SITE_URL}/punjab-haryana`;
     this.seo.setPageSeo({
       title: this.content.seo.title,
       description: this.content.seo.description,
@@ -46,7 +46,7 @@ export class UttarPradesh {
       }),
       breadcrumbSchema([
         { name: this.locale.isHindi ? 'होम' : 'Home', path: '/' },
-        { name: this.content.breadcrumbName, path: '/uttar-pradesh' },
+        { name: this.content.breadcrumbName, path: '/punjab-haryana' },
       ]),
       faqPageSchema(this.content.faqs),
     ]);

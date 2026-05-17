@@ -1,0 +1,266 @@
+{
+  "en": {
+    "productCta": "Choose Pack & Get Quote",
+    "whatsappCta": "Get Price on WhatsApp",
+    "badge": "Himachal Pradesh",
+    "heroTitle": "Vermicompost for HP Apple Orchards, Vegetables & Nurseries",
+    "heroLead": "Satva Organics supplies premium vermicompost enriched with botanical extracts and beneficial microbes, designed to improve soil health in Himachal's mountain orchards and farms across Shimla, Kullu, Kinnaur, and Mandi districts.",
+    "sectionsBeforeTable": [
+      {
+        "title": "Why Himachal Orchards Need Organic Soil Care",
+        "paragraphs": [
+          "Himachal's mountain orchards sit on shallow, acidic soils, often with a pH of 5.5 to 6.5, where nutrients can get locked up even when chemical fertilizers are applied. Slope gradients cause rapid moisture loss, and heavy monsoon rain washes away organic matter year after year.",
+          "Satva's vermicompost works as a soil conditioner rather than just a nutrient source. Enrichment with Trichoderma, Pseudomonas fluorescens, and Azotobacter helps improve biological activity in the root zone. Neem and mustard cake support a healthier rhizosphere, while organic matter improves water retention on slopes and helps soils hold nutrients between watering cycles.",
+          "With over 1 lakh hectares under apple cultivation in Himachal, the shift toward organic inputs is accelerating, driven by buyer demand for certified produce and by the visible effects of years of heavy chemical use on older orchards."
+        ]
+      }
+    ],
+    "table": {
+      "title": "How to Apply Satva Vermicompost in HP",
+      "headers": [
+        "Crop / Use Case",
+        "Recommended Starting Dose",
+        "Timing"
+      ],
+      "rows": [
+        [
+          "Mature apple trees",
+          "5-8 kg per tree",
+          "April-May, before first flush or pre-monsoon"
+        ],
+        [
+          "Young trees & stone fruits",
+          "2-4 kg per tree",
+          "Spring soil preparation"
+        ],
+        [
+          "Vegetables (open field)",
+          "150-200 kg per acre as basal dose",
+          "Before transplanting or sowing"
+        ],
+        [
+          "Polyhouse crops",
+          "100 g per planting hole",
+          "At transplant; can be repeated every 45-60 days"
+        ],
+        [
+          "Nursery beds",
+          "10-15% by volume mixed into growing media",
+          "Before seeding or potting"
+        ]
+      ],
+      "intro": "The following are general starting guidance rates. For large orchards or specific soil conditions, contact us for farm-specific advice."
+    },
+    "supply": {
+      "title": "Supply & Packaging for HP Buyers",
+      "paragraphs": [
+        "Satva vermicompost is available in three pack sizes to suit different buyer types."
+      ],
+      "items": [
+        {
+          "label": "1 kg packs:",
+          "text": "Home gardens, kitchen gardens, and small nursery trials."
+        },
+        {
+          "label": "50 kg bags:",
+          "text": "The standard choice for orchard growers and agri-stores. One bag covers approximately 6-10 mature apple trees at the recommended dose."
+        },
+        {
+          "label": "Bulk supply:",
+          "text": "For cooperatives, large orchards, and distributors. Contact us for wholesale pricing and freight details."
+        }
+      ]
+    },
+    "bestSuited": {
+      "title": "Best Suited For",
+      "items": [
+        {
+          "text": "Apple and stone-fruit growers in Shimla, Kullu, Kinnaur, and Mandi"
+        },
+        {
+          "text": "Vegetable and polyhouse growers on mountain slopes"
+        },
+        {
+          "text": "Nurseries requiring a consistent, pathogen-controlled growing medium"
+        },
+        {
+          "text": "Agri-retailers and cooperatives looking for a branded 50 kg or bulk organic input"
+        }
+      ]
+    },
+    "faqTitle": "Frequently Asked Questions - Himachal Pradesh",
+    "faqs": [
+      {
+        "question": "How much Satva vermicompost does a mature apple tree need in Himachal?",
+        "answer": "A general starting dose is 5-8 kg per mature apple tree, applied around the drip line and lightly incorporated into the topsoil. For young trees or stone fruits, 2-4 kg per tree is a reasonable starting point. We recommend discussing large-orchard requirements with us directly so we can factor in tree age, spacing, and existing soil condition."
+      },
+      {
+        "question": "When should I apply vermicompost in an HP apple orchard?",
+        "answer": "The most commonly recommended window is April-May, before the pre-monsoon flush. Applying at this stage allows soil microbes to establish and nutrients to become available as the tree enters active growth. A second lighter application after harvest (October-November) can help restore organic matter ahead of winter dormancy."
+      },
+      {
+        "question": "Can Satva supply 50 kg or bulk bags to upper Himachal districts?",
+        "answer": "Yes. We supply 50 kg bags and bulk quantities to buyers across Himachal Pradesh, including upper districts. Freight terms and minimum order quantities for remote areas can be discussed via WhatsApp or phone. Call +91 93400 00099 or use the WhatsApp button above for a quick quote."
+      }
+    ],
+    "links": [
+      {
+        "path": "/blogs",
+        "label": "Read HP Farming Guides"
+      },
+      {
+        "path": "/jammu-kashmir",
+        "label": "J&K Supply"
+      },
+      {
+        "path": "/uttar-pradesh",
+        "label": "UP Supply"
+      }
+    ],
+    "cta": {
+      "title": "Order Vermicompost for Your HP Orchard or Farm",
+      "description": "Bulk and retail packs available. Call or WhatsApp for orchard-specific guidance and pricing."
+    },
+    "seo": {
+      "title": "Vermicompost in Himachal Pradesh - Satva Organics (Apple Farms)",
+      "description": "Pure vermicompost for Himachal orchards and farms. Satva bioactive organic fertilizer improves HP apple yields and soil health. Delivering quality organic manure in Himachal."
+    },
+    "schemaDescription": "Organic vermicompost supplier for Himachal Pradesh apple orchards, vegetables, and high-value crops.",
+    "areaServed": [
+      "Himachal Pradesh"
+    ],
+    "breadcrumbName": "Himachal Pradesh"
+  },
+  "hi": {
+    "productCta": "पैक चुनें और कोट लें",
+    "whatsappCta": "व्हाट्सप्प पर कीमत पूछें",
+    "badge": "हिमाचल प्रदेश",
+    "heroTitle": "हिमाचल के सेब बागानों, सब्जियों और नर्सरी के लिए वर्मीकम्पोस्ट",
+    "heroLead": "सत्व ऑर्गेनिक्स शिमला, कुल्लू, किन्नौर और मंडी सहित हिमाचल के पहाड़ी बागानों और खेतों के लिए वनस्पति अर्क और लाभकारी सूक्ष्मजीवों से समृद्ध प्रीमियम वर्मीकम्पोस्ट सप्लाई करता है।",
+    "sectionsBeforeTable": [
+      {
+        "title": "हिमाचल के बागानों को जैविक मिट्टी देखभाल क्यों चाहिए",
+        "paragraphs": [
+          "हिमाचल के पहाड़ी बागान उथली और हल्की अम्लीय मिट्टी में होते हैं, जहाँ pH अक्सर 5.5 से 6.5 के बीच रहता है। ऐसे खेतों में रासायनिक उर्वरक डालने के बाद भी पोषक तत्व कई बार पौधों तक आसानी से नहीं पहुँचते। ढलानों पर नमी तेजी से कम होती है और भारी मानसूनी बारिश हर साल जैविक पदार्थ बहा ले जाती है।",
+          "सत्व वर्मीकम्पोस्ट केवल पोषक स्रोत नहीं, बल्कि मिट्टी सुधारक की तरह काम करता है। इसमें मौजूद Trichoderma, Pseudomonas fluorescens और Azotobacter जड़ क्षेत्र में जैविक गतिविधि बढ़ाने में मदद करते हैं। नीम और सरसों खली स्वस्थ राइजोस्पीयर को सहारा देते हैं, जबकि जैविक पदार्थ ढलानों पर जल धारण क्षमता और पोषक तत्वों की पकड़ बेहतर करता है।",
+          "हिमाचल में 1 लाख हेक्टेयर से अधिक क्षेत्र में सेब की खेती होती है। प्रमाणित उपज की मांग और पुराने बागानों में रसायनों के लंबे उपयोग के असर को देखते हुए किसान अब जैविक इनपुट की ओर तेजी से बढ़ रहे हैं।"
+        ]
+      }
+    ],
+    "table": {
+      "title": "हिमाचल में सत्व वर्मीकम्पोस्ट कैसे डालें",
+      "headers": [
+        "फसल / उपयोग",
+        "शुरुआती सुझाई गई मात्रा",
+        "समय"
+      ],
+      "rows": [
+        [
+          "परिपक्व सेब के पेड़",
+          "5-8 kg प्रति पेड़",
+          "अप्रैल-मई, पहली बढ़वार या प्री-मानसून से पहले"
+        ],
+        [
+          "युवा पेड़ और स्टोन फ्रूट",
+          "2-4 kg प्रति पेड़",
+          "वसंत में मिट्टी तैयारी के समय"
+        ],
+        [
+          "सब्जियां (खुला खेत)",
+          "150-200 kg प्रति एकड़ बेसल डोज",
+          "रोपाई या बुवाई से पहले"
+        ],
+        [
+          "पॉलीहाउस फसलें",
+          "100 g प्रति रोपण गड्ढा",
+          "रोपाई के समय; हर 45-60 दिन में दोहरा सकते हैं"
+        ],
+        [
+          "नर्सरी बेड",
+          "ग्रोइंग मीडिया में 10-15% मात्रा के अनुसार मिलाएँ",
+          "बीजाई या पॉटिंग से पहले"
+        ]
+      ],
+      "intro": "नीचे दी गई मात्रा सामान्य शुरुआती मार्गदर्शन है। बड़े बागानों या खास मिट्टी की स्थिति के लिए खेत के अनुसार सलाह लेने के लिए हमसे संपर्क करें।"
+    },
+    "supply": {
+      "title": "हिमाचल खरीदारों के लिए सप्लाई और पैकेजिंग",
+      "paragraphs": [
+        "सत्व वर्मीकम्पोस्ट अलग-अलग खरीदारों की जरूरत के अनुसार तीन पैक साइज़ में उपलब्ध है।"
+      ],
+      "items": [
+        {
+          "label": "1 kg पैक:",
+          "text": "होम गार्डन, किचन गार्डन और छोटे नर्सरी ट्रायल के लिए।"
+        },
+        {
+          "label": "50 kg बैग:",
+          "text": "बागान किसानों और एग्री-स्टोर के लिए मानक विकल्प। सुझाई गई मात्रा पर एक बैग लगभग 6-10 परिपक्व सेब पेड़ों के लिए पर्याप्त होता है।"
+        },
+        {
+          "label": "थोक सप्लाई:",
+          "text": "सहकारी समितियों, बड़े बागानों और वितरकों के लिए। थोक कीमत और माल ढुलाई की जानकारी के लिए संपर्क करें।"
+        }
+      ]
+    },
+    "bestSuited": {
+      "title": "इनके लिए सबसे उपयुक्त",
+      "items": [
+        {
+          "text": "शिमला, कुल्लू, किन्नौर और मंडी के सेब और स्टोन-फ्रूट उत्पादक"
+        },
+        {
+          "text": "पहाड़ी ढलानों पर सब्जी और पॉलीहाउस खेती करने वाले किसान"
+        },
+        {
+          "text": "सुसंगत और रोगजनक-नियंत्रित ग्रोइंग मीडिया चाहने वाली नर्सरी"
+        },
+        {
+          "text": "ब्रांडेड 50 kg या थोक जैविक इनपुट तलाश रहे एग्री-रिटेलर और सहकारी संस्थाएँ"
+        }
+      ]
+    },
+    "faqTitle": "अक्सर पूछे जाने वाले सवाल - हिमाचल प्रदेश",
+    "faqs": [
+      {
+        "question": "हिमाचल में एक परिपक्व सेब पेड़ को कितना सत्व वर्मीकम्पोस्ट चाहिए?",
+        "answer": "सामान्य शुरुआती मात्रा 5-8 kg प्रति परिपक्व सेब पेड़ है। इसे ड्रिप लाइन के आसपास डालकर ऊपरी मिट्टी में हल्का मिला दें। युवा पेड़ों या स्टोन फ्रूट के लिए 2-4 kg प्रति पेड़ से शुरुआत की जा सकती है। बड़े बागानों के लिए पेड़ की उम्र, दूरी और मौजूदा मिट्टी की स्थिति देखकर सलाह लेना बेहतर है।"
+      },
+      {
+        "question": "HP सेब बागान में वर्मीकम्पोस्ट कब डालना चाहिए?",
+        "answer": "सबसे सामान्य समय अप्रैल-मई है, प्री-मानसून बढ़वार से पहले। इस समय डालने से मिट्टी के सूक्ष्मजीव स्थापित होते हैं और सक्रिय बढ़वार के दौरान पोषक तत्व उपलब्ध होते हैं। कटाई के बाद अक्टूबर-नवंबर में हल्की दूसरी मात्रा सर्दियों से पहले जैविक पदार्थ वापस जोड़ने में मदद कर सकती है।"
+      },
+      {
+        "question": "क्या सत्व ऊपरी हिमाचल जिलों में 50 kg या थोक बैग भेज सकता है?",
+        "answer": "हाँ। हम हिमाचल प्रदेश के खरीदारों को 50 kg बैग और थोक मात्रा सप्लाई करते हैं, जिसमें ऊपरी जिले भी शामिल हैं। दूरस्थ क्षेत्रों के लिए माल ढुलाई और न्यूनतम ऑर्डर मात्रा व्हाट्सप्प या फोन पर तय की जा सकती है। तुरंत कोटेशन के लिए +91 93400 00099 पर कॉल करें या ऊपर दिए व्हाट्सप्प बटन का उपयोग करें।"
+      }
+    ],
+    "links": [
+      {
+        "path": "/blogs",
+        "label": "HP खेती गाइड पढ़ें"
+      },
+      {
+        "path": "/jammu-kashmir",
+        "label": "J&K सप्लाई"
+      },
+      {
+        "path": "/uttar-pradesh",
+        "label": "UP सप्लाई"
+      }
+    ],
+    "cta": {
+      "title": "अपने HP बागान या खेत के लिए वर्मीकम्पोस्ट ऑर्डर करें",
+      "description": "थोक और रिटेल पैक उपलब्ध हैं। बागान के अनुसार सलाह और कीमत के लिए कॉल या व्हाट्सप्प करें।"
+    },
+    "seo": {
+      "title": "हिमाचल प्रदेश में वर्मीकम्पोस्ट - सत्व ऑर्गेनिक्स",
+      "description": "हिमाचल के सेब बागानों और खेतों के लिए शुद्ध वर्मीकम्पोस्ट। सत्व का बायोएक्टिव जैविक उर्वरक HP में मिट्टी स्वास्थ्य और उपज सुधारने में मदद करता है।"
+    },
+    "schemaDescription": "हिमाचल प्रदेश के सेब बागानों, सब्जियों और उच्च मूल्य फसलों के लिए जैविक वर्मीकम्पोस्ट सप्लायर।",
+    "areaServed": [
+      "Himachal Pradesh"
+    ],
+    "breadcrumbName": "हिमाचल प्रदेश"
+  }
+}

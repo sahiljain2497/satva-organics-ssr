@@ -1,0 +1,268 @@
+{
+  "en": {
+    "productCta": "Choose Pack & Get Quote",
+    "whatsappCta": "Get Price on WhatsApp",
+    "badge": "Punjab & Haryana",
+    "heroTitle": "Vermicompost for Punjab & Haryana Farms - Local Supplier from Mohali",
+    "heroLead": "Satva Organics is based in Mohali, Punjab, making us a local supplier for farmers, agri-stores, and distributors across Punjab and Haryana. We supply premium vermicompost for wheat-rice rotations, vegetables, cotton, and polyhouse operations.",
+    "sectionsBeforeTable": [
+      {
+        "title": "Why Punjab & Haryana Soils Need Organic Matter",
+        "paragraphs": [
+          "Punjab and Haryana are the backbone of India food production, but decades of intensive wheat-rice rotation, heavy chemical fertilizer use, and minimal organic matter return have taken a toll on soil health.",
+          "Vermicompost helps restore the soil biological foundation. Organic matter improves soil aggregation, supports microbial populations, and can help reduce chemical input dependency over successive seasons. Satva formula includes Azotobacter, PSB, Trichoderma, neem, and mustard cake.",
+          "Because Satva is based in Mohali, Punjab farmers and agri-stores benefit from a shorter supply chain, faster delivery, easier coordination, and direct support from a local team."
+        ]
+      }
+    ],
+    "table": {
+      "title": "How to Apply Satva Vermicompost in Punjab & Haryana",
+      "headers": [
+        "Crop / Use Case",
+        "Recommended Starting Dose",
+        "Timing"
+      ],
+      "rows": [
+        [
+          "Wheat",
+          "200-250 kg per acre as basal dose",
+          "Before sowing; broadcast and incorporate"
+        ],
+        [
+          "Rice / paddy",
+          "200-250 kg per acre",
+          "Before transplanting; mix into puddled soil"
+        ],
+        [
+          "Vegetables",
+          "150-200 kg per acre, or 100 g per planting hole",
+          "Before transplanting or bed preparation"
+        ],
+        [
+          "Cotton & mustard",
+          "150-200 kg per acre as basal dose",
+          "At sowing; incorporate into furrows or broadcast"
+        ],
+        [
+          "Polyhouse / protected cultivation",
+          "100 g per planting hole; repeat every 45-60 days",
+          "At transplant stage; repeat through crop cycle"
+        ]
+      ],
+      "intro": "The following are general starting guidance rates. For large-scale field use or distributor requirements, contact us for tailored advice."
+    },
+    "supply": {
+      "title": "Supply for Farmers, Agri-Stores & Distributors",
+      "paragraphs": [
+        "Satva supplies retail packs and bulk quantities across Punjab and Haryana, including Chandigarh, Ludhiana, Amritsar, Jalandhar, Patiala, Ambala, Hisar, Rohtak, and surrounding areas."
+      ],
+      "items": [
+        {
+          "label": "1 kg packs:",
+          "text": "For home gardens, kitchen farms, and nursery trials."
+        },
+        {
+          "label": "50 kg bags:",
+          "text": "Standard farm and agri-store unit."
+        },
+        {
+          "label": "Bulk / wholesale:",
+          "text": "Available for distributors, agri-store chains, and farm cooperatives."
+        }
+      ]
+    },
+    "bestSuited": {
+      "title": "Best Suited For",
+      "items": [
+        {
+          "text": "Wheat and rice farmers restoring soil organic matter"
+        },
+        {
+          "text": "Vegetable growers and polyhouse operators around Ludhiana, Amritsar, and Chandigarh"
+        },
+        {
+          "text": "Agri-retailers and distributors wanting a locally sourced organic fertilizer"
+        },
+        {
+          "text": "Cotton and mustard farmers in Haryana"
+        }
+      ]
+    },
+    "faqTitle": "Frequently Asked Questions - Punjab & Haryana",
+    "faqs": [
+      {
+        "question": "Since Satva is in Mohali, can you deliver quickly to Punjab farms?",
+        "answer": "Yes. Being based in Mohali gives us a logistics advantage for Punjab buyers. We supply farms and agri-stores across Chandigarh, Ludhiana, Amritsar, Jalandhar, and surrounding districts."
+      },
+      {
+        "question": "How does vermicompost help wheat-rice rotation soils in Punjab?",
+        "answer": "Wheat-rice rotation gradually depletes soil organic matter and microbial diversity. Vermicompost reintroduces organic carbon and beneficial microbes that help unlock nutrients and improve water retention."
+      },
+      {
+        "question": "Do you supply to agri-stores in Ludhiana, Amritsar, or Chandigarh?",
+        "answer": "Yes. We supply 50 kg bags and bulk quantities to agri-stores and distributors across Punjab and Haryana."
+      }
+    ],
+    "links": [
+      {
+        "path": "/blogs",
+        "label": "Farming Guides"
+      },
+      {
+        "path": "/himachal-pradesh",
+        "label": "HP Supply"
+      },
+      {
+        "path": "/pan-india-supply",
+        "label": "Pan-India Supply"
+      }
+    ],
+    "cta": {
+      "title": "Order Vermicompost for Your Punjab or Haryana Farm",
+      "description": "Local supply from Mohali. Retail, farm, and bulk wholesale available. Call or WhatsApp for quick delivery."
+    },
+    "seo": {
+      "title": "Vermicompost in Punjab & Haryana - Local Supplier from Mohali | Satva Organics",
+      "description": "Satva Organics is based in Mohali, Punjab, supplying premium vermicompost to wheat, rice, vegetable, and cotton farmers across Punjab and Haryana."
+    },
+    "schemaDescription": "Mohali-based organic vermicompost supplier for Punjab and Haryana farms, agri-stores, and distributors.",
+    "areaServed": [
+      "Punjab",
+      "Haryana"
+    ],
+    "breadcrumbName": "Punjab & Haryana"
+  },
+  "hi": {
+    "productCta": "पैक चुनें और कोट लें",
+    "whatsappCta": "व्हाट्सप्प पर कीमत पूछें",
+    "badge": "पंजाब और हरियाणा",
+    "heroTitle": "पंजाब और हरियाणा खेतों के लिए वर्मीकम्पोस्ट - मोहाली से स्थानीय सप्लायर",
+    "heroLead": "सत्व ऑर्गेनिक्स मोहाली, पंजाब में स्थित है, इसलिए पंजाब और हरियाणा के किसानों, एग्री-स्टोर और वितरकों के लिए हम स्थानीय और आसानी से उपलब्ध सप्लायर हैं।",
+    "sectionsBeforeTable": [
+      {
+        "title": "पंजाब और हरियाणा की मिट्टी को जैविक पदार्थ क्यों चाहिए",
+        "paragraphs": [
+          "पंजाब और हरियाणा भारत के खाद्य उत्पादन की रीढ़ हैं, लेकिन दशकों की गहन गेहूं-धान खेती, रासायनिक उर्वरकों के भारी उपयोग और जैविक पदार्थ की कम वापसी ने मिट्टी पर असर डाला है।",
+          "वर्मीकम्पोस्ट मिट्टी की जैविक नींव को फिर से मजबूत करने के सबसे प्रभावी तरीकों में से एक है। जैविक पदार्थ डालने से मिट्टी का ढांचा बेहतर होता है और सूक्ष्मजीवों को सहारा मिलता है।",
+          "सत्व मोहाली में स्थित है, इसलिए पंजाब के किसानों और एग्री-स्टोर को छोटी सप्लाई चेन, तेज डिलीवरी और स्थानीय टीम से सीधा सहयोग मिलता है।"
+        ]
+      }
+    ],
+    "table": {
+      "title": "पंजाब और हरियाणा में सत्व वर्मीकम्पोस्ट कैसे डालें",
+      "headers": [
+        "फसल / उपयोग",
+        "शुरुआती सुझाई गई मात्रा",
+        "समय"
+      ],
+      "rows": [
+        [
+          "गेहूं",
+          "200-250 kg प्रति एकड़ बेसल डोज",
+          "बुवाई से पहले छिड़ककर मिट्टी में मिलाएँ"
+        ],
+        [
+          "धान / पड्डी",
+          "200-250 kg प्रति एकड़",
+          "रोपाई से पहले कद्दू की हुई मिट्टी में मिलाएँ"
+        ],
+        [
+          "सब्जियां",
+          "150-200 kg प्रति एकड़, या 100 g प्रति रोपण गड्ढा",
+          "रोपाई या बेड तैयारी से पहले"
+        ],
+        [
+          "कपास और सरसों",
+          "150-200 kg प्रति एकड़ बेसल डोज",
+          "बुवाई के समय"
+        ],
+        [
+          "पॉलीहाउस / संरक्षित खेती",
+          "100 g प्रति रोपण गड्ढा; हर 45-60 दिन में दोहराएँ",
+          "रोपाई के समय; फसल चक्र में दोहराएँ"
+        ]
+      ],
+      "intro": "नीचे दी गई मात्रा सामान्य शुरुआती मार्गदर्शन है। बड़े खेत या वितरक जरूरतों के लिए विशेष सलाह हेतु संपर्क करें।"
+    },
+    "supply": {
+      "title": "किसानों, एग्री-स्टोर और वितरकों के लिए सप्लाई",
+      "paragraphs": [
+        "सत्व पंजाब और हरियाणा में रिटेल पैक और थोक मात्रा सप्लाई करता है। मोहाली में स्थित होने के कारण हम चंडीगढ़, लुधियाना, अमृतसर, जालंधर, पटियाला, अंबाला, हिसार और रोहतक तक सेवा दे सकते हैं।"
+      ],
+      "items": [
+        {
+          "label": "1 kg पैक:",
+          "text": "होम गार्डन, किचन फार्म और नर्सरी ट्रायल के लिए।"
+        },
+        {
+          "label": "50 kg बैग:",
+          "text": "खेत और एग्री-स्टोर के लिए मानक यूनिट।"
+        },
+        {
+          "label": "थोक / होलसेल:",
+          "text": "वितरकों, एग्री-स्टोर चेन और किसान सहकारी संस्थाओं के लिए उपलब्ध।"
+        }
+      ]
+    },
+    "bestSuited": {
+      "title": "इनके लिए सबसे उपयुक्त",
+      "items": [
+        {
+          "text": "गेहूं और धान किसान जो मिट्टी में जैविक पदार्थ वापस लाना चाहते हैं"
+        },
+        {
+          "text": "लुधियाना, अमृतसर और चंडीगढ़ बेल्ट के सब्जी उत्पादक और पॉलीहाउस ऑपरेटर"
+        },
+        {
+          "text": "स्थानीय स्रोत से जैविक उर्वरक स्टॉक करना चाहने वाले एग्री-रिटेलर"
+        },
+        {
+          "text": "हरियाणा के कपास और सरसों किसान"
+        }
+      ]
+    },
+    "faqTitle": "अक्सर पूछे जाने वाले सवाल - पंजाब और हरियाणा",
+    "faqs": [
+      {
+        "question": "सत्व मोहाली में है, क्या पंजाब के खेतों तक जल्दी डिलीवरी हो सकती है?",
+        "answer": "हाँ। मोहाली में स्थित होने से पंजाब खरीदारों के लिए हमें लॉजिस्टिक लाभ मिलता है। हम चंडीगढ़, लुधियाना, अमृतसर, जालंधर और आसपास के जिलों में सप्लाई करते हैं।"
+      },
+      {
+        "question": "वर्मीकम्पोस्ट पंजाब की गेहूं-धान मिट्टी में कैसे मदद करता है?",
+        "answer": "गेहूं-धान चक्र मिट्टी के जैविक पदार्थ और सूक्ष्मजीवी विविधता को कम करता है। वर्मीकम्पोस्ट जैविक कार्बन और लाभकारी सूक्ष्मजीव वापस जोड़ता है।"
+      },
+      {
+        "question": "क्या आप लुधियाना, अमृतसर या चंडीगढ़ के एग्री-स्टोर को सप्लाई करते हैं?",
+        "answer": "हाँ। हम पंजाब और हरियाणा के एग्री-स्टोर और वितरकों को 50 kg बैग और थोक मात्रा सप्लाई करते हैं।"
+      }
+    ],
+    "links": [
+      {
+        "path": "/blogs",
+        "label": "खेती गाइड"
+      },
+      {
+        "path": "/himachal-pradesh",
+        "label": "HP सप्लाई"
+      },
+      {
+        "path": "/pan-india-supply",
+        "label": "अखिल भारतीय सप्लाई"
+      }
+    ],
+    "cta": {
+      "title": "अपने पंजाब या हरियाणा खेत के लिए वर्मीकम्पोस्ट ऑर्डर करें",
+      "description": "मोहाली से स्थानीय सप्लाई। रिटेल, फार्म और थोक होलसेल उपलब्ध। तेज डिलीवरी के लिए कॉल या व्हाट्सप्प करें।"
+    },
+    "seo": {
+      "title": "पंजाब और हरियाणा में वर्मीकम्पोस्ट - मोहाली से स्थानीय सप्लायर",
+      "description": "सत्व ऑर्गेनिक्स मोहाली, पंजाब से गेहूं, धान, सब्जी और कपास किसानों को प्रीमियम वर्मीकम्पोस्ट सप्लाई करता है।"
+    },
+    "schemaDescription": "पंजाब और हरियाणा के खेतों, एग्री-स्टोर और वितरकों के लिए मोहाली स्थित जैविक वर्मीकम्पोस्ट सप्लायर।",
+    "areaServed": [
+      "Punjab",
+      "Haryana"
+    ],
+    "breadcrumbName": "पंजाब और हरियाणा"
+  }
+}

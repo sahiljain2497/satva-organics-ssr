@@ -28,4 +28,14 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./state-pages/uttar-pradesh/uttar-pradesh').then((m) => m.UttarPradesh),
   },
+  {
+    path: 'punjab-haryana',
+    loadComponent: () =>
+      import('./state-pages/punjab-haryana/punjab-haryana').then((m) => m.PunjabHaryana),
+  },
+  {
+    path: 'pan-india-supply',
+    loadComponent: () =>
+      import('./pan-india-supply/pan-india-supply').then((m) => m.PanIndiaSupply),
+  },
 ];

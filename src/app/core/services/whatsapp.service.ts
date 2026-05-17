@@ -15,6 +15,18 @@ export interface ContactInquiry {
   message: string;
 }
 
+export interface StateContactInquiry {
+  region: string;
+  name: string;
+  phone: string;
+  message: string;
+}
+
+export interface StateProductQuoteInquiry {
+  region: string;
+  product: string;
+}
+
 @Injectable({ providedIn: 'root' })
 export class WhatsAppService {
   readonly number = WHATSAPP_NUMBER;
@@ -31,5 +43,13 @@ export class WhatsAppService {
 
   buildContactMessage({ name, phone, requirement, message }: ContactInquiry): string {
     return $localize`:@@whatsapp.contact:Hi Satva, Name: ${name}, Phone: ${phone}, Req: ${requirement}, Msg: ${message}`;
+  }
+
+  buildStateContactMessage({ region, name, phone, message }: StateContactInquiry): string {
+    return $localize`:@@whatsapp.state:Hi Satva, enquiry for ${region}. Name: ${name}, Phone: ${phone}, Msg: ${message}`;
+  }
+
+  buildStateProductQuoteMessage({ region, product }: StateProductQuoteInquiry): string {
+    return $localize`:@@whatsapp.stateProduct:Hi Satva, I need a quote for ${region}. Product: ${product}. Quantity and location: `;
   }
 }

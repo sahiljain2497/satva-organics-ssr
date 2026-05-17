@@ -1,0 +1,53 @@
+<section id="state-products" class="section state-products bg-light">
+  <div class="container">
+    <div class="state-products-header text-center">
+      <h2 class="section-title">
+        @if (locale.isHindi) {
+          पैकिंग विकल्प — कोट के लिए चुनें
+        } @else {
+          Packaging Options — Choose for Quote
+        }
+      </h2>
+      <p class="section-desc max-w-600">
+        @if (locale.isHindi) {
+          अपने बागान या खेत के लिए पैक चुनें। कीमत, मात्रा और डिलीवरी व्हाट्सप्प या फॉर्म से पूछें।
+        } @else {
+          Select the pack that fits your orchard or farm. Ask for price, quantity, and delivery via
+          WhatsApp or the form below.
+        }
+      </p>
+    </div>
+
+    <div class="state-products-grid">
+      @for (pack of productPacks(); track pack.id) {
+        <article class="card state-product-card">
+          <span class="state-product-audience">{{ pack.audience }}</span>
+          <h3>{{ pack.title }}</h3>
+          <p>{{ pack.description }}</p>
+          <div class="state-product-actions">
+            <button
+              type="button"
+              class="btn btn-whatsapp full-width"
+              (click)="requestProductQuote(pack)"
+            >
+              {{ pack.quoteLabel }}
+            </button>
+            <button type="button" class="btn btn-outline full-width" (click)="scrollToContact()">
+              @if (locale.isHindi) {
+                फॉर्म भरें
+              } @else {
+                Use enquiry form
+              }
+            </button>
+          </div>
+        </article>
+      }
+    </div>
+
+    <ul class="state-trust-points">
+      @for (point of trustPoints(); track point) {
+        <li>{{ point }}</li>
+      }
+    </ul>
+  </div>
+</section>

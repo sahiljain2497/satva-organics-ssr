@@ -1,0 +1,264 @@
+{
+  "en": {
+    "productCta": "Choose Pack & Get Quote",
+    "whatsappCta": "Get Price on WhatsApp",
+    "badge": "Jammu & Kashmir",
+    "heroTitle": "Organic Vermicompost for J&K Apple Orchards, Saffron & Vegetable Farms",
+    "heroLead": "Satva Organics supplies premium vermicompost to growers across Jammu & Kashmir, supporting high-value apple orchards in the valley, saffron fields in Pampore, and vegetable farms across the Jammu region.",
+    "sectionsBeforeTable": [
+      {
+        "title": "Why J&K Soil Needs Gentle Organic Nutrition",
+        "paragraphs": [
+          "J&K horticulture depends heavily on apple and saffron, two crops where soil health and root quality directly affect produce value. Kashmir valley soils at altitude tend to be silty loam with good natural structure, but intensive chemical fertilizer use has reduced biological activity and organic matter over time.",
+          "Vermicompost helps restore microbial life. Satva formula is enriched with Trichoderma, Azotobacter, PSB, and botanical extracts including neem and mustard cake to improve soil tilth, support root development, and help nutrients become more available without chemical burn.",
+          "For saffron, light soil structure and good drainage are critical. Organic matter improves moisture retention and aeration, creating conditions where corms can develop without stress. For apple orchards in Sopore, Shopian, Pulwama, and Kulgam, spring soil preparation before bud break is the most effective application window."
+        ]
+      }
+    ],
+    "table": {
+      "title": "How to Apply Satva Vermicompost in J&K",
+      "headers": [
+        "Crop / Use Case",
+        "Recommended Starting Dose",
+        "Timing"
+      ],
+      "rows": [
+        [
+          "Apple orchards (mature trees)",
+          "5-7 kg per tree",
+          "March-April, before bud break or spring soil prep"
+        ],
+        [
+          "Saffron fields",
+          "Well-matured vermicompost during bed/corm preparation",
+          "July-August, before corm planting in September"
+        ],
+        [
+          "Vegetables (Jammu plains)",
+          "150-200 kg per acre as basal dose",
+          "Before transplanting or sowing"
+        ],
+        [
+          "Per-plant (nursery, transplants)",
+          "100 g per planting hole",
+          "At transplant stage"
+        ]
+      ],
+      "intro": "The following are general starting guidance rates. Contact us for large orchard or cooperative requirements.",
+      "note": {
+        "label": "Note on saffron:",
+        "text": "Saffron is a sensitive, high-value crop. We recommend consulting with a local KVK agronomist on exact application rates for your specific field and soil condition."
+      }
+    },
+    "supply": {
+      "title": "Supply for Growers, Cooperatives & Agri-Stores",
+      "paragraphs": [
+        "We supply both retail and bulk quantities to buyers across J&K, from individual growers to cooperatives and agri-retailers."
+      ],
+      "items": [
+        {
+          "label": "1 kg packs:",
+          "text": "Home gardens, kitchen farms, and trial use."
+        },
+        {
+          "label": "50 kg bags:",
+          "text": "The standard choice for orchard growers and agri-stores. One bag covers approximately 7-10 mature apple trees at the recommended dose."
+        },
+        {
+          "label": "Bulk / institutional supply:",
+          "text": "Available for cooperatives, large orchards, and distributors across the valley and Jammu region. Enquire for wholesale pricing."
+        }
+      ]
+    },
+    "bestSuited": {
+      "title": "Best Suited For",
+      "items": [
+        {
+          "text": "Apple growers in Sopore, Shopian, Pulwama, Kulgam, and surrounding valley areas"
+        },
+        {
+          "text": "Saffron cultivators in Pampore and Kishtwar seeking well-matured organic soil amendment"
+        },
+        {
+          "text": "Vegetable farmers in the Jammu region"
+        },
+        {
+          "text": "Cooperatives and agri-retailers needing bulk or wholesale organic input supply"
+        }
+      ]
+    },
+    "faqTitle": "Frequently Asked Questions - Jammu & Kashmir",
+    "faqs": [
+      {
+        "question": "Is Satva vermicompost safe for saffron fields?",
+        "answer": "Yes. Satva vermicompost is well-matured and pathogen-controlled, which makes it suitable for sensitive crops including saffron. It is typically applied during bed and corm preparation to improve soil aeration and organic matter."
+      },
+      {
+        "question": "What is the best time to apply vermicompost in Kashmir orchards?",
+        "answer": "For apple orchards in the Kashmir valley, March to April, before bud break and spring active growth, is the most effective application window. A post-harvest application in October can help restore organic matter before winter dormancy."
+      },
+      {
+        "question": "Can cooperatives or agri-stores order Satva in bulk?",
+        "answer": "Yes. We offer bulk supply for cooperatives, large orchards, and agri-retailers across J&K. Wholesale pricing and freight terms can be discussed directly."
+      }
+    ],
+    "links": [
+      {
+        "path": "/blogs",
+        "label": "Farming Guides"
+      },
+      {
+        "path": "/himachal-pradesh",
+        "label": "HP Supply"
+      },
+      {
+        "path": "/uttar-pradesh",
+        "label": "UP Supply"
+      }
+    ],
+    "cta": {
+      "title": "Get Vermicompost for Your J&K Farm or Cooperative",
+      "description": "Bulk pricing and retail packs available across Jammu & Kashmir. WhatsApp for a quick quote."
+    },
+    "seo": {
+      "title": "J&K Vermicompost Supplier - Organic Fertilizer by Satva Organics",
+      "description": "Satva Organics provides organic vermicompost to Jammu & Kashmir farmers for apples, saffron, and vegetables. Enriched with beneficial microbes for J&K soil."
+    },
+    "schemaDescription": "Organic vermicompost supplier for Jammu & Kashmir apple orchards, saffron, and vegetable farms.",
+    "areaServed": [
+      "Jammu and Kashmir"
+    ],
+    "breadcrumbName": "Jammu & Kashmir"
+  },
+  "hi": {
+    "productCta": "पैक चुनें और कोट लें",
+    "whatsappCta": "व्हाट्सप्प पर कीमत पूछें",
+    "badge": "जम्मू और कश्मीर",
+    "heroTitle": "J&K सेब बागानों, केसर और सब्जी खेतों के लिए जैविक वर्मीकम्पोस्ट",
+    "heroLead": "सत्व ऑर्गेनिक्स जम्मू और कश्मीर के किसानों को प्रीमियम वर्मीकम्पोस्ट सप्लाई करता है, जिससे कश्मीर घाटी के सेब बागानों, पंपोर के केसर खेतों और जम्मू क्षेत्र की सब्जी खेती को जैविक मिट्टी पोषण मिलता है।",
+    "sectionsBeforeTable": [
+      {
+        "title": "J&K की मिट्टी को कोमल जैविक पोषण क्यों चाहिए",
+        "paragraphs": [
+          "जम्मू और कश्मीर की बागवानी अर्थव्यवस्था सेब और केसर जैसी उच्च मूल्य फसलों पर काफी निर्भर है। इन फसलों में मिट्टी का स्वास्थ्य और जड़ों की गुणवत्ता सीधे उपज के मूल्य पर असर डालते हैं।",
+          "वर्मीकम्पोस्ट मिट्टी में सूक्ष्मजीवी जीवन वापस लाने में मदद करता है। सत्व का फ़ॉर्मूला Trichoderma, Azotobacter, PSB और नीम व सरसों खली जैसे वनस्पति अर्क से समृद्ध है।",
+          "केसर के लिए हल्की मिट्टी संरचना और अच्छी जल निकासी बहुत जरूरी है। सोपोर, शोपियां, पुलवामा और कुलगाम के सेब बागानों में कली फूटने से पहले वसंत मिट्टी तैयारी सबसे प्रभावी समय है।"
+        ]
+      }
+    ],
+    "table": {
+      "title": "J&K में सत्व वर्मीकम्पोस्ट कैसे डालें",
+      "headers": [
+        "फसल / उपयोग",
+        "शुरुआती सुझाई गई मात्रा",
+        "समय"
+      ],
+      "rows": [
+        [
+          "सेब बागान (परिपक्व पेड़)",
+          "5-7 kg प्रति पेड़",
+          "मार्च-अप्रैल, कली फूटने या वसंत मिट्टी तैयारी से पहले"
+        ],
+        [
+          "केसर खेत",
+          "बेड / कंद तैयारी के समय अच्छी तरह पका वर्मीकम्पोस्ट",
+          "जुलाई-अगस्त, सितंबर में कंद रोपण से पहले"
+        ],
+        [
+          "सब्जियां (जम्मू मैदानी क्षेत्र)",
+          "150-200 kg प्रति एकड़ बेसल डोज",
+          "रोपाई या बुवाई से पहले"
+        ],
+        [
+          "प्रति पौधा (नर्सरी, ट्रांसप्लांट)",
+          "100 g प्रति रोपण गड्ढा",
+          "रोपाई के समय"
+        ]
+      ],
+      "intro": "नीचे दी गई मात्रा सामान्य शुरुआती मार्गदर्शन है। बड़े बागान या सहकारी ऑर्डर के लिए हमसे संपर्क करें।",
+      "note": {
+        "label": "केसर पर नोट:",
+        "text": "केसर संवेदनशील और उच्च मूल्य वाली फसल है। अपने खेत की मिट्टी और स्थिति के अनुसार सही मात्रा तय करने के लिए स्थानीय KVK एग्रोनॉमिस्ट से सलाह लेना बेहतर है।"
+      }
+    },
+    "supply": {
+      "title": "उत्पादकों, सहकारी संस्थाओं और एग्री-स्टोर के लिए सप्लाई",
+      "paragraphs": [
+        "हम जम्मू और कश्मीर के व्यक्तिगत किसानों, सहकारी संस्थाओं और एग्री-रिटेलरों को रिटेल और थोक दोनों मात्रा में सप्लाई करते हैं।"
+      ],
+      "items": [
+        {
+          "label": "1 kg पैक:",
+          "text": "होम गार्डन, किचन फार्म और ट्रायल उपयोग के लिए।"
+        },
+        {
+          "label": "50 kg बैग:",
+          "text": "बागान किसानों और एग्री-स्टोर के लिए मानक विकल्प। सुझाई गई मात्रा पर एक बैग लगभग 7-10 परिपक्व सेब पेड़ों के लिए पर्याप्त होता है।"
+        },
+        {
+          "label": "थोक / संस्थागत सप्लाई:",
+          "text": "घाटी और जम्मू क्षेत्र की सहकारी संस्थाओं, बड़े बागानों और वितरकों के लिए उपलब्ध।"
+        }
+      ]
+    },
+    "bestSuited": {
+      "title": "इनके लिए सबसे उपयुक्त",
+      "items": [
+        {
+          "text": "सोपोर, शोपियां, पुलवामा, कुलगाम और आसपास के घाटी क्षेत्रों के सेब उत्पादक"
+        },
+        {
+          "text": "पंपोर और किश्तवाड़ के केसर किसान"
+        },
+        {
+          "text": "जम्मू क्षेत्र के सब्जी किसान"
+        },
+        {
+          "text": "थोक या होलसेल जैविक इनपुट सप्लाई चाहने वाली सहकारी संस्थाएँ और एग्री-रिटेलर"
+        }
+      ]
+    },
+    "faqTitle": "अक्सर पूछे जाने वाले सवाल - जम्मू और कश्मीर",
+    "faqs": [
+      {
+        "question": "क्या सत्व वर्मीकम्पोस्ट केसर खेतों के लिए सुरक्षित है?",
+        "answer": "हाँ। सत्व वर्मीकम्पोस्ट अच्छी तरह पका और रोगजनक-नियंत्रित है, इसलिए केसर जैसी संवेदनशील फसलों के लिए उपयुक्त है।"
+      },
+      {
+        "question": "कश्मीर बागानों में वर्मीकम्पोस्ट डालने का सबसे अच्छा समय क्या है?",
+        "answer": "कश्मीर घाटी के सेब बागानों के लिए मार्च-अप्रैल, कली फूटने और वसंत सक्रिय बढ़वार से पहले, सबसे प्रभावी समय है।"
+      },
+      {
+        "question": "क्या सहकारी संस्थाएँ या एग्री-स्टोर सत्व थोक में ऑर्डर कर सकते हैं?",
+        "answer": "हाँ। हम J&K में सहकारी संस्थाओं, बड़े बागानों और एग्री-रिटेलरों के लिए थोक सप्लाई उपलब्ध कराते हैं।"
+      }
+    ],
+    "links": [
+      {
+        "path": "/blogs",
+        "label": "खेती गाइड"
+      },
+      {
+        "path": "/himachal-pradesh",
+        "label": "HP सप्लाई"
+      },
+      {
+        "path": "/uttar-pradesh",
+        "label": "UP सप्लाई"
+      }
+    ],
+    "cta": {
+      "title": "अपने J&K खेत या सहकारी संस्था के लिए वर्मीकम्पोस्ट लें",
+      "description": "जम्मू और कश्मीर में थोक कीमत और रिटेल पैक उपलब्ध हैं। तुरंत कोटेशन के लिए व्हाट्सप्प करें।"
+    },
+    "seo": {
+      "title": "J&K वर्मीकम्पोस्ट सप्लायर - सत्व ऑर्गेनिक्स",
+      "description": "सत्व ऑर्गेनिक्स जम्मू और कश्मीर के सेब, केसर और सब्जी किसानों के लिए लाभकारी सूक्ष्मजीवों से समृद्ध जैविक वर्मीकम्पोस्ट सप्लाई करता है।"
+    },
+    "schemaDescription": "जम्मू और कश्मीर के सेब बागानों, केसर और सब्जी खेतों के लिए जैविक वर्मीकम्पोस्ट सप्लायर।",
+    "areaServed": [
+      "Jammu and Kashmir"
+    ],
+    "breadcrumbName": "जम्मू और कश्मीर"
+  }
+}
