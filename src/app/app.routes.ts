@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { Home } from './home/home';
 import { Contact } from './contact/contact';
+import { statePageRoute } from './state-pages/state-page.registry';
 
 export const routes: Routes = [
   { path: '', component: Home, pathMatch: 'full' },
@@ -13,26 +14,10 @@ export const routes: Routes = [
     path: 'blogs/:slug',
     loadComponent: () => import('./blogs/blog-detail/blog-detail').then((m) => m.BlogDetail),
   },
-  {
-    path: 'himachal-pradesh',
-    loadComponent: () =>
-      import('./state-pages/himachal-pradesh/himachal-pradesh').then((m) => m.HimachalPradesh),
-  },
-  {
-    path: 'jammu-kashmir',
-    loadComponent: () =>
-      import('./state-pages/jammu-kashmir/jammu-kashmir').then((m) => m.JammuKashmir),
-  },
-  {
-    path: 'uttar-pradesh',
-    loadComponent: () =>
-      import('./state-pages/uttar-pradesh/uttar-pradesh').then((m) => m.UttarPradesh),
-  },
-  {
-    path: 'punjab-haryana',
-    loadComponent: () =>
-      import('./state-pages/punjab-haryana/punjab-haryana').then((m) => m.PunjabHaryana),
-  },
+  statePageRoute('himachal-pradesh'),
+  statePageRoute('jammu-kashmir'),
+  statePageRoute('uttar-pradesh'),
+  statePageRoute('punjab-haryana'),
   {
     path: 'pan-india-supply',
     loadComponent: () =>

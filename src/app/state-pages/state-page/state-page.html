@@ -93,7 +93,12 @@
         <h3>{{ content.bestSuited.title }}</h3>
         <ul>
           @for (item of content.bestSuited.items; track item.text) {
-            <li>{{ item.text }}</li>
+            <li>
+              @if (item.label) {
+                <strong>{{ item.label }}</strong>
+              }
+              {{ item.text }}
+            </li>
           }
         </ul>
       </div>

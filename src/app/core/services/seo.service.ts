@@ -33,13 +33,12 @@ export class SeoService {
     this.meta.updateTag({ name: 'twitter:description', content: description });
     this.meta.updateTag({ name: 'twitter:image', content: imageUrl ?? DEFAULT_OG_IMAGE });
 
-    const origin =
-      this.document.defaultView?.location.origin ?? 'https://satvaorganic.org';
+    const origin = this.document.defaultView?.location.origin ?? 'https://satvaorganic.org';
     const { en, hi } = this.locale.buildAlternateUrls(origin);
     const pageUrl = this.locale.isHindi ? hi : en;
 
     this.meta.updateTag({ property: 'og:url', content: pageUrl });
-    this.setCanonical(canonicalUrl ?? pageUrl);
+    this.setCanonical(this.locale.isHindi ? pageUrl : (canonicalUrl ?? pageUrl));
     this.setHtmlLang(this.locale.getHtmlLang());
     this.setHreflangAlternates(en, hi);
   }
@@ -52,9 +51,7 @@ export class SeoService {
       const script = this.document.createElement('script');
       script.type = 'application/ld+json';
       script.id =
-        index === 0
-          ? SeoService.JSON_LD_ID_PREFIX
-          : `${SeoService.JSON_LD_ID_PREFIX}-${index}`;
+        index === 0 ? SeoService.JSON_LD_ID_PREFIX : `${SeoService.JSON_LD_ID_PREFIX}-${index}`;
       script.textContent = JSON.stringify(entry);
       this.document.head.appendChild(script);
     });
@@ -62,9 +59,7 @@ export class SeoService {
 
   private removeJsonLd(): void {
     const prefix = SeoService.JSON_LD_ID_PREFIX;
-    this.document
-      .querySelectorAll(`script[id^="${prefix}"]`)
-      .forEach((el) => el.remove());
+    this.document.querySelectorAll(`script[id^="${prefix}"]`).forEach((el) => el.remove());
   }
 
   private setCanonical(url: string): void {

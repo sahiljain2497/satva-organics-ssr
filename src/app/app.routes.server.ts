@@ -9,6 +9,8 @@ export const serverRoutes: ServerRoute[] = [
   { path: 'himachal-pradesh', renderMode: RenderMode.Prerender },
   { path: 'jammu-kashmir', renderMode: RenderMode.Prerender },
   { path: 'uttar-pradesh', renderMode: RenderMode.Prerender },
+  { path: 'punjab-haryana', renderMode: RenderMode.Prerender },
+  { path: 'pan-india-supply', renderMode: RenderMode.Prerender },
   {
     path: 'blogs/:slug',
     renderMode: RenderMode.Prerender,

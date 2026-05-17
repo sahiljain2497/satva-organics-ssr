@@ -8,32 +8,33 @@ import { breadcrumbSchema, faqPageSchema, localBusinessSchema } from '../../core
 import { WhatsAppService } from '../../core/services/whatsapp.service';
 import { StateProductQuote } from '../../shared/components/state-product-quote/state-product-quote';
 import { StateQuickContact } from '../../shared/components/state-quick-contact/state-quick-contact';
-import pageContent from '../../../locale/state-pages/punjab-haryana.json';
 import { getRegionB2bData, openRegionWhatsApp, scrollToSection } from '../state-page-b2b';
-import { StatePageContent, StatePageTranslations } from '../state-page-content';
+import { StatePageContent } from '../state-page-content';
+import { STATE_PAGE_CONFIG } from '../state-page.registry';
 
 @Component({
-  selector: 'app-punjab-haryana',
+  selector: 'app-state-page',
   imports: [RouterLink, StateQuickContact, StateProductQuote],
-  templateUrl: './punjab-haryana.html',
+  templateUrl: './state-page.html',
   styleUrl: '../state-page.css',
 })
-export class PunjabHaryana {
+export class StatePageComponent {
+  private readonly config = inject(STATE_PAGE_CONFIG);
   private readonly seo = inject(SeoService);
   private readonly whatsApp = inject(WhatsAppService);
   readonly locale = inject(LocaleService);
-  private readonly translations = pageContent as StatePageTranslations;
+
   protected readonly content: StatePageContent = this.locale.isHindi
-    ? this.translations.hi
-    : this.translations.en;
+    ? this.config.translations.hi
+    : this.config.translations.en;
 
   protected readonly regionName = this.content.breadcrumbName;
-  private readonly b2b = getRegionB2bData('punjab-haryana', this.locale.isHindi);
+  private readonly b2b = getRegionB2bData(this.config.regionKey, this.locale.isHindi);
   protected readonly productPacks = this.b2b.productPacks;
   protected readonly trustPoints = this.b2b.trustPoints;
 
   constructor() {
-    const canonicalUrl = `${SITE_URL}/punjab-haryana`;
+    const canonicalUrl = `${SITE_URL}${this.config.path}`;
     this.seo.setPageSeo({
       title: this.content.seo.title,
       description: this.content.seo.description,
@@ -46,7 +47,7 @@ export class PunjabHaryana {
       }),
       breadcrumbSchema([
         { name: this.locale.isHindi ? 'होम' : 'Home', path: '/' },
-        { name: this.content.breadcrumbName, path: '/punjab-haryana' },
+        { name: this.content.breadcrumbName, path: this.config.path },
       ]),
       faqPageSchema(this.content.faqs),
     ]);

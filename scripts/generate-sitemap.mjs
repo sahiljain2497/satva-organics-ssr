@@ -9,13 +9,15 @@ const SITE_URL = (process.env.SITE_URL || 'https://satvaorganic.org').replace(/\
 const projectRoot = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const publicDir = path.join(projectRoot, 'public');
 
-const STATIC_PATHS = [
-  '/',
-  '/blogs',
-  '/contact',
-  '/himachal-pradesh',
-  '/jammu-kashmir',
-  '/uttar-pradesh',
+const STATIC_ROUTES = [
+  { path: '/', lastmod: null },
+  { path: '/blogs', lastmod: null },
+  { path: '/contact', lastmod: null },
+  { path: '/himachal-pradesh', lastmod: '2026-05-17' },
+  { path: '/jammu-kashmir', lastmod: '2026-05-17' },
+  { path: '/uttar-pradesh', lastmod: '2026-05-17' },
+  { path: '/punjab-haryana', lastmod: '2026-05-17' },
+  { path: '/pan-india-supply', lastmod: '2026-05-17' },
 ];
 
 function ensureDir(dirPath) {
@@ -38,6 +40,17 @@ function toLastmod(value) {
   return d.toISOString().slice(0, 10);
 }
 
+function buildLocaleUrls(routePath) {
+  const normalizedPath = routePath === '/' ? '/' : routePath;
+  const enPath = normalizedPath;
+  const hiPath = normalizedPath === '/' ? '/hi/' : `/hi${normalizedPath}`;
+
+  return {
+    en: `${SITE_URL}${enPath === '/' ? '/' : enPath}`,
+    hi: `${SITE_URL}${hiPath}`,
+  };
+}
+
 function loadTsExports(tsFilePath) {
   const code = fs.readFileSync(tsFilePath, 'utf8');
   const out = ts.transpileModule(code, {
@@ -53,9 +66,7 @@ function loadTsExports(tsFilePath) {
     module: mod,
     exports: mod.exports,
     require: (id) => {
-      const resolved = id.startsWith('.')
-        ? path.resolve(dir, id.replace(/\.js$/, '.ts'))
-        : id;
+      const resolved = id.startsWith('.') ? path.resolve(dir, id.replace(/\.js$/, '.ts')) : id;
       if (resolved.includes('blog-post.model')) {
         return loadTsExports(path.join(dir, 'blog-post.model.ts'));
       }
@@ -76,18 +87,35 @@ function main() {
 
   const urls = [];
 
-  for (const routePath of STATIC_PATHS) {
+  for (const route of STATIC_ROUTES) {
+    const alternates = buildLocaleUrls(route.path);
+
     urls.push({
-      loc: routePath === '/' ? `${SITE_URL}/` : `${SITE_URL}${routePath}`,
-      lastmod: null,
+      loc: alternates.en,
+      lastmod: route.lastmod,
+      alternates,
+    });
+    urls.push({
+      loc: alternates.hi,
+      lastmod: route.lastmod,
+      alternates,
     });
   }
 
   for (const blog of BLOGS_EN ?? []) {
     if (!blog?.slug) continue;
+    const alternates = buildLocaleUrls(`/blogs/${blog.slug}`);
+    const lastmod = toLastmod(blog.date);
+
     urls.push({
-      loc: `${SITE_URL}/blogs/${blog.slug}`,
-      lastmod: toLastmod(blog.date),
+      loc: alternates.en,
+      lastmod,
+      alternates,
+    });
+    urls.push({
+      loc: alternates.hi,
+      lastmod,
+      alternates,
     });
   }
 
@@ -101,11 +129,24 @@ function main() {
 
   const xml =
     `<?xml version="1.0" encoding="UTF-8"?>\n` +
-    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" ` +
+    `xmlns:xhtml="http://www.w3.org/1999/xhtml">\n` +
     uniqueUrls
       .map((u) => {
         const lastmod = u.lastmod ? `<lastmod>${safeXml(u.lastmod)}</lastmod>` : '';
-        return `  <url><loc>${safeXml(u.loc)}</loc>${lastmod}</url>`;
+        const alternates = u.alternates
+          ? [
+              ['en', u.alternates.en],
+              ['hi', u.alternates.hi],
+              ['x-default', u.alternates.en],
+            ]
+              .map(
+                ([hreflang, href]) =>
+                  `<xhtml:link rel="alternate" hreflang="${safeXml(hreflang)}" href="${safeXml(href)}" />`,
+              )
+              .join('')
+          : '';
+        return `  <url><loc>${safeXml(u.loc)}</loc>${alternates}${lastmod}</url>`;
       })
       .join('\n') +
     `\n</urlset>\n`;
