@@ -1,17 +1,21 @@
 /**
  * PM2 ecosystem for Satva Organics Angular SSR.
  *
- * Usage (from repo root):
+ * Usage:
  *   cd satva-angular && npm ci && npm run build
  *   pm2 start ecosystem.config.cjs
  *   pm2 save && pm2 startup
  */
+const path = require('node:path');
+
+const appRoot = __dirname;
+
 module.exports = {
   apps: [
     {
       name: 'satva-ssr',
-      cwd: './satva-angular',
-      script: 'dist/satva-angular/server/server.mjs',
+      cwd: appRoot,
+      script: path.join(appRoot, 'dist/satva-angular/server/server.mjs'),
       interpreter: 'node',
       instances: 1,
       exec_mode: 'fork',
