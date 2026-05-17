@@ -25,12 +25,24 @@ export class App {
   }
 
   protected toggleMobileNav(): void {
-    this.isMobileNavOpen.update((open) => !open);
+    this.isMobileNavOpen.update((open) => {
+      const next = !open;
+      this.setBodyScrollLocked(next);
+      return next;
+    });
   }
 
   protected closeMobileNav(): void {
     this.isMobileNavOpen.set(false);
     this.isAreasDropdownOpen.set(false);
+    this.setBodyScrollLocked(false);
+  }
+
+  private setBodyScrollLocked(locked: boolean): void {
+    if (typeof document === 'undefined') {
+      return;
+    }
+    document.body.classList.toggle('nav-scroll-lock', locked);
   }
 
   protected toggleAreasDropdown(): void {

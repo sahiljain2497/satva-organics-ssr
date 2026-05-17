@@ -1,6 +1,7 @@
 {
   "locale": "hi",
   "translations": {
+    "nav.home": "होम",
     "nav.difference": "हमारी खासियत",
     "nav.benefits": "फायदे",
     "nav.products": "उत्पाद",
@@ -17,11 +18,15 @@
     "nav.contact": "संपर्क",
     "header.whatsapp": "व्हाट्सप्प",
     "header.call": "कॉल करें",
+    "header.callNow": "+91 93400 00099 पर कॉल करें",
     "footer.tagline": "जहाँ मिट्टी जीवंत हो उठती है।",
     "footer.phone": "फ़ोन:",
     "footer.contact": "संपर्क:",
     "footer.links": "क्विक लिंक",
+    "footer.site": "साइट",
+    "footer.discover": "खोजें",
     "footer.areas": "सेवा क्षेत्र",
+    "footer.sitemap": "साइटमैप",
     "footer.locations": "हिमाचल प्रदेश, पंजाब, हरियाणा, जम्मू-कश्मीर और अखिल भारतीय आपूर्ति।",
     "footer.rights": "सर्वाधिकार सुरक्षित।",
     "whatsapp.partner": "नमस्ते सत्व, मैं एक {$PH} हूँ। मेरा नाम {$PH_1} है। संदेश: {$PH_2}",

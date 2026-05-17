@@ -102,6 +102,7 @@ export function blogPostingSchema(post: {
   date: string;
   slug: string;
   imageUrl: string;
+  updatedDate?: string;
 }): object {
   const image = post.imageUrl.startsWith('http')
     ? post.imageUrl
@@ -117,6 +118,7 @@ export function blogPostingSchema(post: {
       name: post.author,
     },
     datePublished: post.date,
+    ...(post.updatedDate ? { dateModified: post.updatedDate } : {}),
     image,
     mainEntityOfPage: {
       '@type': 'WebPage',

@@ -25,6 +25,7 @@ module.exports = {
       env: {
         NODE_ENV: 'production',
         PM2: 'true',
+        NG_TRUST_PROXY_HEADERS: 'x-forwarded-for,x-forwarded-proto',
         PORT: 4000,
       },
       error_file: './logs/satva-ssr-error.log',

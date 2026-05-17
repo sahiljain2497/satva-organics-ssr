@@ -1,23 +1,24 @@
 <!-- Sticky Header -->
-<header class="header">
-  <div class="container header-container">
+<header class="header" [class.nav-open]="isMobileNavOpen()">
+  <button
+    type="button"
+    class="nav-backdrop"
+    aria-hidden="true"
+    tabindex="-1"
+    (click)="closeMobileNav()"
+  ></button>
+
+  <div class="container header-inner">
     <a [href]="localPath('/')" class="logo">
       <img src="logo_icon.png" alt="Satva Organics Logo" class="logo-img" />
     </a>
 
-    <button
-      type="button"
-      class="mobile-nav-toggle"
+    <nav
+      class="nav-menu"
       [class.active]="isMobileNavOpen()"
-      [attr.aria-expanded]="isMobileNavOpen()"
-      aria-label="Toggle navigation"
-      (click)="toggleMobileNav()"
+      aria-label="Main navigation"
     >
-      <span></span><span></span><span></span>
-    </button>
-
-    <nav class="nav-menu" [class.active]="isMobileNavOpen()">
-      <ul>
+      <ul class="nav-list">
         <li>
           <a [href]="localPath('/#products')" i18n="@@nav.products" (click)="closeMobileNav()"
             >Products</a
@@ -86,17 +87,37 @@
           >
         </li>
       </ul>
+
+      <div class="mobile-nav-footer">
+        <a href="tel:+919340000099" class="btn btn-primary mobile-call-btn" (click)="closeMobileNav()">
+          <span class="icon" aria-hidden="true">📞</span>
+          <span i18n="@@header.callNow">Call +91 93400 00099</span>
+        </a>
+      </div>
     </nav>
 
-    <div class="header-actions">
-      <button type="button" class="lang-btn" (click)="toggleLanguage()">
-        {{ langToggleLabel }}
-      </button>
+    <div class="header-tools">
+      <div class="header-actions">
+        <button type="button" class="lang-btn" (click)="toggleLanguage()">
+          {{ langToggleLabel }}
+        </button>
 
-      <a href="tel:+919340000099" class="btn btn-sm btn-outline header-cta hide-mobile">
-        <span class="icon">📞</span>
-        <span i18n="@@header.call">Call</span>
-      </a>
+        <a href="tel:+919340000099" class="btn btn-sm btn-outline header-cta hide-mobile">
+          <span class="icon" aria-hidden="true">📞</span>
+          <span i18n="@@header.call">Call</span>
+        </a>
+      </div>
+
+      <button
+        type="button"
+        class="mobile-nav-toggle"
+        [class.active]="isMobileNavOpen()"
+        [attr.aria-expanded]="isMobileNavOpen()"
+        aria-label="Toggle navigation"
+        (click)="toggleMobileNav()"
+      >
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </div>
 </header>
@@ -106,15 +127,24 @@
 <!-- Footer -->
 <footer class="footer">
   <div class="container footer-content">
-    <div class="footer-col">
-      <h3 class="logo-text">Satva Organics</h3>
-      <p i18n="@@footer.tagline">Where Soil Comes Alive.</p>
-      <div class="contact-mini mt-4">
-        <p><strong i18n="@@footer.phone">Phone:</strong> +91 93400 00099</p>
+    <div class="footer-col footer-brand">
+      <h3 class="footer-logo">Satva Organics</h3>
+      <p class="footer-tagline" i18n="@@footer.tagline">Where Soil Comes Alive.</p>
+      <div class="contact-mini">
+        <p>
+          <strong i18n="@@footer.phone">Phone:</strong>
+          <a href="tel:+919340000099" class="footer-phone">+91 93400 00099</a>
+        </p>
       </div>
+      <nav class="footer-inline-nav" aria-label="Footer navigation">
+        <a [href]="localPath('/')" i18n="@@nav.home">Home</a>
+        <a [href]="localPath('/blogs')" i18n="@@nav.blogs">Blog</a>
+        <a [href]="localPath('/contact')" i18n="@@nav.contact">Contact</a>
+        <a href="/sitemap.xml" i18n="@@footer.sitemap">Sitemap</a>
+      </nav>
     </div>
     <div class="footer-col">
-      <h4 i18n="@@footer.links">Quick Links</h4>
+      <h4 class="footer-heading" i18n="@@footer.discover">Discover</h4>
       <ul class="footer-links">
         <li>
           <a [href]="localPath('/#difference')" i18n="@@nav.difference">Our Edge</a>
@@ -122,12 +152,11 @@
         <li><a [href]="localPath('/#benefits')" i18n="@@nav.benefits">Benefits</a></li>
         <li><a [href]="localPath('/#products')" i18n="@@nav.products">Products</a></li>
         <li><a [href]="localPath('/#partners')" i18n="@@nav.partners">Partner</a></li>
-        <li><a [href]="localPath('/blogs')" i18n="@@nav.blogs">Blog</a></li>
       </ul>
     </div>
     <div class="footer-col">
-      <h4 i18n="@@footer.areas">Service Areas</h4>
-      <ul class="footer-links">
+      <h4 class="footer-heading" i18n="@@footer.areas">Service Areas</h4>
+      <ul class="footer-links footer-regions">
         <li>
           <a [href]="localPath('/himachal-pradesh')" i18n="@@nav.himachal">Himachal Pradesh</a>
         </li>

@@ -23,10 +23,14 @@ export class Blogs {
   readonly regionLabels = BLOG_REGION_LABELS;
 
   constructor() {
+    const isHi = this.locale.isHindi;
     this.seo.setPageSeo({
-      title: 'Organic Farming Blog – Satva Organics | Vermicompost Tips',
-      description:
-        'Expert advice on vermicompost and organic farming for Himachal Pradesh, Jammu & Kashmir, and Uttar Pradesh. Case studies, guides, and soil health insights from Satva Organics.',
+      title: isHi
+        ? 'जैविक खेती ब्लॉग – सत्वा ऑर्गेनिक्स | वर्मीकंपोस्ट टिप्स'
+        : 'Organic Farming Blog – Satva Organics | Vermicompost Tips',
+      description: isHi
+        ? 'हिमाचल, जम्मू-कश्मीर और उत्तर प्रदेश के किसानों के लिए वर्मीकंपोस्ट और जैविक खेती पर विशेषज्ञ सलाह, केस स्टडी और मिट्टी स्वास्थ्य गाइड।'
+        : 'Expert advice on vermicompost and organic farming for Himachal Pradesh, Jammu & Kashmir, and Uttar Pradesh. Case studies, guides, and soil health insights from Satva Organics.',
       canonicalUrl: `${SITE_URL}/blogs`,
     });
     this.seo.injectJsonLd(

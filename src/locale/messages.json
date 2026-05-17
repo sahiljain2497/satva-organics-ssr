@@ -1,6 +1,7 @@
 {
   "locale": "en-US",
   "translations": {
+    "nav.home": "Home",
     "nav.difference": "Our Edge",
     "nav.benefits": "Benefits",
     "nav.products": "Products",
@@ -17,11 +18,15 @@
     "nav.contact": "Contact",
     "header.whatsapp": "WhatsApp",
     "header.call": "Call",
+    "header.callNow": "Call +91 93400 00099",
     "footer.tagline": "Where Soil Comes Alive.",
     "footer.phone": "Phone:",
     "footer.contact": "Contact:",
     "footer.links": "Quick Links",
+    "footer.site": "Site",
+    "footer.discover": "Discover",
     "footer.areas": "Service Areas",
+    "footer.sitemap": "Sitemap",
     "footer.locations": " Himachal Pradesh, Punjab, Haryana, J&K, and Pan-India Supply. ",
     "footer.rights": "All rights reserved.",
     "whatsapp.partner": "Hi Satva, I am a {$PH}. My name is {$PH_1}. Message: {$PH_2}",

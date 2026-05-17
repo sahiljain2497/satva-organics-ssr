@@ -1,5 +1,10 @@
 export type BlogRegion = 'HP' | 'JK' | 'UP';
 
+export interface BlogFaq {
+  question: string;
+  answer: string;
+}
+
 export interface BlogPost {
   title: string;
   slug: string;
@@ -11,6 +16,10 @@ export interface BlogPost {
   regions: BlogRegion[];
   imageUrl: string;
   content: string;
+  /** Optional FAQs for on-page display and FAQPage schema. */
+  faqs?: BlogFaq[];
+  /** When set, shown in schema as dateModified for upgraded posts. */
+  updatedDate?: string;
 }
 
 export const BLOG_REGION_LABELS: Record<BlogRegion, { en: string; hi: string }> = {

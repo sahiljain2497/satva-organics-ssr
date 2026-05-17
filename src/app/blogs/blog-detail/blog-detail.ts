@@ -4,7 +4,11 @@ import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { SITE_URL } from '../../core/constants/seo.constants';
 import { LocaleService } from '../../core/services/locale.service';
 import { SeoService } from '../../core/services/seo.service';
-import { blogPostingSchema, breadcrumbSchema } from '../../core/services/seo-schema';
+import {
+  blogPostingSchema,
+  breadcrumbSchema,
+  faqPageSchema,
+} from '../../core/services/seo-schema';
 import { BLOG_REGION_LABELS, BlogPost } from '../blog-post.model';
 import { BlogsService } from '../blogs.service';
 
@@ -46,14 +50,18 @@ export class BlogDetail implements OnInit {
             canonicalUrl,
             imageUrl,
           });
-          this.seo.injectJsonLd([
+          const jsonLd: object[] = [
             blogPostingSchema(this.blog),
             breadcrumbSchema([
               { name: 'Home', path: '/' },
               { name: 'Blog', path: '/blogs' },
               { name: this.blog.title, path: `/blogs/${this.blog.slug}` },
             ]),
-          ]);
+          ];
+          if (this.blog.faqs?.length) {
+            jsonLd.push(faqPageSchema(this.blog.faqs));
+          }
+          this.seo.injectJsonLd(jsonLd);
         } else {
           this.router.navigate(['/blogs']);
         }

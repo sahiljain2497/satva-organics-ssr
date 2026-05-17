@@ -177,6 +177,27 @@
     color: #2d6a4f;
 }
 
+.blog-content ::ng-deep .blog-cta {
+    margin-top: 2.5rem;
+    padding: 1.25rem 1.5rem;
+    background: #f0f7ee;
+    border-left: 4px solid var(--primary-color);
+    border-radius: 0 8px 8px 0;
+}
+
+.blog-content ::ng-deep .blog-faq {
+    margin-top: 2rem;
+    padding: 1.25rem 1.5rem;
+    background: #fafafa;
+    border-radius: 8px;
+}
+
+.blog-content ::ng-deep .blog-faq h3 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
 @media (max-width: 768px) {
     .blog-title {
         font-size: 2rem;

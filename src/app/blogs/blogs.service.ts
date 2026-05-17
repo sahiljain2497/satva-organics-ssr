@@ -9,7 +9,8 @@ export class BlogsService {
   private readonly localeId = inject(LOCALE_ID);
 
   getPosts(): BlogPost[] {
-    return this.localeId === 'hi' ? BLOGS_HI : BLOGS_EN;
+    const posts = this.localeId === 'hi' ? BLOGS_HI : BLOGS_EN;
+    return [...posts].sort((a, b) => b.date.localeCompare(a.date));
   }
 
   getBySlug(slug: string): BlogPost | undefined {
