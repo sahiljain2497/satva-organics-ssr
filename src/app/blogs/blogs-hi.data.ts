@@ -21,7 +21,7 @@ export const BLOGS_HI: BlogPost[] = [
       },
     ],
     regions: ['HP'],
-    imageUrl: '/assets/blogs/hp_apple_farmer_1778999525529.png',
+    imageUrl: '/assets/blogs/hp_apple_farmer_1778999525529.webp',
     content: `
       <p class="blog-lead">2019 में शिमला के पास राजिंदर सिंह के दो एकड़ रॉयल डिलीशियस ब्लॉक थके दिखते थे—छोटे फल, फीका रंग, और डीएपी पर भी न सुधरने वाली मिट्टी। 2025 तक वही बगान पंचायत में चर्चा का विषय बन गया। मुख्य बदलाव: धैर्य और सही समय पर सत्वा ऑर्गेनिक्स प्रीमियम वर्मीकंपोस्ट।</p>
 
@@ -63,7 +63,7 @@ export const BLOGS_HI: BlogPost[] = [
     date: '2026-05-10',
     tags: ['सब्जियों की खेती', 'खेती के टिप्स', 'जैविक खाद', 'उत्तर भारत'],
     regions: ['HP', 'JK', 'UP'],
-    imageUrl: '/assets/blogs/vegetable_farming_1778999541645.png',
+    imageUrl: '/assets/blogs/vegetable_farming_1778999541645.webp',
     content: `
       <p class="blog-lead">चाहे आप पश्चिमी उत्तर प्रदेश में टमाटर, हिमाचल की घाटियों में गोभी, या जम्मू में पॉलीहाउस शिमला मिर्च उगाएं—पोषक तत्वों से भरपूर मिट्टी स्वस्थ फसल की नींव है। वर्मीकंपोस्ट तभी प्रभावी है जब इसे आपके क्षेत्र और फसल के अनुसार सही लगाया जाए।</p>
 
@@ -114,7 +114,7 @@ export const BLOGS_HI: BlogPost[] = [
     date: '2026-05-03',
     tags: ['मिट्टी विज्ञान', 'NPK', 'जैविक बनाम रासायनिक'],
     regions: ['HP', 'JK', 'UP'],
-    imageUrl: '/assets/blogs/npk_vermicompost_1778999557719.png',
+    imageUrl: '/assets/blogs/npk_vermicompost_1778999557719.webp',
     content: `
       <p class="blog-lead">दशकों से किसान बैग पर N, P, K देखकर फैसला करते हैं। रासायनिक उर्वरक उच्च संख्याएं दिखाते हैं—लेकिन हिमाचल, कश्मीर और गंगा के मैदान की मिट्टी अलग कहानी कहती है।</p>
 
@@ -169,7 +169,7 @@ export const BLOGS_HI: BlogPost[] = [
       },
     ],
     regions: ['HP', 'JK', 'UP'],
-    imageUrl: '/assets/blogs/monsoon_preparation_1778999573438.png',
+    imageUrl: '/assets/blogs/monsoon_preparation_1778999573438.webp',
     content: `
       <p class="blog-lead">जब कांगड़ा–कुल्लू पर पहले मानसून के बादल आते हैं, तैयार किसान तुरंत कदम उठाते हैं। भारी बारिश ऊपरी मिट्टी और यूरिया एक रात में बहा सकती है। ये पांच हैक्स—हिमाचल के अनुभव पर—पोषक, ढलान और मौसम की तैयारी में मदद करते हैं।</p>
 
@@ -206,7 +206,7 @@ export const BLOGS_HI: BlogPost[] = [
     date: '2026-04-19',
     tags: ['माइक्रोबियल फर्टिलाइजर्स', 'ट्राइकोडर्मा', 'बायोएक्टिव खाद'],
     regions: ['HP', 'JK', 'UP'],
-    imageUrl: '/assets/blogs/microbial_fertilizer_1778999588534.png',
+    imageUrl: '/assets/blogs/microbial_fertilizer_1778999588534.webp',
     content: `
       <p class="blog-lead">साधारण खाद कार्बनिक पदार्थ जोड़ती है। आधुनिक उत्तर भारतीय खेती—हिमाचल में सेब, जम्मू-कश्मीर में पॉलीहाउस, यूपी में अनाज और सब्जी—को पहले दिन से काम करने वाली जीवित मिट्टी चाहिए।</p>
 
@@ -249,7 +249,7 @@ export const BLOGS_HI: BlogPost[] = [
     date: '2026-04-12',
     tags: ['केसर की खेती', 'जम्मू-कश्मीर', 'केस स्टडी', 'वर्मीकंपोस्ट'],
     regions: ['JK'],
-    imageUrl: '/assets/blogs/microbial_fertilizer_1778999588534.png',
+    imageUrl: '/assets/blogs/microbial_fertilizer_1778999588534.webp',
     faqs: [
       {
         question: 'कश्मीर में केसर पर वर्मीकंपोस्ट कब लगाएं?',
@@ -277,7 +277,7 @@ export const BLOGS_HI: BlogPost[] = [
     date: '2026-04-05',
     tags: ['गन्ना', 'उत्तर प्रदेश', 'लागत बचत', 'जैविक खाद'],
     regions: ['UP'],
-    imageUrl: '/assets/blogs/npk_vermicompost_1778999557719.png',
+    imageUrl: '/assets/blogs/npk_vermicompost_1778999557719.webp',
     content: `
       <p class="blog-lead">पश्चिमी और पूर्वी यूपी में गन्ना यूरिया–डीएपी पर चलता है—मार्जिन पतला। जब कीमतें बढ़ें, सवाल होता है: <em>टनेज बिना खर्च काटें?</em></p>
       <aside class="region-callout region-up"><span class="region-label">उत्तर प्रदेश</span><p>मेरठ, गोरखपुर, मुजफ्फरनगर</p></aside>
@@ -297,7 +297,7 @@ export const BLOGS_HI: BlogPost[] = [
     date: '2026-03-29',
     tags: ['होम गार्डन', 'लखनऊ', 'DIY खाद', 'शहरी खेती'],
     regions: ['UP'],
-    imageUrl: '/assets/blogs/vegetable_farming_1778999541645.png',
+    imageUrl: '/assets/blogs/vegetable_farming_1778999541645.webp',
     content: `
       <p class="blog-lead">गोमती नगर की छतों से पुरानी शहर के आंगन तक—लखनऊ में टमाटर, मिर्च, गेंदा फिर उग रहे हैं। रोज का किचन कचरा क्यों फेंकें?</p>
       <h2>शुरू करने की सूची</h2>
@@ -317,7 +317,7 @@ export const BLOGS_HI: BlogPost[] = [
     date: '2026-03-22',
     tags: ['वर्मीकंपोस्ट लाभ', 'खेती टिप्स', 'उत्तर भारत'],
     regions: ['HP', 'JK', 'UP'],
-    imageUrl: '/assets/blogs/microbial_fertilizer_1778999588534.png',
+    imageUrl: '/assets/blogs/microbial_fertilizer_1778999588534.webp',
     content: `
       <p class="blog-lead">अनुभवी उत्पादक कहते हैं: <em>वर्मीकंपोस्ट एक काम नहीं—दस हैं।</em></p>
       <h2>1. मानसून से पहले खेत</h2><p><a href="/blogs/preparing-fields-monsoon-organic-manure">5 हैक्स</a></p>
@@ -342,7 +342,7 @@ export const BLOGS_HI: BlogPost[] = [
     date: '2026-03-15',
     tags: ['आलू', 'उत्तर प्रदेश', 'प्रयोग', 'जैविक बनाम रासायनिक'],
     regions: ['UP'],
-    imageUrl: '/assets/blogs/npk_vermicompost_1778999557719.png',
+    imageUrl: '/assets/blogs/npk_vermicompost_1778999557719.webp',
     content: `
       <p class="blog-lead">विक्रम सिंह ने आधे खेत पर सत्वा वर्मीकंपोस्ट + कम रासायनिक आजमाया—दो सीजन बाद योजना बदल गई।</p>
       <h2>परीक्षण</h2><ul><li>प्लॉट A: पुरानी योजना</li><li>प्लॉट B: 2.5 टन/एकड़ + 30% कम आधार</li></ul>
@@ -360,7 +360,7 @@ export const BLOGS_HI: BlogPost[] = [
     date: '2026-03-18',
     tags: ['मिट्टी स्वास्थ्य', 'रबी', 'मौसमी खेती'],
     regions: ['HP', 'JK', 'UP'],
-    imageUrl: '/assets/blogs/monsoon_preparation_1778999573438.png',
+    imageUrl: '/assets/blogs/monsoon_preparation_1778999573438.webp',
     content: `
       <p class="blog-lead">होली के बाद अक्सर गेहूं कटाई और थकी मिट्टी होती है—अगली बुआई से पहले जैविक पुनर्जीवन का मौका।</p>
       <h2>पुनर्जीवन कदम</h2>
@@ -378,7 +378,7 @@ export const BLOGS_HI: BlogPost[] = [
     date: '2026-03-08',
     tags: ['नर्सरी', 'हिमाचल', 'केस स्टडी'],
     regions: ['HP'],
-    imageUrl: '/assets/blogs/hp_apple_farmer_1778999525529.png',
+    imageUrl: '/assets/blogs/hp_apple_farmer_1778999525529.webp',
     content: `
       <p class="blog-lead">शिमला की हिमालयन ग्रीन्स नर्सरी ने पॉटिंग मिक्स का 30% सत्वा वर्मीकंपोस्ट से बदला—जड़ और जीवितता में सुधार।</p>
       <h2>बदलाव</h2><ul><li>30% वर्मीकंपोस्ट मिश्रण</li><li>छात्र तुलना प्लॉट</li><li>डिस्पैच से पहले हल्का टॉप-ड्रेस</li></ul>
@@ -394,7 +394,7 @@ export const BLOGS_HI: BlogPost[] = [
     date: '2026-03-01',
     tags: ['किसान कहानी', 'उत्तर प्रदेश', 'एग्री-टेक'],
     regions: ['UP', 'HP', 'JK'],
-    imageUrl: '/assets/blogs/hp_apple_farmer_1778999525529.png',
+    imageUrl: '/assets/blogs/hp_apple_farmer_1778999525529.webp',
     content: `
       <p class="blog-lead">28 साल के अर्जुन वर्मा, मेरठ—"फार्मर टेकी"। मिट्टी नमी अलर्ट + सत्वा वर्मीकंपोस्ट + 200 सदस्यों का व्हाट्सऐप समूह।</p>
       <h2>सबक</h2><ul><li>एक एकड़ से शुरू, लेखा रखें</li><li>फफूंदनाशक उसी दिन नहीं</li><li><a href="/blogs/vermicompost-uses-farmers-guide">10 उपयोग</a> पढ़ें</li></ul>

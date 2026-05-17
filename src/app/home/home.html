@@ -16,7 +16,16 @@
     </div>
     <div class="hero-image reveal">
       <div class="hero-img-container">
-        <img src="hero.webp" alt="Satva Organics Premium Vermicompost" class="hero-img-display" />
+        <img
+          ngSrc="hero"
+          width="1024"
+          height="1024"
+          sizes="(max-width: 900px) min(90vw, 640px), 45vw"
+          ngSrcset="400w, 640w, 1024w"
+          alt="Satva Organics Premium Vermicompost"
+          class="hero-img-display"
+          priority
+        />
       </div>
     </div>
   </div>
@@ -196,7 +205,15 @@
       <!-- 1kg -->
       <div class="card product-card reveal">
         <div class="product-img-wrapper">
-          <img src="1kg.webp" alt="1kg Pack" class="product-img" />
+          <img
+            ngSrc="1kg"
+            width="716"
+            height="716"
+            sizes="(max-width: 900px) min(100vw - 3rem, 400px), 280px"
+            ngSrcset="216w, 400w"
+            alt="1kg Pack"
+            class="product-img"
+          />
         </div>
         <h3 i18n="@@prod.1kg">1kg Pack</h3>
         <p i18n="@@prod.1kg_desc">Ideal for home pots and small plants.</p>
@@ -204,7 +221,15 @@
       <!-- 50kg -->
       <div class="card product-card reveal">
         <div class="product-img-wrapper">
-          <img src="50kg.webp" alt="50kg Bag" class="product-img" />
+          <img
+            ngSrc="50kg"
+            width="864"
+            height="1184"
+            sizes="(max-width: 900px) min(100vw - 3rem, 400px), 280px"
+            ngSrcset="216w, 400w, 800w"
+            alt="50kg Bag"
+            class="product-img"
+          />
         </div>
         <h3 i18n="@@prod.50kg">50kg Bag</h3>
         <p i18n="@@prod.50kg_desc">Standard size for orchards and field application.</p>

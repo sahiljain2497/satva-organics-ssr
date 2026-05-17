@@ -1,3 +1,4 @@
+import { NgOptimizedImage } from '@angular/common';
 import { Component, inject, signal } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 
@@ -10,7 +11,7 @@ import { ScrollRevealDirective } from '../shared/directives/scroll-reveal.direct
 
 @Component({
   selector: 'app-home',
-  imports: [ReactiveFormsModule, ScrollRevealDirective],
+  imports: [ReactiveFormsModule, ScrollRevealDirective, NgOptimizedImage],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

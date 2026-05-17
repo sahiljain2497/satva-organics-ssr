@@ -11,7 +11,7 @@ export const BLOGS_EN: BlogPost[] = [
     updatedDate: '2026-05-18',
     tags: ['Case Study', 'Apple Farming', 'Himachal Pradesh', 'Organic Farming'],
     regions: ['HP'],
-    imageUrl: '/assets/blogs/hp_apple_farmer_1778999525529.png',
+    imageUrl: '/assets/blogs/hp_apple_farmer_1778999525529.webp',
     faqs: [
       {
         question: 'How much vermicompost per apple tree in Himachal?',
@@ -91,7 +91,7 @@ export const BLOGS_EN: BlogPost[] = [
     date: '2026-05-10',
     tags: ['Vegetable Farming', 'Farming Tips', 'Organic Manure', 'North India'],
     regions: ['HP', 'JK', 'UP'],
-    imageUrl: '/assets/blogs/vegetable_farming_1778999541645.png',
+    imageUrl: '/assets/blogs/vegetable_farming_1778999541645.webp',
     content: `
       <p class="blog-lead">Whether you grow tomatoes in western UP, cabbage in Himachal valleys, or polyhouse capsicum in Jammu, nutrient-rich soil is the foundation of a healthy crop. Vermicompost works—but only when applied correctly for your region and crop.</p>
 
@@ -142,7 +142,7 @@ export const BLOGS_EN: BlogPost[] = [
     date: '2026-05-03',
     tags: ['Soil Science', 'NPK', 'Organic vs Chemical'],
     regions: ['HP', 'JK', 'UP'],
-    imageUrl: '/assets/blogs/npk_vermicompost_1778999557719.png',
+    imageUrl: '/assets/blogs/npk_vermicompost_1778999557719.webp',
     content: `
       <p class="blog-lead">For decades, farmers have judged inputs by N, P, and K on the bag. Chemical fertilizers promise high numbers—but soil in Himachal, Kashmir, and the Gangetic plain tells a different story.</p>
 
@@ -203,7 +203,7 @@ export const BLOGS_EN: BlogPost[] = [
       },
     ],
     regions: ['HP', 'JK', 'UP'],
-    imageUrl: '/assets/blogs/monsoon_preparation_1778999573438.png',
+    imageUrl: '/assets/blogs/monsoon_preparation_1778999573438.webp',
     content: `
       <p class="blog-lead">As the first monsoon clouds roll over Kangra and Kullu, prepared farmers act fast. Heavy rain can strip topsoil, flood terraces, and wash soluble urea downstream in a single night. These five hacks help you keep nutrients, protect slopes, and enter the rainy season with confidence.</p>
 
@@ -240,7 +240,7 @@ export const BLOGS_EN: BlogPost[] = [
     date: '2026-04-19',
     tags: ['Microbial Fertilizers', 'Trichoderma', 'Bioactive Manure'],
     regions: ['HP', 'JK', 'UP'],
-    imageUrl: '/assets/blogs/microbial_fertilizer_1778999588534.png',
+    imageUrl: '/assets/blogs/microbial_fertilizer_1778999588534.webp',
     content: `
       <p class="blog-lead">Standard compost adds organic matter. Modern North Indian farming—apple in HP, polyhouse veg in JK, cereals and vegetables in UP—needs living soil biology that works from day one.</p>
 
@@ -283,7 +283,7 @@ export const BLOGS_EN: BlogPost[] = [
     date: '2026-04-12',
     tags: ['Saffron Farming', 'Jammu & Kashmir', 'Case Study', 'Vermicompost'],
     regions: ['JK'],
-    imageUrl: '/assets/blogs/kashmir_saffron_1779045553616.png',
+    imageUrl: '/assets/blogs/kashmir_saffron_1779045553616.webp',
     faqs: [
       {
         question: 'When should saffron farmers apply vermicompost in Kashmir?',
@@ -333,7 +333,7 @@ export const BLOGS_EN: BlogPost[] = [
     date: '2026-04-05',
     tags: ['Sugarcane', 'Uttar Pradesh', 'Cost Savings', 'Organic Manure'],
     regions: ['UP'],
-    imageUrl: '/assets/blogs/sugarcane_farm_1779045506435.png',
+    imageUrl: '/assets/blogs/sugarcane_farm_1779045506435.webp',
     faqs: [
       {
         question: 'How much vermicompost per acre for sugarcane in UP?',
@@ -379,7 +379,7 @@ export const BLOGS_EN: BlogPost[] = [
     date: '2026-03-29',
     tags: ['Home Garden', 'Lucknow', 'DIY Compost', 'Urban Farming'],
     regions: ['UP'],
-    imageUrl: '/assets/blogs/lucknow_terrace_garden_1779045491254.png',
+    imageUrl: '/assets/blogs/lucknow_terrace_garden_1779045491254.webp',
     content: `
       <p class="blog-lead">From Gomti Nagar terraces to Old City courtyards, Lucknow’s home gardeners are growing tomatoes, chillies, and marigolds in pots again. Kitchen waste piles up daily—why throw it when worms can turn it into black gold for your beds?</p>
 
@@ -421,7 +421,7 @@ export const BLOGS_EN: BlogPost[] = [
     date: '2026-03-22',
     tags: ['Vermicompost Benefits', 'Farming Tips', 'Listicle', 'North India'],
     regions: ['HP', 'JK', 'UP'],
-    imageUrl: '/assets/blogs/vermicompost_uses_1779045569449.png',
+    imageUrl: '/assets/blogs/vermicompost_uses_1779045569449.webp',
     content: `
       <p class="blog-lead">Ask any experienced grower in Himachal, Kashmir, or the Gangetic plain and you will hear the same line: <em>vermicompost is not one trick—it is ten.</em> Here are the uses our customers repeat most often, with quick application notes for each.</p>
 
@@ -467,7 +467,7 @@ export const BLOGS_EN: BlogPost[] = [
     date: '2026-03-15',
     tags: ['Potato Farming', 'Uttar Pradesh', 'Field Experiment', 'Organic vs Chemical'],
     regions: ['UP'],
-    imageUrl: '/assets/blogs/potato_farm_1779045521120.png',
+    imageUrl: '/assets/blogs/potato_farm_1779045521120.webp',
     faqs: [
       {
         question: 'Can vermicompost replace all chemical fertilizer for potatoes?',
@@ -516,7 +516,7 @@ export const BLOGS_EN: BlogPost[] = [
     date: '2026-03-18',
     tags: ['Soil Health', 'Rabi Crops', 'Seasonal Farming', 'Organic Manure'],
     regions: ['HP', 'JK', 'UP'],
-    imageUrl: '/assets/blogs/soil_revival_1779045537181.png',
+    imageUrl: '/assets/blogs/soil_revival_1779045537181.webp',
     content: `
       <p class="blog-lead">Holi marks more than colour in the fields—it often lines up with wheat cut, vegetable pull, and soil that has given everything to the last crop. Before you rush the next sowing, a short revival window with organic manure can reset biology and moisture holding for the season ahead.</p>
 
@@ -560,7 +560,7 @@ export const BLOGS_EN: BlogPost[] = [
     date: '2026-03-08',
     tags: ['Nursery', 'Himachal Pradesh', 'Case Study', 'Horticulture'],
     regions: ['HP'],
-    imageUrl: '/assets/blogs/shimla_nursery_1779045456692.png',
+    imageUrl: '/assets/blogs/shimla_nursery_1779045456692.webp',
     content: `
       <p class="blog-lead">On the outskirts of Shimla, Himalayan Greens Nursery trains young horticulture students while supplying apple rootstock and ornamental liners to local growers. Two years ago, manager Priya Thakur replaced part of their chemical-heavy potting mix with Satva vermicompost. Seedling survival and root mass became the metrics that convinced even sceptical parents visiting field days.</p>
 
@@ -595,7 +595,7 @@ export const BLOGS_EN: BlogPost[] = [
     date: '2026-03-01',
     tags: ['Farmer Story', 'Uttar Pradesh', 'Agri-Tech', 'Organic Farming'],
     regions: ['UP', 'HP', 'JK'],
-    imageUrl: '/assets/blogs/farmer_techie_1779045473488.png',
+    imageUrl: '/assets/blogs/farmer_techie_1779045473488.webp',
     content: `
       <p class="blog-lead">Arjun Verma, 28, inherited six acres near Meerut—and a smartphone full of farming YouTube tabs. Neighbours call him the “farmer techie.” His edge is not gadgets alone: he pairs soil moisture alerts with Satva vermicompost programmes on wheat, mustard rotation, and summer vegetables, then documents results in a WhatsApp group of 200 local growers.</p>
 

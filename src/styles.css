@@ -564,6 +564,12 @@ img {
     position: relative;
 }
 
+.hero-img-display {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .hero-img-container::after {
     content: '';
     position: absolute;

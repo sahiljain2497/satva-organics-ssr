@@ -1,3 +1,4 @@
+import { NgOptimizedImage } from '@angular/common';
 import { Component, LOCALE_ID, inject, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
@@ -6,7 +7,7 @@ import { LocaleService } from './core/services/locale.service';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, NgOptimizedImage],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })

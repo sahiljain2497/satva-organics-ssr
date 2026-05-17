@@ -7,6 +7,8 @@
     "build": "ng build",
     "build:prod": "ng build && npm run sitemap:generate",
     "sitemap:generate": "node scripts/generate-sitemap.mjs",
+    "images:blogs:webp": "node scripts/convert-blog-images.mjs --update-refs --remove-png",
+    "images:site": "node scripts/optimize-site-images.mjs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr": "node dist/satva-angular/server/server.mjs",
@@ -38,6 +40,7 @@
     "@types/node": "^20.17.19",
     "jsdom": "^28.0.0",
     "prettier": "^3.8.1",
+    "sharp": "^0.34.5",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
   }

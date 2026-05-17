@@ -10,7 +10,16 @@
 
   <div class="container header-inner">
     <a [href]="localPath('/')" class="logo">
-      <img src="logo_icon.png" alt="Satva Organics Logo" class="logo-img" />
+      <img
+        ngSrc="logo_icon"
+        width="68"
+        height="44"
+        sizes="(max-width: 768px) 108px, 68px"
+        ngSrcset="120w, 160w"
+        alt="Satva Organics Logo"
+        class="logo-img"
+        priority
+      />
     </a>
 
     <nav
@@ -122,7 +131,9 @@
   </div>
 </header>
 
-<router-outlet />
+<main id="main-content">
+  <router-outlet />
+</main>
 
 <!-- Footer -->
 <footer class="footer">
