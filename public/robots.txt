@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://satvaorganic.org/sitemap.xml

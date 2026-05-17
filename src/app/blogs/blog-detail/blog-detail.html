@@ -1,0 +1,30 @@
+@if (blog) {
+  <article class="blog-detail-section section" appScrollReveal>
+    <div class="container">
+      <div class="blog-header">
+        <a routerLink="/blogs" class="back-link" i18n="@@blogs.back">&larr; Back to Blogs</a>
+        <div class="blog-meta mt-4">
+          <span class="blog-date">{{ blog.date }}</span>
+          <span class="blog-author"><ng-container i18n="@@blogs.by">By</ng-container> {{ blog.author }}</span>
+        </div>
+        <h1 class="blog-title">{{ blog.title }}</h1>
+        <div class="blog-tags">
+          @for (region of blog.regions; track region) {
+            <span class="badge badge-region">{{ regionLabel(region) }}</span>
+          }
+          @for (tag of blog.tags; track tag) {
+            <span class="badge">{{ tag }}</span>
+          }
+        </div>
+      </div>
+      
+      <div class="blog-hero-image">
+        <img [src]="blog.imageUrl" [alt]="blog.title" />
+      </div>
+
+      <div class="blog-content-wrapper mt-6">
+        <div class="blog-content" [innerHTML]="blog.content"></div>
+      </div>
+    </div>
+  </article>
+}

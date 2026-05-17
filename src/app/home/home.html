@@ -1,0 +1,397 @@
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container hero-container">
+    <div class="hero-content reveal">
+      <span class="badge" i18n="@@hero.badge"
+        >India's Most Advanced Formulation</span
+      >
+      <h1 i18n="@@hero.title">
+        Pure Soil. Powerful Roots. Profitable Farming.
+      </h1>
+      <p class="hero-subtitle" i18n="@@hero.subtitle">
+        Premium-quality vermicompost enriched with scientifically selected
+        botanical extracts and beneficial microbial consortia. Designed
+        specifically for Indian soil conditions to maximize yield.
+      </p>
+      <div class="hero-btns">
+        <a
+          href="/#partners"
+          class="btn btn-primary"
+          i18n="@@hero.cta_partner"
+          >Partner With Us</a
+        >
+        <a
+          href="/#products"
+          class="btn btn-secondary"
+          i18n="@@hero.cta_products"
+          >View Products</a
+        >
+      </div>
+    </div>
+    <div class="hero-image reveal">
+      <div class="hero-img-container">
+        <img
+          src="hero.webp"
+          alt="Satva Organics Premium Vermicompost"
+          class="hero-img-display"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Difference Section -->
+<section id="difference" class="section difference-section">
+  <div class="container">
+    <h2 class="section-title text-center" i18n="@@diff.title">
+      What Makes Satva Organics Different?
+    </h2>
+    <p class="text-center section-desc" i18n="@@diff.desc">
+      Unlike ordinary vermicompost, our formula is fortified with a powerful
+      bio-active blend.
+    </p>
+
+    <div class="grid-2 difference-grid">
+      <div class="diff-card reveal">
+        <div class="icon-header">🌿</div>
+        <h3 i18n="@@diff.botanical">Botanical Protectants</h3>
+        <ul class="styled-list">
+          <li i18n="@@diff.neem">
+            <strong>Neem Extract</strong> - Natural pest repellent
+          </li>
+          <li i18n="@@diff.mustard">
+            <strong>Mustard Cake</strong> - Rich in nitrogen & phosphorus
+          </li>
+          <li i18n="@@diff.castor">
+            <strong>Castor Cake</strong> - Improves soil structure and works
+            as a natural fungicide
+          </li>
+        </ul>
+      </div>
+      <div class="diff-card reveal">
+        <div class="icon-header">🦠</div>
+        <h3 i18n="@@diff.microbial">Beneficial Microbial Consortium</h3>
+        <ul class="styled-list">
+          <li i18n="@@diff.trichoderma">
+            <strong>Trichoderma spp.</strong> - Disease suppression
+          </li>
+          <li i18n="@@diff.pseudomonas">
+            <strong>Pseudomonas fluorescens</strong> - Bacteria control
+          </li>
+          <li i18n="@@diff.azotobacter">
+            <strong>Azotobacter</strong> - Nitrogen fixation
+          </li>
+          <li i18n="@@diff.bacillus">
+            <strong>Bacillus firmus & polymyxa</strong> - Growth promotion
+          </li>
+          <li i18n="@@diff.psb">
+            <strong>PSB</strong> - Phosphate Solubilizing Bacteria
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center mt-4 reveal">
+      <span class="highlight-box" i18n="@@diff.booster"
+        >Includes Immuno-Booster Microbial Blend for Stress Resistance</span
+      >
+    </div>
+  </div>
+</section>
+
+<!-- Video Section -->
+<section class="section video-section">
+  <div class="video-container">
+    <video
+      autoplay
+      [muted]="isVideoMuted()"
+      loop
+      playsinline
+    >
+      <source src="soil-satva-video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <button
+      type="button"
+      class="video-mute-toggle"
+      (click)="toggleVideoMute()"
+      [attr.aria-label]="isVideoMuted() ? 'Unmute video' : 'Mute video'"
+      [attr.aria-pressed]="!isVideoMuted()"
+    >
+      @if (isVideoMuted()) {
+        <svg viewBox="0 0 24 24" class="video-mute-icon" aria-hidden="true">
+          <path
+            d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"
+            fill="currentColor"
+          />
+        </svg>
+      } @else {
+        <svg viewBox="0 0 24 24" class="video-mute-icon" aria-hidden="true">
+          <path
+            d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"
+            fill="currentColor"
+          />
+        </svg>
+      }
+    </button>
+  </div>
+</section>
+
+<!-- Benefits Section -->
+<section id="benefits" class="section benefits bg-light">
+  <div class="container">
+    <h2 class="section-title text-center" i18n="@@benefits.title">
+      5 Key Product Benefits
+    </h2>
+    <div class="grid-3 card-grid">
+      <div class="card benefit-card reveal">
+        <div class="card-icon">🌱</div>
+        <h3 i18n="@@ben.soil">Improves Soil Structure</h3>
+        <p i18n="@@ben.soil_desc">
+          Enhances aeration, water retention, and microbial activity for
+          long-term fertility.
+        </p>
+      </div>
+      <div class="card benefit-card reveal">
+        <div class="card-icon">🎋</div>
+        <h3 i18n="@@ben.root">Enhances Root Development</h3>
+        <p i18n="@@ben.root_desc">
+          Stimulates strong, deep root systems for better nutrient
+          absorption.
+        </p>
+      </div>
+      <div class="card benefit-card reveal">
+        <div class="card-icon">⚡</div>
+        <h3 i18n="@@ben.nutrient">Increases Nutrient Availability</h3>
+        <p i18n="@@ben.nutrient_desc">
+          Nitrogen fixation and Phosphate solubilization ensure nutrients
+          reach the plant.
+        </p>
+      </div>
+      <div class="card benefit-card reveal">
+        <div class="card-icon">🛡️</div>
+        <h3 i18n="@@ben.immunity">Boosts Plant Immunity</h3>
+        <p i18n="@@ben.immunity_desc">
+          Botanical extracts help plants resist environmental stress and
+          pathogens.
+        </p>
+      </div>
+      <div class="card benefit-card reveal">
+        <div class="card-icon">🍎</div>
+        <h3 i18n="@@ben.yield">Improves Yield & Quality</h3>
+        <p i18n="@@ben.yield_desc">
+          Better fruit size, color, uniformity, and overall crop
+          performance.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Ideal For Section -->
+<section class="section ideal-for">
+  <div class="container">
+    <h2 class="section-title text-center" i18n="@@ideal.title">
+      Ideal For All Crops
+    </h2>
+    <div class="ideal-wrapper reveal">
+      <div class="ideal-item">
+        <span class="ideal-icon">🍎</span>
+        <span i18n="@@ideal.apple">Apple Orchards (HP & Kashmir)</span>
+      </div>
+      <div class="ideal-item">
+        <span class="ideal-icon">🥦</span>
+        <span i18n="@@ideal.veg">Vegetables</span>
+      </div>
+      <div class="ideal-item">
+        <span class="ideal-icon">💐</span>
+        <span i18n="@@ideal.flowers">Floriculture</span>
+      </div>
+      <div class="ideal-item">
+        <span class="ideal-icon">🏠</span>
+        <span i18n="@@ideal.poly">Polyhouse Crops</span>
+      </div>
+      <div class="ideal-item">
+        <span class="ideal-icon">🌾</span>
+        <span i18n="@@ideal.field">Field Crops</span>
+      </div>
+      <div class="ideal-item">
+        <span class="ideal-icon">♻️</span>
+        <span i18n="@@ideal.organic">Organic Farming</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products Section -->
+<section id="products" class="section products bg-light">
+  <div class="container">
+    <h2 class="section-title text-center" i18n="@@products.title">
+      Packaging Options
+    </h2>
+    <div class="grid-4 product-grid">
+      <!-- 1kg -->
+      <div class="card product-card reveal">
+        <div class="product-img-wrapper">
+          <img src="1kg.webp" alt="1kg Pack" class="product-img" />
+        </div>
+        <h3 i18n="@@prod.1kg">1kg Pack</h3>
+        <p i18n="@@prod.1kg_desc">
+          Ideal for home pots and small plants.
+        </p>
+      </div>
+      <!-- 50kg -->
+      <div class="card product-card reveal">
+        <div class="product-img-wrapper">
+          <img src="50kg.webp" alt="50kg Bag" class="product-img" />
+        </div>
+        <h3 i18n="@@prod.50kg">50kg Bag</h3>
+        <p i18n="@@prod.50kg_desc">
+          Standard size for orchards and field application.
+        </p>
+      </div>
+      <!-- Bulk -->
+      <div class="card product-card reveal">
+        <div class="product-img-wrapper">
+          <span class="bulk-icon" style="font-size: 3rem">🚛</span>
+        </div>
+        <h3 i18n="@@prod.bulk">Bulk Supply</h3>
+        <p i18n="@@prod.bulk_desc">
+          For Institutional Buyers. Custom branding & export packaging
+          available.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Trust & Mission -->
+<section id="trust" class="section mission-trust">
+  <div class="container">
+    <div class="grid-2 gap-large">
+      <div class="mission-col reveal">
+        <h2 class="section-title left" i18n="@@mission.title">
+          Our Mission
+        </h2>
+        <p class="mission-text" i18n="@@mission.text">
+          To create India’s most trusted organic soil enhancer by combining
+          traditional vermicomposting with modern bio-microbial science.
+        </p>
+        <p class="mission-sub" i18n="@@mission.sub">
+          We aim to empower farmers with:
+        </p>
+        <ul class="check-list mt-4">
+          <li i18n="@@mission.p1">Higher productivity</li>
+          <li i18n="@@mission.p2">Lower chemical dependency</li>
+          <li i18n="@@mission.p3">Improved soil health</li>
+          <li i18n="@@mission.p4">Sustainable profitability</li>
+        </ul>
+      </div>
+      <div class="trust-col reveal">
+        <h2 class="section-title left" i18n="@@trust.title">
+          Why Farmers Trust Us?
+        </h2>
+        <div class="trust-box">
+          <div class="trust-point">
+            <span class="icon">✔</span>
+            <span i18n="@@trust.consistent">Consistent Quality</span>
+          </div>
+          <div class="trust-point">
+            <span class="icon">✔</span>
+            <span i18n="@@trust.formula"
+              >Scientifically Enriched Formula</span
+            >
+          </div>
+          <div class="trust-point">
+            <span class="icon">✔</span>
+            <span i18n="@@trust.visible">Visible Results</span>
+          </div>
+          <div class="trust-point">
+            <span class="icon">✔</span>
+            <span i18n="@@trust.value"
+              >Suitable for High-Value Crops</span
+            >
+          </div>
+          <div class="trust-point">
+            <span class="icon">✔</span>
+            <span i18n="@@trust.soil"
+              >Designed for Indian Soil Conditions</span
+            >
+          </div>
+          <div
+            class="trust-point mt-4"
+            style="background: none; padding: 0"
+          >
+            <p class="small-text" i18n="@@trust.standards">
+              <strong>Quality Standards:</strong> Made from premium organic
+              feedstock, Pathogen controlled, Lab-tested microbial
+              enrichment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Partner / Contact Form -->
+<section id="partners" class="section partners bg-primary-light">
+  <div class="container">
+    <div class="partner-wrapper reveal">
+      <div class="partner-text">
+        <h2 i18n="@@partner.title">Partner With Us</h2>
+        <p i18n="@@partner.subtitle">
+          We invite Progressive Farmers, HPMC Registered Growers,
+          Distributors, and Export Buyers to experience the power of
+          biologically enriched vermicompost.
+        </p>
+        <div class="contact-details mt-6">
+          <p class="contact-name">Mr. Udit Jain</p>
+          <a href="tel:+919340000099" class="contact-phone"
+            >+91 93400 00099</a
+          >
+          <p class="contact-loc">Mohali, India</p>
+        </div>
+      </div>
+      <form
+        [formGroup]="partnerForm"
+        (ngSubmit)="onPartnerSubmit()"
+        class="partner-form card"
+      >
+        <h3 i18n="@@form.title" class="mb-3">Get in Touch</h3>
+        <div class="form-group">
+          <label i18n="@@form.who" for="user-type">I am a...</label>
+          <select id="user-type" formControlName="userType" class="form-control">
+            <option value="Farmer">Farmer</option>
+            <option value="Distributor">Distributor</option>
+            <option value="Buyer">Export Buyer</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label i18n="@@form.name" for="partner-name">Name</label>
+          <input
+            type="text"
+            id="partner-name"
+            formControlName="name"
+            class="form-control"
+            placeholder="Your Name"
+          />
+        </div>
+        <div class="form-group">
+          <label i18n="@@form.msg" for="partner-message">Message</label>
+          <textarea
+            id="partner-message"
+            formControlName="message"
+            class="form-control"
+            rows="3"
+            placeholder="Requirement..."
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-whatsapp full-width">
+          <span class="icon">💬</span>
+          <span i18n="@@form.btn">Chat on WhatsApp</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>

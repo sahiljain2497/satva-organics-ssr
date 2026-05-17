@@ -1,0 +1,34 @@
+<section class="blog-hero">
+    <div class="container text-center">
+        <h1 class="section-title" i18n="@@blogs.title">Insights & Stories</h1>
+        <p class="section-desc" i18n="@@blogs.subtitle">Expert advice on vermicompost and organic farming for Himachal Pradesh, Jammu & Kashmir, and Uttar Pradesh.</p>
+    </div>
+</section>
+
+<section class="blog-list-section section bg-light">
+    <div class="container">
+        <div class="blog-grid">
+            @for (blog of blogs; track blog.slug) {
+                <article class="blog-card" appScrollReveal>
+                    <div class="blog-img-wrapper">
+                        <img [src]="blog.imageUrl" [alt]="blog.title" class="blog-img" loading="lazy" />
+                        <div class="blog-date-badge">{{ blog.date }}</div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-tags-mini">
+                            @for (region of blog.regions; track region) {
+                                <span class="badge-region">{{ locale.isHindi ? regionLabels[region].hi : regionLabels[region].en }}</span>
+                            }
+                            <span class="badge-mini">{{ blog.tags[0] }}</span>
+                        </div>
+                        <h3 class="blog-card-title">
+                            <a [routerLink]="['/blogs', blog.slug]">{{ blog.title }}</a>
+                        </h3>
+                        <p class="blog-card-excerpt">{{ blog.metaDescription }}</p>
+                        <a [routerLink]="['/blogs', blog.slug]" class="read-more" i18n="@@blogs.readMore">Read Full Story &rarr;</a>
+                    </div>
+                </article>
+            }
+        </div>
+    </div>
+</section>

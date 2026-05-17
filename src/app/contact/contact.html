@@ -1,0 +1,68 @@
+<section class="page-header section bg-light">
+  <div class="container text-center">
+      <h1 i18n="@@contact.title">Contact Us</h1>
+      <p class="subtitle max-w-600" i18n="@@contact.subtitle" style="margin: 0 auto;">We are based in Mohali and supply fresh organic vermicompost throughout Punjab and Himachal Pradesh.</p>
+  </div>
+</section>
+
+<section class="section contact-section">
+  <div class="container">
+      <div class="grid-2 gap-large">
+          <div class="contact-info reveal">
+              <div class="info-card card">
+                  <h3 i18n="@@contact.reach_us">Reach Us</h3>
+                  <p class="mb-4" i18n="@@contact.response_promise">We usually respond within 2 hours.</p>
+                  
+                  <a [href]="whatsappUrl" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp full-width mb-3">
+                      <span class="icon">💬</span> <span i18n="@@contact.cta_whatsapp">Chat on WhatsApp</span>
+                  </a>
+                  <a href="tel:+919340000099" class="btn btn-outline full-width">
+                      <span class="icon">📞</span> <span i18n="@@contact.call_now">Call Now</span>
+                  </a>
+
+                  <div class="details mt-6">
+                      <p><strong>📍 <span i18n="@@contact.address_label">Address:</span></strong><br>Mohali, Punjab, India</p>
+                      <p><strong>⏰ <span i18n="@@contact.hours_label">Hours:</span></strong><br>Mon - Sat: 9:00 AM - 7:00 PM</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="contact-form-wrapper reveal">
+              <div class="card">
+                  <h2 class="mb-4" i18n="@@contact.form_title">Send a Message</h2>
+                  <form [formGroup]="contactForm" (ngSubmit)="onContactSubmit()">
+                      <div class="form-group">
+                          <label i18n="@@form.name" for="c-name">Your Name</label>
+                          <input type="text" id="c-name" formControlName="name" class="form-control" required i18n-placeholder="@@placeholder.name">
+                      </div>
+                      <div class="form-group">
+                          <label i18n="@@form.phone" for="c-phone">Phone Number</label>
+                          <input type="tel" id="c-phone" formControlName="phone" class="form-control" required i18n-placeholder="@@placeholder.phone">
+                      </div>
+                      <div class="form-group">
+                          <label i18n="@@form.requirement" for="c-req">Requirement</label>
+                          <select id="c-req" formControlName="requirement" class="form-control">
+                              <option value="Farmer/Bulk" i18n="@@opt.farmer_bulk">Farmer / Bulk Order</option>
+                              <option value="Home Garden" i18n="@@opt.home_garden">Home Garden</option>
+                              <option value="Nursery" i18n="@@opt.nursery_supply">Nursery Supply</option>
+                              <option value="Other" i18n="@@opt.other">Other</option>
+                          </select>
+                      </div>
+                      <div class="form-group">
+                          <label i18n="@@form.message" for="c-message">Message / Location</label>
+                          <textarea id="c-message" formControlName="message" class="form-control" rows="3" i18n-placeholder="@@placeholder.message"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary full-width" i18n="@@form.send_btn">Send Message (WhatsApp)</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Map Placeholder -->
+<section class="section map-section">
+  <div class="container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.7814716042235!2d76.7098025!3d30.7526393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fefd39af67fad%3A0x65b96461975ec8c4!2sSatva%20Organics%20Vermicompost!5e0!3m2!1sen!2sin!4v1771392551483!5m2!1sen!2sin" width="100%" height="450" style="border:0; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
