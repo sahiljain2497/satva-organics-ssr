@@ -24,6 +24,7 @@ module.exports = {
       max_memory_restart: '512M',
       env: {
         NODE_ENV: 'production',
+        PM2: 'true',
         PORT: 4000,
       },
       error_file: './logs/satva-ssr-error.log',

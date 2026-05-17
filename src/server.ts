@@ -28,9 +28,16 @@ app.use((req, res, next) => {
     .catch(next);
 });
 
-if (isMainModule(import.meta.url)) {
+const isPM2 = process.env['PM2'] === 'true';
+const isMain = isMainModule(import.meta.url);
+
+if (isMain || isPM2) {
   const port = Number(process.env['PORT']) || 4000;
-  app.listen(port, () => {
+  app.listen(port, (error) => {
+    if (error) {
+      throw error;
+    }
+
     console.log(`Server listening on http://localhost:${port}`);
   });
 }
