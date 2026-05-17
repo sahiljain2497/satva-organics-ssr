@@ -32,37 +32,6 @@ export function localBusinessSchema(
   };
 }
 
-export function productSchemas(): object[] {
-  const products = [
-    {
-      name: 'Satva Vermicompost 1kg Pack',
-      description: 'Ideal for home pots and small plants.',
-    },
-    {
-      name: 'Satva Vermicompost 50kg Bag',
-      description: 'Standard size for orchards and field application.',
-    },
-    {
-      name: 'Satva Vermicompost Bulk Supply',
-      description: 'Bulk organic fertilizer for institutional and farm buyers.',
-    },
-  ];
-
-  return products.map((p) => ({
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: p.name,
-    description: p.description,
-    brand: { '@type': 'Brand', name: 'Satva Organics' },
-    image: DEFAULT_OG_IMAGE,
-    offers: {
-      '@type': 'Offer',
-      availability: 'https://schema.org/InStock',
-      url: `${SITE_URL}/#products`,
-    },
-  }));
-}
-
 export function breadcrumbSchema(
   items: { name: string; path: string }[],
 ): object {

@@ -5,7 +5,7 @@ import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { SITE_URL } from '../core/constants/seo.constants';
 import { LocaleService } from '../core/services/locale.service';
 import { SeoService } from '../core/services/seo.service';
-import { localBusinessSchema, productSchemas } from '../core/services/seo-schema';
+import { localBusinessSchema } from '../core/services/seo-schema';
 import { WhatsAppService } from '../core/services/whatsapp.service';
 import { ScrollRevealDirective } from '../shared/directives/scroll-reveal.directive';
 
@@ -36,7 +36,7 @@ export class Home {
         'Satva Organics’ scientifically-enriched vermicompost boosts yields in orchards and fields. Progressive farmers across Himachal, J&K, and UP trust our premium organic fertilizer with botanical extracts and beneficial microbes.',
       canonicalUrl: SITE_URL,
     });
-    this.seo.injectJsonLd([localBusinessSchema(), ...productSchemas()]);
+    this.seo.injectJsonLd(localBusinessSchema());
   }
 
   protected toggleVideoMute(): void {
