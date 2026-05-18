@@ -39,6 +39,7 @@
             class="nav-dropdown-trigger"
             [attr.aria-expanded]="isBuyersDropdownOpen()"
             aria-haspopup="true"
+            i18n="@@nav.forBuyers"
             (click)="toggleBuyersDropdown()"
           >
             For Buyers
@@ -46,35 +47,55 @@
           </button>
           <ul class="nav-dropdown-menu">
             <li>
-              <a [href]="localPath('/bulk-vermicompost')" (click)="closeMobileNav()"
+              <a
+                [href]="localPath('/bulk-vermicompost')"
+                i18n="@@buyer.bulk"
+                (click)="closeMobileNav()"
                 >Bulk Vermicompost</a
               >
             </li>
             <li>
-              <a [href]="localPath('/apple-orchards')" (click)="closeMobileNav()"
+              <a
+                [href]="localPath('/apple-orchards')"
+                i18n="@@buyer.apple"
+                (click)="closeMobileNav()"
                 >Apple Orchards</a
               >
             </li>
             <li>
-              <a [href]="localPath('/polyhouse-farmers')" (click)="closeMobileNav()"
+              <a
+                [href]="localPath('/polyhouse-farmers')"
+                i18n="@@buyer.poly"
+                (click)="closeMobileNav()"
                 >Polyhouse Farmers</a
               >
             </li>
             <li>
-              <a [href]="localPath('/nurseries')" (click)="closeMobileNav()">Nurseries</a>
+              <a [href]="localPath('/nurseries')" i18n="@@buyer.nursery" (click)="closeMobileNav()"
+                >Nurseries</a
+              >
             </li>
             <li>
-              <a [href]="localPath('/dealer-program')" (click)="closeMobileNav()"
+              <a
+                [href]="localPath('/dealer-program')"
+                i18n="@@buyer.dealer"
+                (click)="closeMobileNav()"
                 >Dealer Program</a
               >
             </li>
             <li>
-              <a [href]="localPath('/quality-lab-reports')" (click)="closeMobileNav()"
+              <a
+                [href]="localPath('/quality-lab-reports')"
+                i18n="@@buyer.quality"
+                (click)="closeMobileNav()"
                 >Quality &amp; Lab Reports</a
               >
             </li>
             <li>
-              <a [href]="localPath('/packaging-sizes')" (click)="closeMobileNav()"
+              <a
+                [href]="localPath('/packaging-sizes')"
+                i18n="@@buyer.packaging"
+                (click)="closeMobileNav()"
                 >Packaging Sizes</a
               >
             </li>
@@ -213,15 +234,29 @@
       </ul>
     </div>
     <div class="footer-col">
-      <h4 class="footer-heading">For Buyers</h4>
+      <h4 class="footer-heading" i18n="@@nav.forBuyers">For Buyers</h4>
       <ul class="footer-links">
-        <li><a [href]="localPath('/bulk-vermicompost')">Bulk Vermicompost</a></li>
-        <li><a [href]="localPath('/apple-orchards')">Apple Orchards</a></li>
-        <li><a [href]="localPath('/polyhouse-farmers')">Polyhouse Farmers</a></li>
-        <li><a [href]="localPath('/nurseries')">Nurseries</a></li>
-        <li><a [href]="localPath('/dealer-program')">Dealer Program</a></li>
-        <li><a [href]="localPath('/quality-lab-reports')">Quality &amp; Lab Reports</a></li>
-        <li><a [href]="localPath('/packaging-sizes')">Packaging Sizes</a></li>
+        <li>
+          <a [href]="localPath('/bulk-vermicompost')" i18n="@@buyer.bulk">Bulk Vermicompost</a>
+        </li>
+        <li>
+          <a [href]="localPath('/apple-orchards')" i18n="@@buyer.apple">Apple Orchards</a>
+        </li>
+        <li>
+          <a [href]="localPath('/polyhouse-farmers')" i18n="@@buyer.poly">Polyhouse Farmers</a>
+        </li>
+        <li><a [href]="localPath('/nurseries')" i18n="@@buyer.nursery">Nurseries</a></li>
+        <li>
+          <a [href]="localPath('/dealer-program')" i18n="@@buyer.dealer">Dealer Program</a>
+        </li>
+        <li>
+          <a [href]="localPath('/quality-lab-reports')" i18n="@@buyer.quality"
+            >Quality &amp; Lab Reports</a
+          >
+        </li>
+        <li>
+          <a [href]="localPath('/packaging-sizes')" i18n="@@buyer.packaging">Packaging Sizes</a>
+        </li>
       </ul>
     </div>
     <div class="footer-col">
