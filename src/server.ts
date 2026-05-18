@@ -30,6 +30,20 @@ app.use((req, res, next) => {
     .catch(next);
 });
 
+/** Redirect unknown HTML routes to the locale homepage (avoids Express "Cannot GET"). */
+function homepageForRequest(url: string): string {
+  const path = (url.split('?')[0] ?? '/').replace(/\/+$/, '') || '/';
+  return path === '/hi' || path.startsWith('/hi/') ? '/hi/' : '/';
+}
+
+app.use((req, res) => {
+  if (/\.[a-z0-9]+$/i.test(req.path)) {
+    res.status(404).end();
+    return;
+  }
+  res.redirect(302, homepageForRequest(req.url));
+});
+
 const isPM2 = process.env['PM2'] === 'true';
 const isMain = isMainModule(import.meta.url);
 

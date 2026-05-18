@@ -23,4 +23,5 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./pan-india-supply/pan-india-supply').then((m) => m.PanIndiaSupply),
   },
+  { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
