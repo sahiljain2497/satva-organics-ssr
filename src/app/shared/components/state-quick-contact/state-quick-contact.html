@@ -32,14 +32,37 @@
         </p>
       </div>
 
-      <form class="state-quick-contact-form card" [formGroup]="inquiryForm" (ngSubmit)="onSubmit()">
+      <form class="state-quick-contact-form card" [formGroup]="inquiryForm" (ngSubmit)="onSubmit()" novalidate>
+        @if (submitAttempted() && inquiryForm.invalid) {
+          <div class="form-alert" role="alert">
+            Please enter your name and phone number before sending.
+          </div>
+        }
         <div class="form-group">
           <label i18n="@@form.name" for="sq-name">Your Name</label>
-          <input type="text" id="sq-name" formControlName="name" class="form-control" required />
+          <input
+            type="text"
+            id="sq-name"
+            formControlName="name"
+            class="form-control"
+            [class.is-invalid]="fieldError('name')"
+          />
+          @if (fieldError('name')) {
+            <span class="form-error">Please enter your name</span>
+          }
         </div>
         <div class="form-group">
           <label i18n="@@form.phone" for="sq-phone">Phone Number</label>
-          <input type="tel" id="sq-phone" formControlName="phone" class="form-control" required />
+          <input
+            type="tel"
+            id="sq-phone"
+            formControlName="phone"
+            class="form-control"
+            [class.is-invalid]="fieldError('phone')"
+          />
+          @if (fieldError('phone')) {
+            <span class="form-error">Please enter your phone number</span>
+          }
         </div>
         <div class="form-group">
           <label i18n="@@form.message" for="sq-message">Message / Location</label>

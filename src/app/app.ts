@@ -18,6 +18,7 @@ export class App {
   protected readonly whatsappUrl = WHATSAPP_BASE_URL;
   protected readonly isMobileNavOpen = signal(false);
   protected readonly isAreasDropdownOpen = signal(false);
+  protected readonly isBuyersDropdownOpen = signal(false);
   protected readonly langToggleLabel =
     this.localeId === 'hi' ? 'हिंदी | EN' : 'EN | हिंदी';
 
@@ -36,6 +37,7 @@ export class App {
   protected closeMobileNav(): void {
     this.isMobileNavOpen.set(false);
     this.isAreasDropdownOpen.set(false);
+    this.isBuyersDropdownOpen.set(false);
     this.setBodyScrollLocked(false);
   }
 
@@ -48,6 +50,18 @@ export class App {
 
   protected toggleAreasDropdown(): void {
     this.isAreasDropdownOpen.update((open) => !open);
+    if (!this.isAreasDropdownOpen()) {
+      return;
+    }
+    this.isBuyersDropdownOpen.set(false);
+  }
+
+  protected toggleBuyersDropdown(): void {
+    this.isBuyersDropdownOpen.update((open) => !open);
+    if (!this.isBuyersDropdownOpen()) {
+      return;
+    }
+    this.isAreasDropdownOpen.set(false);
   }
 
   protected toggleLanguage(): void {

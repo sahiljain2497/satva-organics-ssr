@@ -20,6 +20,10 @@ export interface BlogPost {
   faqs?: BlogFaq[];
   /** When set, shown in schema as dateModified for upgraded posts. */
   updatedDate?: string;
+  /** Primary buyer-intent page linked from this article. */
+  salesPagePath?: string;
+  /** Label for the contextual CTA button on the sales page. */
+  salesCtaLabel?: string;
 }
 
 export const BLOG_REGION_LABELS: Record<BlogRegion, { en: string; hi: string }> = {

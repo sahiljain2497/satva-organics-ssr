@@ -2,15 +2,17 @@ import { BlogPost } from './blog-post.model';
 
 export const BLOGS_EN: BlogPost[] = [
   {
-    title: 'How This Shimla Apple Farmer Rebuilt His Orchard with Satva Vermicompost',
+    title: 'Shimla Apple Orchard Field Guide: Vermicompost Timing & Dosage',
     slug: 'hp-apple-farmer-success-satva-vermicompost',
     metaDescription:
-      'Discover how a Shimla apple grower revived a tired orchard with Satva Organics vermicompost—better soil, fuller blooms, and fruit that commands premium mandi rates in Himachal Pradesh.',
+      'Field guide for Himachal apple growers: how vermicompost supports soil recovery, bloom, and orchard nutrition—with practical timing and dosage starting points.',
     author: 'Satva Organics',
     date: '2026-05-17',
     updatedDate: '2026-05-18',
-    tags: ['Case Study', 'Apple Farming', 'Himachal Pradesh', 'Organic Farming'],
+    tags: ['Field Guide', 'Apple Farming', 'Himachal Pradesh', 'Organic Farming'],
     regions: ['HP'],
+    salesPagePath: '/apple-orchards',
+    salesCtaLabel: 'Get Apple Orchard Dosage Guide',
     imageUrl: '/assets/blogs/hp_apple_farmer_1778999525529.webp',
     faqs: [
       {
@@ -30,7 +32,7 @@ export const BLOGS_EN: BlogPost[] = [
       },
     ],
     content: `
-      <p class="blog-lead">In 2019, Rajinder Singh’s two-acre Royal Delicious block near Shimla looked tired—small fruit, pale colour, and soil that had stopped responding to DAP. By 2025, the same orchard was the talk of the panchayat. The only major change: Satva Organics premium vermicompost applied with patience and proper timing.</p>
+      <p class="blog-lead"><em>Field guide / example scenario.</em> Names and outcomes below illustrate a typical orchard transition pattern—not a guaranteed result for every block. In 2019, Rajinder Singh’s two-acre Royal Delicious block near Shimla looked tired—small fruit, pale colour, and soil that had stopped responding to DAP. By 2025, after a biology-first plan with Satva Organics vermicompost and proper timing, his block showed stronger bloom and better fruit colour in local mandi grading.</p>
 
       <aside class="region-callout region-hp">
         <span class="region-label">Himachal Pradesh</span>
@@ -59,8 +61,8 @@ export const BLOGS_EN: BlogPost[] = [
         <li><strong>Monsoon prep:</strong> Combined with cover advice from his KVK contact—see our <a href="/blogs/preparing-fields-monsoon-organic-manure">monsoon farming hacks</a> for timing tips.</li>
       </ol>
 
-      <h2>Results Over Two Seasons</h2>
-      <p>After the first season, Rajinder noticed greener flush and denser bloom clusters. By the second season, fruit size and colour improved enough to fetch better rates at the mandi. He also cut back on chemical top-dressing without sacrificing yield—saving on input cost while building soil for the long term.</p>
+      <h2>Observed Changes Over Two Seasons</h2>
+      <p>After the first season, Rajinder reported greener flush and denser bloom clusters. By the second season, fruit size and colour improved in his mandi grading. He also reduced chemical top-dressing while maintaining comparable yield in his records—saving on input cost while building soil for the long term. Your results will depend on soil test, tree age, and local weather.</p>
       <blockquote><em>"My grandfather farmed this land with cattle manure. Satva vermicompost brought that living soil feeling back—but with science we can repeat every year,"</em> Rajinder says.</blockquote>
 
       <h2>How to Replicate This in Your Orchard</h2>
@@ -79,12 +81,14 @@ export const BLOGS_EN: BlogPost[] = [
         <p>Incorporated compost binds to soil particles and releases nutrients slowly—it is far less prone to single-storm loss than soluble urea.</p>
       </div>
 
-      <p class="blog-cta"><strong>Ready to revive your orchard?</strong> Order Satva Vermicompost (1 kg, 50 kg, or bulk) or <a href="/contact">contact us</a> for Shimla, Solan, and Kinnaur supply guidance.</p>
+      <p class="blog-cta"><strong>Ready to plan your orchard season?</strong> See our <a href="/apple-orchards">apple orchard guide</a>, <a href="/bulk-vermicompost">bulk supply page</a>, or <a href="/contact">contact us</a> for Shimla, Solan, and Kinnaur guidance.</p>
     `,
   },
   {
     title: 'Using Vermicompost in Vegetable Farming: Dos and Don’ts for Maximum Yield',
     slug: 'vermicompost-vegetable-farming-dos-donts',
+    salesPagePath: '/polyhouse-farmers',
+    salesCtaLabel: 'Ask for Polyhouse Crop Guide',
     metaDescription:
       'Regional guide for UP, Himachal Pradesh, and J&K: best practices for vermicompost in tomatoes, cabbage, polyhouse crops, and open-field vegetables.',
     author: 'Satva Organics',
@@ -226,7 +230,7 @@ export const BLOGS_EN: BlogPost[] = [
       <p>Interplant marigold or neem-border rows. Avoid same-day chemical mixes that kill microbes.</p>
 
       <h2>Hack 5: Drainage on Sloped Orchards</h2>
-      <p>Contour trenches prevent waterlogging and root rot on steep apple blocks. See our <a href="/blogs/hp-apple-farmer-success-satva-vermicompost">apple case study</a>.</p>
+      <p>Contour trenches prevent waterlogging and root rot on steep apple blocks. See our <a href="/apple-orchards">apple orchard guide</a> and <a href="/blogs/hp-apple-farmer-success-satva-vermicompost">field guide</a>.</p>
 
       <p class="blog-cta"><strong>Monsoon-ready?</strong> Stock Satva Vermicompost—<a href="/contact">request supply</a> for Himachal, J&amp;K, and UP.</p>
     `,
@@ -429,7 +433,7 @@ export const BLOGS_EN: BlogPost[] = [
       <p>Lock nutrients before July rains—see our <a href="/blogs/preparing-fields-monsoon-organic-manure">5 monsoon hacks</a>.</p>
 
       <h2>2. Apple Orchard Drip-Line Dressing</h2>
-      <p>5–8 kg per mature tree in spring; lighter before fruit set. <a href="/blogs/hp-apple-farmer-success-satva-vermicompost">Apple case study</a>.</p>
+      <p>5–8 kg per mature tree in spring; lighter before fruit set. <a href="/apple-orchards">Apple orchard guide</a>.</p>
 
       <h2>3. Vegetable Transplant Bed Mix</h2>
       <p>2–3 tonnes/acre worked into beds—details in our <a href="/blogs/vermicompost-vegetable-farming-dos-donts">dos and don’ts guide</a>.</p>
@@ -453,7 +457,7 @@ export const BLOGS_EN: BlogPost[] = [
       <p>1 kg Satva pack per few large containers—<a href="/blogs/lucknow-home-garden-diy-vermicompost">Lucknow DIY guide</a>.</p>
 
       <h2>10. Nursery Stock & Sapling Raising</h2>
-      <p>Shimla nurseries use vermicompost for uniform liners—<a href="/blogs/shimla-nursery-satva-vermicompost-case-study">nursery case study</a>.</p>
+      <p>Shimla nurseries use vermicompost for uniform liners—see our <a href="/nurseries">nursery supply page</a> and <a href="/blogs/shimla-nursery-satva-vermicompost-case-study">nursery field note</a>.</p>
 
       <p class="blog-cta"><strong>Which use fits your farm?</strong> <a href="/contact">Message Satva Organics</a> for crop-specific rates and supply.</p>
     `,
@@ -552,17 +556,20 @@ export const BLOGS_EN: BlogPost[] = [
     `,
   },
   {
-    title: 'A Shimla Nursery Grows Future Farmers with Satva Vermicompost',
+    title: 'Shimla Nursery Field Note: Vermicompost in Potting Mix',
     slug: 'shimla-nursery-satva-vermicompost-case-study',
     metaDescription:
-      'How a Shimla plant nursery improved seedling vigour and trainee programmes using Satva vermicompost—rates for liners, apples, and forestry saplings.',
+      'Field note on how a Shimla nursery uses Satva vermicompost in potting media for liners, apples, and forestry saplings—example mix ratios and dispatch prep.',
     author: 'Satva Organics',
     date: '2026-03-08',
-    tags: ['Nursery', 'Himachal Pradesh', 'Case Study', 'Horticulture'],
+    updatedDate: '2026-05-18',
+    tags: ['Nursery', 'Himachal Pradesh', 'Field Note', 'Horticulture'],
     regions: ['HP'],
+    salesPagePath: '/nurseries',
+    salesCtaLabel: 'Request Nursery Supply Quote',
     imageUrl: '/assets/blogs/shimla_nursery_1779045456692.webp',
     content: `
-      <p class="blog-lead">On the outskirts of Shimla, Himalayan Greens Nursery trains young horticulture students while supplying apple rootstock and ornamental liners to local growers. Two years ago, manager Priya Thakur replaced part of their chemical-heavy potting mix with Satva vermicompost. Seedling survival and root mass became the metrics that convinced even sceptical parents visiting field days.</p>
+      <p class="blog-lead"><em>Field note / example scenario.</em> On the outskirts of Shimla, Himalayan Greens Nursery trains young horticulture students while supplying apple rootstock and ornamental liners. Manager Priya Thakur replaced part of their chemical-heavy potting mix with Satva vermicompost and tracked seedling survival and root mass at dispatch—useful metrics for your own nursery trials.</p>
 
       <aside class="region-callout region-hp">
         <span class="region-label">Shimla, Himachal Pradesh</span>
@@ -581,9 +588,9 @@ export const BLOGS_EN: BlogPost[] = [
       </ul>
 
       <h2>Outcomes</h2>
-      <p>Survival after transplant improved enough that repeat orders from apple growers increased. The nursery now markets “bio-ready” liners as a premium line—paired with advice to continue organic care in the field using our <a href="/blogs/hp-apple-farmer-success-satva-vermicompost">apple grower case study</a>.</p>
+      <p>Survival after transplant improved in their tracking, and repeat orders from apple growers increased. The nursery markets “bio-ready” liners as a premium line—paired with advice to continue organic care in the field using our <a href="/apple-orchards">apple orchard guide</a>.</p>
 
-      <p class="blog-cta"><strong>Nursery or KVK partnership?</strong> <a href="/contact">Contact Satva Organics</a> for bulk vermicompost and training support in HP.</p>
+      <p class="blog-cta"><strong>Nursery or KVK partnership?</strong> See <a href="/nurseries">nursery bulk supply</a> or <a href="/contact">contact Satva Organics</a> for HP delivery.</p>
     `,
   },
   {
@@ -617,9 +624,9 @@ export const BLOGS_EN: BlogPost[] = [
       </ul>
 
       <h2>Beyond UP: Stories in HP and JK</h2>
-      <p>Arjun’s group shares links to our <a href="/blogs/hp-apple-farmer-success-satva-vermicompost">Himachal apple story</a> and <a href="/blogs/kashmir-saffron-vermicompost-yield-guide">Kashmir saffron guide</a>—proof that organic transition works across crops and climates.</p>
+      <p>Arjun’s group shares links to our <a href="/apple-orchards">Himachal apple guide</a>, <a href="/bulk-vermicompost">bulk supply page</a>, and <a href="/blogs/kashmir-saffron-vermicompost-yield-guide">Kashmir saffron guide</a>—examples of organic transition across crops and climates.</p>
 
-      <p class="blog-cta"><strong>Want to run a documented trial?</strong> <a href="/contact">Partner with Satva Organics</a>—we support field demos and bulk supply across North India.</p>
+      <p class="blog-cta"><strong>Want to run a documented trial?</strong> <a href="/bulk-vermicompost">Request bulk quote</a> or <a href="/contact">contact Satva Organics</a> for North India supply.</p>
     `,
   },
 ];

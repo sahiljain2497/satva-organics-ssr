@@ -1,0 +1,162 @@
+{
+  "en": {
+    "productCta": "Choose Pack & Get Quote",
+    "whatsappCta": "Request Bulk Quote on WhatsApp",
+    "badge": "Bulk Supply",
+    "heroTitle": "Bulk Vermicompost Supplier — 50 kg Bags for Farmers & Dealers",
+    "heroLead": "Satva Organics supplies premium vermicompost in 50 kg farmer bags and bulk quantities for apple orchards, polyhouse farms, nurseries, agri-input dealers, FPOs, and institutional buyers across North India.",
+    "sectionsBeforeTable": [
+      {
+        "title": "Who Bulk Vermicompost Is For",
+        "paragraphs": [
+          "Bulk buyers need consistent quality, clean packaging, and reliable repeat supply—not just a low price per bag. Satva serves orchard owners, nursery operators, protected cultivation farms, agri retailers, cooperatives, and distributors who move 50 kg bags or tonnage regularly.",
+          "Our vermicompost is enriched with beneficial microbes and botanical extracts (neem, mustard cake) for stronger root-zone biology. Each batch is matured, screened, and packed for farm and dealer use."
+        ]
+      },
+      {
+        "title": "Quality Checklist Before You Buy in Bulk",
+        "paragraphs": [
+          "When comparing suppliers, check maturity, moisture, smell, texture, and whether lab or batch documentation is available. Avoid wet, unfinished, or foul-smelling compost that can harm roots or attract pests."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Typical Bulk Use Cases",
+      "headers": ["Buyer type", "Pack format", "Typical use"],
+      "rows": [
+        ["Apple / fruit orchards", "50 kg bags", "Per-tree application under canopy"],
+        ["Polyhouse vegetables", "50 kg or bulk", "Bed prep and repeat top-dress"],
+        ["Nurseries", "50 kg or bulk", "Potting mix and tray media"],
+        ["Agri retailers / dealers", "50 kg backend stock", "Resale to local farmers"],
+        ["FPOs / cooperatives", "Bulk tonnes", "Member farmer programmes"]
+      ],
+      "intro": "Exact quantity depends on crop, area, and soil test. We help you choose the right pack after a short enquiry."
+    },
+    "supply": {
+      "title": "Packaging & Ordering",
+      "paragraphs": ["Available formats:"],
+      "items": [
+        { "label": "1 kg:", "text": "Trials and home gardens." },
+        { "label": "50 kg bags:", "text": "Standard for farms and agri stores." },
+        { "label": "Bulk:", "text": "Tonnes for large farms, FPOs, and distributors—freight on enquiry." }
+      ]
+    },
+    "bestSuited": {
+      "title": "Also See",
+      "items": [
+        { "text": "National wholesale and OEM supply on our Pan-India page" },
+        { "text": "Pack size guide for retail vs farm vs dealer" },
+        { "text": "Quality checks and lab documentation" }
+      ]
+    },
+    "faqTitle": "Bulk Vermicompost — FAQs",
+    "faqs": [
+      {
+        "question": "What is the minimum order for 50 kg bags?",
+        "answer": "We discuss minimum quantity based on your district and freight. Many farm and dealer orders start from a few bags; bulk tonne orders have separate MOQ. WhatsApp us with your location for a quick quote."
+      },
+      {
+        "question": "Do you supply outside Himachal, J&K, and UP?",
+        "answer": "Yes. Our core markets are North India, and we also serve pan-India wholesale buyers through coordinated freight."
+      },
+      {
+        "question": "How do I know the compost is mature enough?",
+        "answer": "Satva batches are cured and screened before packing. We can share quality documentation on request. See our quality & lab reports page for what we check on every lot."
+      }
+    ],
+    "links": [
+      { "path": "/pan-india-supply", "label": "Pan-India Wholesale" },
+      { "path": "/packaging-sizes", "label": "Pack Sizes" },
+      { "path": "/quality-lab-reports", "label": "Quality & Lab Reports" },
+      { "path": "/dealer-program", "label": "Dealer Program" }
+    ],
+    "cta": { "title": "Request a Bulk Quote", "description": "Tell us your district, quantity range, and crop—we usually reply within 2 hours." },
+    "seo": {
+      "title": "Bulk Vermicompost Supplier - 50 kg Bags for Farmers & Dealers | Satva",
+      "description": "Buy bulk vermicompost and 50 kg farmer bags from Satva Organics. Suitable for orchards, nurseries, polyhouse growers, agri dealers, and large farms."
+    },
+    "schemaDescription": "Bulk vermicompost and 50 kg bag supplier for farms, nurseries, and agri dealers in India.",
+    "areaServed": ["India"],
+    "breadcrumbName": "Bulk Vermicompost"
+  },
+  "hi": {
+    "productCta": "पैक चुनें और कोट लें",
+    "whatsappCta": "थोक कोट के लिए व्हाट्सप्प करें",
+    "badge": "थोक सप्लाई",
+    "heroTitle": "थोक वर्मीकम्पोस्ट सप्लायर — किसानों और डीलरों के लिए 50 किलो बैग",
+    "heroLead": "सत्व ऑर्गेनिक्स सेब बागान, पॉलीहाउस, नर्सरी, एग्री डीलर, FPO और संस्थागत खरीदारों के लिए 50 किलो बैग और थोक मात्रा में प्रीमियम वर्मीकम्पोस्ट सप्लाई करता है।",
+    "sectionsBeforeTable": [
+      {
+        "title": "थोक वर्मीकम्पोस्ट किसके लिए",
+        "paragraphs": [
+          "थोक खरीदारों को सुसंगत गुणवत्ता, साफ पैकेजिंग और भरोसेमंद दोहराई आपूर्ति चाहिए। सत्व बागान, नर्सरी, पॉलीहाउस, एग्री रिटेलर, सहकारी और वितरकों की सेवा करता है।",
+          "हमारा वर्मीकम्पोस्ट लाभकारी सूक्ष्मजीवों और वनस्पति अर्क से समृद्ध है। हर बैच पका, छाना और पैक किया जाता है।"
+        ]
+      },
+      {
+        "title": "थोक खरीदते समय गुणवत्ता जाँच",
+        "paragraphs": [
+          "पकापन, नमी, गंध, बनावट और लैब/बैच दस्तावेज़ देखें। अधिक नम या अधपका खाद जड़ों को नुकसान पहुँचा सकता है।"
+        ]
+      }
+    ],
+    "table": {
+      "title": "थोक उपयोग के उदाहरण",
+      "headers": ["खरीदार प्रकार", "पैक", "उपयोग"],
+      "rows": [
+        ["सेब / फल बागान", "50 किलो बैग", "पेड़ के नीचे"],
+        ["पॉलीहाउस सब्जी", "50 किलो या थोक", "बेड तैयारी"],
+        ["नर्सरी", "50 किलो या थोक", "पॉटिंग मिक्स"],
+        ["एग्री डीलर", "50 किलो स्टॉक", "किसानों को रीसेल"],
+        ["FPO / सहकारी", "थोक टन", "सदस्य किसान"]
+      ],
+      "intro": "मात्रा फसल, क्षेत्र और मिट्टी परीक्षण पर निर्भर करती है।"
+    },
+    "supply": {
+      "title": "पैकेजिंग और ऑर्डर",
+      "paragraphs": ["उपलब्ध प्रारूप:"],
+      "items": [
+        { "label": "1 किलो:", "text": "ट्रायल और होम गार्डन।" },
+        { "label": "50 किलो बैग:", "text": "खेत और एग्री स्टोर के लिए मानक।" },
+        { "label": "थोक:", "text": "बड़े खेत और वितरक—फ्रेट पूछताछ पर।" }
+      ]
+    },
+    "bestSuited": {
+      "title": "यह भी देखें",
+      "items": [
+        { "text": "पैन-इंडिया थोक और OEM सप्लाई" },
+        { "text": "पैक साइज़ गाइड" },
+        { "text": "गुणवत्ता और लैब रिपोर्ट" }
+      ]
+    },
+    "faqTitle": "थोक वर्मीकम्पोस्ट — अक्सर पूछे जाने वाले प्रश्न",
+    "faqs": [
+      {
+        "question": "50 किलो बैग का न्यूनतम ऑर्डर?",
+        "answer": "जिले और फ्रेट के अनुसार MOQ तय होता है। स्थान बताकर व्हाट्सप्प पर कोट लें।"
+      },
+      {
+        "question": "क्या HP, J&K, UP के बाहर भी सप्लाई?",
+        "answer": "हाँ। उत्तर भारत के साथ पैन-इंडिया थोक खरीदारों की भी सेवा।"
+      },
+      {
+        "question": "पकापन कैसे जाँचें?",
+        "answer": "सत्व बैच पैकिंग से पहले पकाए और छाने जाते हैं। अनुरोध पर गुणवत्ता दस्तावेज़ साझा कर सकते हैं।"
+      }
+    ],
+    "links": [
+      { "path": "/pan-india-supply", "label": "पैन-इंडिया थोक" },
+      { "path": "/packaging-sizes", "label": "पैक साइज़" },
+      { "path": "/quality-lab-reports", "label": "गुणवत्ता रिपोर्ट" },
+      { "path": "/dealer-program", "label": "डीलर प्रोग्राम" }
+    ],
+    "cta": { "title": "थोक कोट माँगें", "description": "जिला, मात्रा और फसल बताएँ—आमतौर पर 2 घंटे में जवाब।" },
+    "seo": {
+      "title": "थोक वर्मीकम्पोस्ट सप्लायर - 50 किलो बैग | सत्व ऑर्गेनिक्स",
+      "description": "सत्व से थोक वर्मीकम्पोस्ट और 50 किलो बैग खरीदें। बागान, नर्सरी, पॉलीहाउस और एग्री डीलर के लिए उपयुक्त।"
+    },
+    "schemaDescription": "भारत में खेत, नर्सरी और एग्री डीलर के लिए थोक वर्मीकम्पोस्ट सप्लायर।",
+    "areaServed": ["India"],
+    "breadcrumbName": "थोक वर्मीकम्पोस्ट"
+  }
+}

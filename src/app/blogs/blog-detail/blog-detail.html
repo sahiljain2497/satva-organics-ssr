@@ -24,6 +24,14 @@
 
       <div class="blog-content-wrapper mt-6">
         <div class="blog-content" [innerHTML]="blog.content"></div>
+        @if (blog.salesPagePath && blog.salesCtaLabel) {
+          <div class="blog-sales-cta card">
+            <p>Need crop-wise guidance or bulk supply?</p>
+            <a [routerLink]="locale.localPath(blog.salesPagePath)" class="btn btn-primary">{{
+              blog.salesCtaLabel
+            }}</a>
+          </div>
+        }
       </div>
     </div>
   </article>

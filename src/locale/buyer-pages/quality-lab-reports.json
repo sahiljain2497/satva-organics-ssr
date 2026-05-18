@@ -1,0 +1,136 @@
+{
+  "en": {
+    "productCta": "Request Batch Details",
+    "whatsappCta": "Request Latest Batch Details",
+    "badge": "Quality",
+    "heroTitle": "Vermicompost Quality Checks & Lab Reports | Satva Organics",
+    "heroLead": "See how Satva checks every lot: moisture range, maturity, screening, pathogen control, and microbial enrichment. Buyers and dealers can request batch documentation before large orders.",
+    "sectionsBeforeTable": [
+      {
+        "title": "What We Check on Every Lot",
+        "paragraphs": [
+          "Premium vermicompost is not just about NPK numbers on a label. We monitor feedstock quality, composting and curing time, screening, moisture before packing, and enrichment with beneficial microbes and botanical extracts.",
+          "Agricultural and organic marketing claims must follow applicable Indian rules. We share documentation we have; certification status is discussed transparently on enquiry."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Quality Parameters Buyers Should Ask Any Supplier",
+      "headers": ["Parameter", "What good looks like", "Why it matters"],
+      "rows": [
+        ["Maturity", "Dark, crumbly, earthy smell", "Reduces ammonia burn and pests"],
+        ["Moisture", "Stable range, not dripping wet", "Storage and shelf life"],
+        ["Texture", "Screened, uniform", "Even application and mixing"],
+        ["Contamination", "No glass, plastic, stones", "Field and nursery safety"],
+        ["Biology", "Documented enrichment where claimed", "Root-zone and disease support"]
+      ],
+      "intro": "Use this checklist when comparing vermicompost suppliers—not only price per kg."
+    },
+    "supply": {
+      "title": "Production & Packing",
+      "paragraphs": ["Our process in brief:"],
+      "items": [
+        { "label": "Feedstock:", "text": "Controlled organic inputs." },
+        { "label": "Curing:", "text": "Matured before screening and packing." },
+        { "label": "Packing:", "text": "1 kg and 50 kg bags; bulk on enquiry." },
+        { "label": "Storage:", "text": "Keep bags shaded; use within recommended window after opening." }
+      ]
+    },
+    "bestSuited": {
+      "title": "Next Steps",
+      "items": [
+        { "text": "Compare pack sizes for your use case" },
+        { "text": "Bulk supply for farms and dealers" },
+        { "text": "How to identify good vermicompost before buying (blog)" }
+      ]
+    },
+    "faqTitle": "Quality & Lab Reports — FAQs",
+    "faqs": [
+      {
+        "question": "Can I get lab documentation before a bulk order?",
+        "answer": "Yes. Contact us with your district and quantity. We share available quality documentation for current batches where applicable."
+      },
+      {
+        "question": "How should I store 50 kg bags?",
+        "answer": "Store in shade on a dry pallet. Avoid puncturing bags and keep opened stock covered to maintain moisture balance."
+      },
+      {
+        "question": "Is Satva certified organic?",
+        "answer": "Ask us directly about current certification status and which claims we can support on labels and marketing. Do not assume certification without written confirmation."
+      }
+    ],
+    "links": [
+      { "path": "/packaging-sizes", "label": "Packaging Sizes" },
+      { "path": "/bulk-vermicompost", "label": "Bulk Supply" },
+      { "path": "/dealer-program", "label": "Dealer Program" },
+      { "path": "/contact", "label": "Contact" }
+    ],
+    "cta": { "title": "Request Batch Details", "description": "WhatsApp your order size and district for current lot information." },
+    "seo": {
+      "title": "Vermicompost Quality Checks & Lab Reports | Satva Organics",
+      "description": "See how Satva checks vermicompost quality through batch control, moisture range, maturity checks, clean packaging, and lab report-backed trust."
+    },
+    "schemaDescription": "Vermicompost quality control, batch checks, and lab documentation from Satva Organics.",
+    "areaServed": ["India"],
+    "breadcrumbName": "Quality & Lab Reports"
+  },
+  "hi": {
+    "productCta": "बैच विवरण माँगें",
+    "whatsappCta": "नवीनतम बैच विवरण",
+    "badge": "गुणवत्ता",
+    "heroTitle": "वर्मीकम्पोस्ट गुणवत्ता जाँच और लैब रिपोर्ट | सत्व",
+    "heroLead": "हर लॉट पर नमी, पकापन, छनाई, रोगजनक नियंत्रण और सूक्ष्मजीव समृद्धि की जाँच। थोक ऑर्डर से पहले दस्तावेज़ अनुरोध करें।",
+    "sectionsBeforeTable": [
+      {
+        "title": "हर लॉट पर क्या जाँचते हैं",
+        "paragraphs": [
+          "प्रीमियम वर्मीकम्पोस्ट सिर्फ NPK लेबल नहीं। फीडस्टॉक, पकाना, छनाई, पैकिंग से पहले नमी और समृद्धि की निगरानी।",
+          "कृषि और जैविक दावे भारतीय नियमों के अनुसार। प्रमाणन स्थिति पूछताछ पर स्पष्ट।"
+        ]
+      }
+    ],
+    "table": {
+      "title": "खरीदारों की गुणवत्ता चेकलिस्ट",
+      "headers": ["पैरामीटर", "अच्छा कैसा", "क्यों"],
+      "rows": [
+        ["पकापन", "काला, ढीला, मिट्टी जैसी गंध", "अमोनिया/कीट कम"],
+        ["नमी", "स्थिर, बहुत गीला नहीं", "भंडारण"],
+        ["बनावट", "छना, एक समान", "मिलावट"],
+        ["दूषित", "काँच/प्लास्टिक नहीं", "सुरक्षा"],
+        ["जीव", "दावे पर दस्तावेज़", "जड़ क्षेत्र"]
+      ],
+      "intro": "केवल कीमत नहीं—गुणवत्ता से तुलना करें।"
+    },
+    "supply": {
+      "title": "उत्पादन और पैकिंग",
+      "paragraphs": ["संक्षिप्त प्रक्रिया:"],
+      "items": [
+        { "label": "फीडस्टॉक:", "text": "नियंत्रित जैविक इनपुट।" },
+        { "label": "पकाना:", "text": "छनाई से पहले पका।" },
+        { "label": "पैकिंग:", "text": "1 और 50 किलो; थोक पूछताछ पर।" },
+        { "label": "भंडारण:", "text": "छाया में; खोलने के बाद जल्दी उपयोग।" }
+      ]
+    },
+    "bestSuited": { "title": "अगले कदम", "items": [{ "text": "पैक साइज़" }, { "text": "थोक" }, { "text": "खरीद गाइड ब्लॉग" }] },
+    "faqTitle": "गुणवत्ता — अक्सर पूछे जाने वाले प्रश्न",
+    "faqs": [
+      { "question": "थोक से पहले लैब दस्तावेज़?", "answer": "हाँ। जिला और मात्रा बताएँ।" },
+      { "question": "50 किलो बैग भंडारण?", "answer": "छाया, सूखा पैलेट; छेद से बचें।" },
+      { "question": "प्रमाणित जैविक?", "answer": "वर्तमान प्रमाणन स्थिति सीधे पूछें।" }
+    ],
+    "links": [
+      { "path": "/packaging-sizes", "label": "पैकेजिंग" },
+      { "path": "/bulk-vermicompost", "label": "थोक" },
+      { "path": "/dealer-program", "label": "डीलर" },
+      { "path": "/contact", "label": "संपर्क" }
+    ],
+    "cta": { "title": "बैच विवरण", "description": "ऑर्डर आकार और जिला व्हाट्सप्प करें।" },
+    "seo": {
+      "title": "वर्मीकम्पोस्ट गुणवत्ता जाँच | सत्व ऑर्गेनिक्स",
+      "description": "बैच नियंत्रण, नमी, पकापन और लैब दस्तावेज़ के साथ सत्व गुणवत्ता।"
+    },
+    "schemaDescription": "सत्व वर्मीकम्पोस्ट गुणवत्ता नियंत्रण।",
+    "areaServed": ["India"],
+    "breadcrumbName": "गुणवत्ता रिपोर्ट"
+  }
+}

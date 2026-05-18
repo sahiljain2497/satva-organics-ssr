@@ -1,0 +1,142 @@
+{
+  "en": {
+    "productCta": "Apply for Dealer Program",
+    "whatsappCta": "Apply on WhatsApp",
+    "badge": "Dealer Program",
+    "heroTitle": "Satva Dealer Program — Vermicompost Distributor & Agri Retailer Partnership",
+    "heroLead": "Partner with Satva Organics as a district dealer, agri-input shop, nursery stockist, or orchard-input retailer. We support serious partners with quality product, crop guides, and coordinated supply from Mohali.",
+    "sectionsBeforeTable": [
+      {
+        "title": "Who Should Apply",
+        "paragraphs": [
+          "Agri-input shops, nursery retailers, orchard-input dealers, and distributors who already serve farmers in horticulture belts. You should have storage space, local farmer relationships, and interest in organic / bio-input categories.",
+          "We focus on North India first—HP, J&K, UP, Punjab, Haryana—and expand with partners who can move 50 kg bags consistently."
+        ]
+      },
+      {
+        "title": "What Satva Provides",
+        "paragraphs": [
+          "Consistent product quality, branded 50 kg bags, crop-wise farmer guides, and direct communication for pricing and dispatch. Demo support and sample packs can be discussed for active territories."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Dealer Partnership Overview",
+      "headers": ["Topic", "What we discuss", "Notes"],
+      "rows": [
+        ["Territory", "District / cluster focus", "Avoid overlapping active dealers where possible"],
+        ["Product", "50 kg bags, 1 kg retail", "Bulk backend on enquiry"],
+        ["Support", "Crop guides, WhatsApp coordination", "Farmer education materials"],
+        ["Commercials", "Margin and MOQ", "Finalized after application review"]
+      ],
+      "intro": "We keep the first application simple—details are refined on call."
+    },
+    "supply": {
+      "title": "Getting Started",
+      "paragraphs": ["Simple application—no long forms:"],
+      "items": [
+        { "label": "Step 1:", "text": "Share name, phone, city/state, and business type on WhatsApp or our contact form." },
+        { "label": "Step 2:", "text": "Short call to understand your shop, territory, and monthly volume range." },
+        { "label": "Step 3:", "text": "Trial dispatch and dealer terms for approved partners." }
+      ]
+    },
+    "bestSuited": {
+      "title": "Resources for Dealers",
+      "items": [
+        { "text": "Bulk vermicompost and pan-India wholesale options" },
+        { "text": "Packaging sizes for shelf and backend stock" },
+        { "text": "Quality documentation for customer trust" }
+      ]
+    },
+    "faqTitle": "Dealer Program — FAQs",
+    "faqs": [
+      {
+        "question": "Do I need a large warehouse?",
+        "answer": "You need dry storage for 50 kg bags and basic handling capacity. Exact requirements depend on your territory and monthly volume—we discuss on call."
+      },
+      {
+        "question": "Is exclusive territory available?",
+        "answer": "We try to avoid too many dealers in the same micro-market. Territory focus is discussed during onboarding."
+      },
+      {
+        "question": "Can nursery shops apply?",
+        "answer": "Yes. Nursery stockists and agri retailers are welcome if they serve growers who buy vermicompost regularly."
+      }
+    ],
+    "links": [
+      { "path": "/bulk-vermicompost", "label": "Bulk Supply" },
+      { "path": "/packaging-sizes", "label": "Packaging" },
+      { "path": "/quality-lab-reports", "label": "Quality" },
+      { "path": "/pan-india-supply", "label": "Pan-India Wholesale" }
+    ],
+    "cta": { "title": "Apply for Dealer Program", "description": "WhatsApp your city, business type, and districts you cover." },
+    "seo": {
+      "title": "Satva Dealer Program - Vermicompost Distributor & Agri Retailer Partnership",
+      "description": "Partner with Satva as a vermicompost dealer or distributor. Suitable for agri-input shops, nursery stockists, orchard-input dealers, and district partners."
+    },
+    "schemaDescription": "Dealer and distributor partnership programme for Satva Organics vermicompost.",
+    "areaServed": ["India"],
+    "breadcrumbName": "Dealer Program"
+  },
+  "hi": {
+    "productCta": "डीलर प्रोग्राम के लिए आवेदन",
+    "whatsappCta": "व्हाट्सप्प पर आवेदन",
+    "badge": "डीलर प्रोग्राम",
+    "heroTitle": "सत्व डीलर प्रोग्राम — वर्मीकम्पोस्ट वितरक साझेदारी",
+    "heroLead": "जिला डीलर, एग्री इनपुट दुकान, नर्सरी स्टॉकिस्ट या बागान इनपुट रिटेलर के रूप में सत्व के साथ जुड़ें।",
+    "sectionsBeforeTable": [
+      {
+        "title": "कौन आवेदन करे",
+        "paragraphs": [
+          "एग्री दुकान, नर्सरी रिटेलर और वितरक जो किसानों की सेवा करते हैं। सूखा भंडारण और स्थानीय संबंध जरूरी।",
+          "पहले उत्तर भारत—HP, J&K, UP, पंजाब, हरियाणा।"
+        ]
+      },
+      {
+        "title": "सत्व क्या देता है",
+        "paragraphs": ["सुसंगत गुणवत्ता, 50 किलो बैग, फसल गाइड और सीधा संपर्क।"]
+      }
+    ],
+    "table": {
+      "title": "साझेदारी अवलोकन",
+      "headers": ["विषय", "चर्चा", "नोट"],
+      "rows": [
+        ["क्षेत्र", "जिला फोकस", "ओवरलैप से बचें"],
+        ["उत्पाद", "50 किलो, 1 किलो", "थोक पूछताछ पर"],
+        ["सहायता", "गाइड, व्हाट्सप्प", "किसान शिक्षा"],
+        ["व्यापार", "मार्जिन, MOQ", "कॉल पर तय"]
+      ],
+      "intro": "पहला आवेदन सरल रखें।"
+    },
+    "supply": {
+      "title": "शुरुआत",
+      "paragraphs": ["सरल प्रक्रिया:"],
+      "items": [
+        { "label": "चरण 1:", "text": "नाम, फोन, शहर/राज्य, व्यवसाय प्रकार।" },
+        { "label": "चरण 2:", "text": "छोटी कॉल।" },
+        { "label": "चरण 3:", "text": "ट्रायल और शर्तें।" }
+      ]
+    },
+    "bestSuited": { "title": "डीलर संसाधन", "items": [{ "text": "थोक" }, { "text": "पैकेजिंग" }, { "text": "गुणवत्ता" }] },
+    "faqTitle": "डीलर — अक्सर पूछे जाने वाले प्रश्न",
+    "faqs": [
+      { "question": "बड़ा गोदाम?", "answer": "50 किलो बैग के लिए सूखा भंडारण—कॉल पर चर्चा।" },
+      { "question": "एक्सक्लूसिव क्षेत्र?", "answer": "माइक्रो-मार्केट में ओवरलैप कम रखते हैं।" },
+      { "question": "नर्सरी दुकान?", "answer": "हाँ, स्वागत है।" }
+    ],
+    "links": [
+      { "path": "/bulk-vermicompost", "label": "थोक" },
+      { "path": "/packaging-sizes", "label": "पैकेजिंग" },
+      { "path": "/quality-lab-reports", "label": "गुणवत्ता" },
+      { "path": "/pan-india-supply", "label": "पैन-इंडिया" }
+    ],
+    "cta": { "title": "डीलर आवेदन", "description": "शहर और क्षेत्र व्हाट्सप्प करें।" },
+    "seo": {
+      "title": "सत्व डीलर प्रोग्राम | वर्मीकम्पोस्ट वितरक",
+      "description": "एग्री दुकान, नर्सरी स्टॉकिस्ट और जिला वितरक के लिए सत्व साझेदारी।"
+    },
+    "schemaDescription": "सत्व वर्मीकम्पोस्ट डीलर कार्यक्रम।",
+    "areaServed": ["India"],
+    "breadcrumbName": "डीलर प्रोग्राम"
+  }
+}

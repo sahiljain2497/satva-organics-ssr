@@ -105,12 +105,20 @@
     ],
     "links": [
       {
-        "path": "/blogs",
-        "label": "Farming Guides"
+        "path": "/polyhouse-farmers",
+        "label": "Polyhouse Farmers"
       },
       {
-        "path": "/himachal-pradesh",
-        "label": "HP Supply"
+        "path": "/bulk-vermicompost",
+        "label": "Bulk Vermicompost"
+      },
+      {
+        "path": "/dealer-program",
+        "label": "Dealer Program"
+      },
+      {
+        "path": "/contact",
+        "label": "Contact Satva"
       },
       {
         "path": "/pan-india-supply",
@@ -238,12 +246,20 @@
     ],
     "links": [
       {
-        "path": "/blogs",
-        "label": "खेती गाइड"
+        "path": "/polyhouse-farmers",
+        "label": "पॉलीहाउस किसान"
       },
       {
-        "path": "/himachal-pradesh",
-        "label": "HP सप्लाई"
+        "path": "/bulk-vermicompost",
+        "label": "थोक वर्मीकम्पोस्ट"
+      },
+      {
+        "path": "/dealer-program",
+        "label": "डीलर प्रोग्राम"
+      },
+      {
+        "path": "/contact",
+        "label": "संपर्क करें"
       },
       {
         "path": "/pan-india-supply",

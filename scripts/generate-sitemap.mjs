@@ -9,16 +9,40 @@ const SITE_URL = (process.env.SITE_URL || 'https://satvaorganic.org').replace(/\
 const projectRoot = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const publicDir = path.join(projectRoot, 'public');
 
-const STATIC_ROUTES = [
+const CORE_ROUTES = [
   { path: '/', lastmod: null },
   { path: '/blogs', lastmod: null },
   { path: '/contact', lastmod: null },
-  { path: '/himachal-pradesh', lastmod: '2026-05-17' },
-  { path: '/jammu-kashmir', lastmod: '2026-05-17' },
-  { path: '/uttar-pradesh', lastmod: '2026-05-17' },
-  { path: '/punjab-haryana', lastmod: '2026-05-17' },
-  { path: '/pan-india-supply', lastmod: '2026-05-17' },
 ];
+
+/** lastmod for regional / supply pages (update when those pages change materially). */
+const REGIONAL_LASTMOD = '2026-05-17';
+
+/** Read buyer, state, and pan-India paths from app.routes.ts so sitemap stays in sync. */
+function loadAppRoutePaths() {
+  const routesPath = path.join(projectRoot, 'src/app/app.routes.ts');
+  const content = fs.readFileSync(routesPath, 'utf8');
+  const buyerLastmod = toLastmod(new Date());
+  const routes = [];
+
+  for (const match of content.matchAll(/buyerPageRoute\('([^']+)'\)/g)) {
+    routes.push({ path: `/${match[1]}`, lastmod: buyerLastmod });
+  }
+
+  for (const match of content.matchAll(/statePageRoute\('([^']+)'\)/g)) {
+    routes.push({ path: `/${match[1]}`, lastmod: REGIONAL_LASTMOD });
+  }
+
+  if (/path:\s*'pan-india-supply'/.test(content)) {
+    routes.push({ path: '/pan-india-supply', lastmod: REGIONAL_LASTMOD });
+  }
+
+  return routes;
+}
+
+function getStaticRoutes() {
+  return [...CORE_ROUTES, ...loadAppRoutePaths()];
+}
 
 function ensureDir(dirPath) {
   fs.mkdirSync(dirPath, { recursive: true });
@@ -87,7 +111,7 @@ function main() {
 
   const urls = [];
 
-  for (const route of STATIC_ROUTES) {
+  for (const route of getStaticRoutes()) {
     const alternates = buildLocaleUrls(route.path);
 
     urls.push({

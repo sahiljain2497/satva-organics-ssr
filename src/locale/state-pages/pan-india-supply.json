@@ -111,20 +111,24 @@
     ],
     "links": [
       {
-        "path": "/himachal-pradesh",
-        "label": "HP Supply"
+        "path": "/bulk-vermicompost",
+        "label": "Bulk Vermicompost"
       },
       {
-        "path": "/jammu-kashmir",
-        "label": "J&K Supply"
+        "path": "/quality-lab-reports",
+        "label": "Quality & Lab Reports"
       },
       {
-        "path": "/uttar-pradesh",
-        "label": "UP Supply"
+        "path": "/packaging-sizes",
+        "label": "Packaging Sizes"
       },
       {
-        "path": "/punjab-haryana",
-        "label": "Punjab & Haryana"
+        "path": "/dealer-program",
+        "label": "Dealer Program"
+      },
+      {
+        "path": "/contact",
+        "label": "Contact Satva"
       }
     ],
     "cta": {
@@ -253,20 +257,24 @@
     ],
     "links": [
       {
-        "path": "/himachal-pradesh",
-        "label": "HP सप्लाई"
+        "path": "/bulk-vermicompost",
+        "label": "थोक वर्मीकम्पोस्ट"
       },
       {
-        "path": "/jammu-kashmir",
-        "label": "J&K सप्लाई"
+        "path": "/quality-lab-reports",
+        "label": "गुणवत्ता और लैब रिपोर्ट"
       },
       {
-        "path": "/uttar-pradesh",
-        "label": "UP सप्लाई"
+        "path": "/packaging-sizes",
+        "label": "पैक साइज"
       },
       {
-        "path": "/punjab-haryana",
-        "label": "पंजाब और हरियाणा"
+        "path": "/dealer-program",
+        "label": "डीलर प्रोग्राम"
+      },
+      {
+        "path": "/contact",
+        "label": "संपर्क करें"
       }
     ],
     "cta": {

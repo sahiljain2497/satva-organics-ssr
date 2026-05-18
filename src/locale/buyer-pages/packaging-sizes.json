@@ -1,0 +1,130 @@
+{
+  "en": {
+    "productCta": "Ask Price for Your Quantity",
+    "whatsappCta": "Ask Price on WhatsApp",
+    "badge": "Packaging",
+    "heroTitle": "Vermicompost Packaging Sizes — 1 kg, 50 kg & Bulk | Satva",
+    "heroLead": "Choose the right pack for home gardens, nurseries, orchards, agri shops, or bulk farm programmes. Satva Organics offers 1 kg retail packs, 50 kg farmer bags, and bulk supply by enquiry.",
+    "sectionsBeforeTable": [
+      {
+        "title": "Which Pack Should You Choose?",
+        "paragraphs": [
+          "Home gardeners and trial users usually start with 1 kg. Farms, orchards, and polyhouses typically use 50 kg bags for seasonal application. Dealers and FPOs often order backend cartons or bulk tonnes.",
+          "5 kg and 10 kg packs may be introduced for select markets—contact us if your shop or cooperative needs an intermediate size."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Pack Size Guide",
+      "headers": ["Pack", "Best for", "Typical coverage"],
+      "rows": [
+        ["1 kg", "Home garden, trials, small nursery batches", "~10–15 sq ft bed or a few pots"],
+        ["50 kg", "Orchards, vegetables, nurseries, agri stores", "~6–10 mature apple trees at standard dose"],
+        ["Bulk", "Large farms, FPOs, distributors", "Tonnes—MOQ and freight on enquiry"]
+      ],
+      "intro": "Pricing depends on quantity, district, and delivery. WhatsApp for a quote—no complex forms."
+    },
+    "supply": {
+      "title": "Handling & Storage",
+      "paragraphs": ["Keep quality after delivery:"],
+      "items": [
+        { "label": "Storage:", "text": "Shade, dry surface, avoid punctures." },
+        { "label": "Opened bags:", "text": "Use within a reasonable window; reseal if possible." },
+        { "label": "Transport:", "text": "Freight discussed for hill districts and pan-India wholesale." }
+      ]
+    },
+    "bestSuited": {
+      "title": "Related",
+      "items": [
+        { "text": "Bulk vermicompost for farms and dealers" },
+        { "text": "Quality checks before you buy" },
+        { "text": "Dealer program for agri retailers" }
+      ]
+    },
+    "faqTitle": "Packaging — FAQs",
+    "faqs": [
+      {
+        "question": "Do you sell only 1 kg and 50 kg?",
+        "answer": "Those are our standard packs today. Bulk loose/tonne supply and custom branding are available for qualified buyers—see pan-India supply."
+      },
+      {
+        "question": "Can I order one 50 kg bag for my orchard?",
+        "answer": "Yes. Many orchard owners start with a few bags. Share your district for freight and availability."
+      },
+      {
+        "question": "Is 1 kg enough for a kitchen garden?",
+        "answer": "Usually yes for a small bed or several pots. For larger terrace gardens, consider 2–3 kg or a 50 kg bag if you share with neighbours."
+      }
+    ],
+    "links": [
+      { "path": "/bulk-vermicompost", "label": "Bulk Supply" },
+      { "path": "/quality-lab-reports", "label": "Quality" },
+      { "path": "/apple-orchards", "label": "Apple Orchards" },
+      { "path": "/contact", "label": "Contact" }
+    ],
+    "cta": { "title": "Ask Price for Your Quantity", "description": "Tell us pack size, district, and crop—we reply quickly on WhatsApp." },
+    "seo": {
+      "title": "Vermicompost Packaging Sizes - 1 kg, 50 kg & Bulk | Satva",
+      "description": "Explore Satva vermicompost packaging options for home gardens, nurseries, dealers, orchards, and bulk farm supply. Ask for quantity-based pricing."
+    },
+    "schemaDescription": "Vermicompost packaging: 1 kg, 50 kg bags, and bulk supply from Satva Organics.",
+    "areaServed": ["India"],
+    "breadcrumbName": "Packaging & Sizes"
+  },
+  "hi": {
+    "productCta": "अपनी मात्रा की कीमत पूछें",
+    "whatsappCta": "व्हाट्सप्प पर कीमत",
+    "badge": "पैकेजिंग",
+    "heroTitle": "वर्मीकम्पोस्ट पैक साइज़ — 1 किलो, 50 किलो और थोक",
+    "heroLead": "होम गार्डन, नर्सरी, बागान, एग्री दुकान या थोक के लिए सही पैक चुनें। 1 किलो, 50 किलो बैग और थोक सप्लाई।",
+    "sectionsBeforeTable": [
+      {
+        "title": "कौन सा पैक चुनें?",
+        "paragraphs": [
+          "घरेलू और ट्रायल के लिए 1 किलो। खेत, बागान, पॉलीहाउस के लिए 50 किलो। डीलर और FPO थोक टन।",
+          "5/10 किलो कुछ बाज़ारों में—पूछताछ पर।"
+        ]
+      }
+    ],
+    "table": {
+      "title": "पैक गाइड",
+      "headers": ["पैक", "किसके लिए", "कवरेज"],
+      "rows": [
+        ["1 किलो", "होम, ट्रायल", "~10–15 वर्ग फुट"],
+        ["50 किलो", "बागान, नर्सरी, दुकान", "~6–10 सेब पेड़"],
+        ["थोक", "बड़े खेत, FPO", "टन—कोट पर"]
+      ],
+      "intro": "कीमत मात्रा और जिले पर। व्हाट्सप्प कोट।"
+    },
+    "supply": {
+      "title": "भंडारण",
+      "paragraphs": ["डिलीवरी के बाद:"],
+      "items": [
+        { "label": "भंडारण:", "text": "छाया, सूखी जगह।" },
+        { "label": "खुला बैग:", "text": "जल्दी उपयोग।" },
+        { "label": "ट्रांसपोर्ट:", "text": "पहाड़ी/पैन-इंडिया फ्रेट चर्चा।" }
+      ]
+    },
+    "bestSuited": { "title": "संबंधित", "items": [{ "text": "थोक" }, { "text": "गुणवत्ता" }, { "text": "डीलर" }] },
+    "faqTitle": "पैकेजिंग — अक्सर पूछे जाने वाले प्रश्न",
+    "faqs": [
+      { "question": "केवल 1 और 50 किलो?", "answer": "मानक पैक। थोक और कस्टम ब्रांडिंग पूछताछ पर।" },
+      { "question": "एक 50 किलो बैग?", "answer": "हाँ। जिला बताएँ।" },
+      { "question": "1 किलो किचन गार्डन?", "answer": "छोटे बेड के लिए अक्सर पर्याप्त।" }
+    ],
+    "links": [
+      { "path": "/bulk-vermicompost", "label": "थोक" },
+      { "path": "/quality-lab-reports", "label": "गुणवत्ता" },
+      { "path": "/apple-orchards", "label": "सेब बागान" },
+      { "path": "/contact", "label": "संपर्क" }
+    ],
+    "cta": { "title": "कीमत पूछें", "description": "पैक, जिला, फसल व्हाट्सप्प करें।" },
+    "seo": {
+      "title": "वर्मीकम्पोस्ट पैक साइज़ | सत्व",
+      "description": "1 किलो, 50 किलो और थोक पैकेजिंग विकल्प।"
+    },
+    "schemaDescription": "सत्व वर्मीकम्पोस्ट पैकेजिंग विकल्प।",
+    "areaServed": ["India"],
+    "breadcrumbName": "पैकेजिंग"
+  }
+}

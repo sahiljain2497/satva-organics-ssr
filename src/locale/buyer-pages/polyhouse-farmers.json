@@ -1,0 +1,130 @@
+{
+  "en": {
+    "productCta": "Choose Pack & Get Quote",
+    "whatsappCta": "Ask for Polyhouse Crop Guide",
+    "badge": "Polyhouse Farmers",
+    "heroTitle": "Vermicompost for Polyhouse Vegetables — Tomato, Capsicum & Cucumber",
+    "heroLead": "Protected cultivation needs stable organic matter in beds and media. Satva vermicompost supports tomato, capsicum, cucumber, leafy crops, and flowers in polyhouses across Punjab, Haryana, UP, and North India.",
+    "sectionsBeforeTable": [
+      {
+        "title": "Why Polyhouse Soil & Media Need Vermicompost",
+        "paragraphs": [
+          "Polyhouse crops grow in concentrated root zones with frequent irrigation and fertigation. Mature vermicompost improves structure, moisture balance, and microbial life without the burn risk of raw manure.",
+          "Use at bed preparation, in planting holes, or mixed into potting media. Quality matters: unfinished compost can introduce pests or ammonia stress in closed structures."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Suggested Application in Protected Cultivation",
+      "headers": ["Crop / use", "Starting dose", "Notes"],
+      "rows": [
+        ["Tomato / capsicum / cucumber", "100 g per planting hole", "At transplant; repeat every 45–60 days if needed"],
+        ["Bed preparation", "150–200 kg per acre equivalent", "Incorporate before planting"],
+        ["Nursery trays", "10–15% by volume in media", "Before seeding or potting"]
+      ],
+      "intro": "Adjust to your media mix and crop cycle. Contact us for commercial polyhouse programmes."
+    },
+    "supply": {
+      "title": "Packs for Polyhouse Growers",
+      "paragraphs": ["Choose the pack that matches your scale:"],
+      "items": [
+        { "label": "1 kg:", "text": "Trials and small tunnels." },
+        { "label": "50 kg:", "text": "Seasonal bed prep for commercial houses." },
+        { "label": "Bulk:", "text": "Repeat supply for large operations—quote on enquiry." }
+      ]
+    },
+    "bestSuited": {
+      "title": "Related Pages",
+      "items": [
+        { "text": "Uttar Pradesh and Punjab-Haryana regional supply" },
+        { "text": "Vegetable farming dos and don’ts (blog)" },
+        { "text": "Bulk vermicompost for repeat orders" }
+      ]
+    },
+    "faqTitle": "Polyhouse Vermicompost — FAQs",
+    "faqs": [
+      {
+        "question": "Can I use vermicompost with drip fertigation?",
+        "answer": "Apply vermicompost to soil or media, not through drip lines. Solid organic manure belongs in the root zone, not the fertigation tank."
+      },
+      {
+        "question": "How do I avoid pests from compost in a polyhouse?",
+        "answer": "Use well-matured, screened compost from a consistent supplier. Satva batches are pathogen-controlled and packed for farm use."
+      },
+      {
+        "question": "Do you supply near Mohali / Chandigarh?",
+        "answer": "Yes. We are based in Mohali and serve Punjab, Haryana, and nearby polyhouse clusters with quick coordination."
+      }
+    ],
+    "links": [
+      { "path": "/uttar-pradesh", "label": "Uttar Pradesh" },
+      { "path": "/punjab-haryana", "label": "Punjab & Haryana" },
+      { "path": "/bulk-vermicompost", "label": "Bulk Supply" },
+      { "path": "/blogs/vermicompost-vegetable-farming-dos-donts", "label": "Vegetable Farming Guide" }
+    ],
+    "cta": { "title": "Polyhouse Crop Guide", "description": "Tell us your crop and district for pack and application tips." },
+    "seo": {
+      "title": "Vermicompost for Polyhouse Vegetables - Tomato, Capsicum & Cucumber | Satva",
+      "description": "Premium vermicompost for polyhouse vegetable growers. Usage guidance for tomato, capsicum, cucumber, nursery trays, and protected cultivation beds."
+    },
+    "schemaDescription": "Vermicompost for polyhouse and protected vegetable cultivation.",
+    "areaServed": ["India"],
+    "breadcrumbName": "Polyhouse Farmers"
+  },
+  "hi": {
+    "productCta": "पैक चुनें और कोट लें",
+    "whatsappCta": "पॉलीहाउस फसल गाइड",
+    "badge": "पॉलीहाउस किसान",
+    "heroTitle": "पॉलीहाउस सब्जियों के लिए वर्मीकम्पोस्ट",
+    "heroLead": "संरक्षित खेती में बेड और मीडिया में स्थिर जैविक पदार्थ चाहिए। टमाटर, शिमला मिर्च, खीरा और फूलों के लिए सत्व वर्मीकम्पोस्ट।",
+    "sectionsBeforeTable": [
+      {
+        "title": "पॉलीहाउस मिट्टी को वर्मीकम्पोस्ट क्यों चाहिए",
+        "paragraphs": [
+          "पॉलीहाउस में जड़ क्षेत्र सीमित और सिंचाई बार-बार होती है। पका वर्मीकम्पोस्ट संरचना और नमी संतुलन में मदद करता है।",
+          "बेड तैयारी, रोपण गड्ढे या पॉटिंग मीडिया में उपयोग करें।"
+        ]
+      }
+    ],
+    "table": {
+      "title": "संरक्षित खेती में सुझाई गई खुराक",
+      "headers": ["फसल / उपयोग", "खुराक", "नोट"],
+      "rows": [
+        ["टमाटर / शिमला / खीरा", "100 g प्रति गड्ढा", "रोपाई पर; 45–60 दिन में दोहराएँ"],
+        ["बेड तैयारी", "150–200 kg प्रति एकड़", "रोपाई से पहले मिलाएँ"],
+        ["नर्सरी ट्रे", "मीडिया का 10–15%", "बीजाई से पहले"]
+      ],
+      "intro": "अपने मीडिया मिक्स और चक्र के अनुसार समायोजित करें।"
+    },
+    "supply": {
+      "title": "पॉलीहाउस के लिए पैक",
+      "paragraphs": ["पैमाने के अनुसार पैक चुनें:"],
+      "items": [
+        { "label": "1 किलो:", "text": "ट्रायल।" },
+        { "label": "50 किलो:", "text": "व्यावसायिक हाउस।" },
+        { "label": "थोक:", "text": "बड़े ऑपरेशन—कोट पर।" }
+      ]
+    },
+    "bestSuited": { "title": "संबंधित पेज", "items": [{ "text": "यूपी और पंजाब-हरियाणा" }, { "text": "सब्जी खेती गाइड" }, { "text": "थोक सप्लाई" }] },
+    "faqTitle": "पॉलीहाउस — अक्सर पूछे जाने वाले प्रश्न",
+    "faqs": [
+      { "question": "ड्रिप फर्टिगेशन के साथ?", "answer": "मिट्टी/मीडिया में डालें, ड्रिप टैंक में नहीं।" },
+      { "question": "कीट से बचाव?", "answer": "पका, छना खाद विश्वसनीय सप्लायर से लें।" },
+      { "question": "मोहाली के पास सप्लाई?", "answer": "हाँ। मोहाली से पंजाब-हरियाणा क्लस्टर की सेवा।" }
+    ],
+    "links": [
+      { "path": "/uttar-pradesh", "label": "उत्तर प्रदेश" },
+      { "path": "/punjab-haryana", "label": "पंजाब और हरियाणा" },
+      { "path": "/bulk-vermicompost", "label": "थोक" },
+      { "path": "/blogs/vermicompost-vegetable-farming-dos-donts", "label": "सब्जी गाइड" }
+    ],
+    "cta": { "title": "पॉलीहाउस गाइड", "description": "फसल और जिला बताएँ।" },
+    "seo": {
+      "title": "पॉलीहाउस सब्जियों के लिए वर्मीकम्पोस्ट | सत्व",
+      "description": "टमाटर, शिमला मिर्च, खीरा और संरक्षित खेती के लिए प्रीमियम वर्मीकम्पोस्ट।"
+    },
+    "schemaDescription": "पॉलीहाउस और संरक्षित सब्जी खेती के लिए वर्मीकम्पोस्ट।",
+    "areaServed": ["India"],
+    "breadcrumbName": "पॉलीहाउस किसान"
+  }
+}

@@ -104,16 +104,20 @@
     ],
     "links": [
       {
-        "path": "/blogs",
-        "label": "Farming Guides"
+        "path": "/apple-orchards",
+        "label": "Apple Orchard Guide"
+      },
+      {
+        "path": "/bulk-vermicompost",
+        "label": "Bulk Vermicompost"
+      },
+      {
+        "path": "/contact",
+        "label": "Contact Satva"
       },
       {
         "path": "/himachal-pradesh",
         "label": "HP Supply"
-      },
-      {
-        "path": "/uttar-pradesh",
-        "label": "UP Supply"
       }
     ],
     "cta": {
@@ -235,16 +239,20 @@
     ],
     "links": [
       {
-        "path": "/blogs",
-        "label": "खेती गाइड"
+        "path": "/apple-orchards",
+        "label": "सेब बागान गाइड"
+      },
+      {
+        "path": "/bulk-vermicompost",
+        "label": "थोक वर्मीकम्पोस्ट"
+      },
+      {
+        "path": "/contact",
+        "label": "संपर्क करें"
       },
       {
         "path": "/himachal-pradesh",
         "label": "HP सप्लाई"
-      },
-      {
-        "path": "/uttar-pradesh",
-        "label": "UP सप्लाई"
       }
     ],
     "cta": {

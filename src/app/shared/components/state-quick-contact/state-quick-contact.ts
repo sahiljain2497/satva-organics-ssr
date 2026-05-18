@@ -1,10 +1,11 @@
-import { Component, inject, input } from '@angular/core';
+import { Component, inject, input, signal } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 
 import { WHATSAPP_BASE_URL } from '../../../core/constants/whatsapp.constants';
 import { LocaleService } from '../../../core/services/locale.service';
 import { WhatsAppService } from '../../../core/services/whatsapp.service';
+import { controlShowsError } from '../../utils/form-validation';
 
 @Component({
   selector: 'app-state-quick-contact',
@@ -21,13 +22,20 @@ export class StateQuickContact {
 
   protected readonly whatsappUrl = WHATSAPP_BASE_URL;
 
+  protected readonly submitAttempted = signal(false);
+
   protected readonly inquiryForm = this.formBuilder.nonNullable.group({
     name: ['', Validators.required],
     phone: ['', Validators.required],
     message: [''],
   });
 
+  protected fieldError(field: 'name' | 'phone'): boolean {
+    return controlShowsError(this.inquiryForm, field, this.submitAttempted());
+  }
+
   protected onSubmit(): void {
+    this.submitAttempted.set(true);
     if (this.inquiryForm.invalid) {
       this.inquiryForm.markAllAsTouched();
       return;

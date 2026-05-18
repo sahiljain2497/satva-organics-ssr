@@ -9,7 +9,7 @@ import { WhatsAppService } from '../../core/services/whatsapp.service';
 import { StateProductQuote } from '../../shared/components/state-product-quote/state-product-quote';
 import { StateQuickContact } from '../../shared/components/state-quick-contact/state-quick-contact';
 import { getRegionB2bData, openRegionWhatsApp, scrollToSection } from '../state-page-b2b';
-import { StatePageContent } from '../state-page-content';
+import { StatePageContent, StateRegionKey } from '../state-page-content';
 import { STATE_PAGE_CONFIG } from '../state-page.registry';
 
 @Component({
@@ -29,7 +29,9 @@ export class StatePageComponent {
     : this.config.translations.en;
 
   protected readonly regionName = this.content.breadcrumbName;
-  private readonly b2b = getRegionB2bData(this.config.regionKey, this.locale.isHindi);
+  private readonly b2bRegionKey: StateRegionKey =
+    this.config.b2bRegionKey ?? (this.config.regionKey as StateRegionKey);
+  private readonly b2b = getRegionB2bData(this.b2bRegionKey, this.locale.isHindi);
   protected readonly productPacks = this.b2b.productPacks;
   protected readonly trustPoints = this.b2b.trustPoints;
 
