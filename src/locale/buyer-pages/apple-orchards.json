@@ -1,0 +1,135 @@
+{
+  "en": {
+    "productCta": "Choose Pack & Get Quote",
+    "whatsappCta": "Get Apple Orchard Dosage Guide",
+    "badge": "Apple Orchards",
+    "heroTitle": "Vermicompost for Apple Orchards — Usage, Timing & Bulk Supply",
+    "heroLead": "Premium vermicompost for apple growers: improve soil organic matter, root-zone health, moisture retention, and nutrient availability. Satva supplies 50 kg bags and bulk for orchards across Himachal Pradesh, Jammu & Kashmir, and other apple belts.",
+    "sectionsBeforeTable": [
+      {
+        "title": "Why Apple Orchards Need Organic Soil Care",
+        "paragraphs": [
+          "Many apple blocks suffer from tired, acidic soil and years of chemical-heavy programmes. Vermicompost adds stable organic matter and beneficial biology that helps unlock nutrients and improve water holding on slopes.",
+          "Satva’s enriched formula includes Trichoderma, Azotobacter, PSB, and botanical extracts suited to orchard root zones. Results depend on tree age, spacing, and soil test—always adapt doses locally."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Suggested Starting Doses for Apple Trees",
+      "headers": ["Tree stage", "Starting dose", "Timing"],
+      "rows": [
+        ["Mature bearing trees", "5–8 kg per tree", "April–May pre-flush; light post-harvest"],
+        ["Young trees", "2–4 kg per tree", "Spring soil preparation"],
+        ["Old / weak blocks", "5–8 kg + soil test", "Pre-season recovery programme"]
+      ],
+      "intro": "General guidance only. Large orchards should contact us for block-specific advice.",
+      "note": {
+        "label": "Disclaimer:",
+        "text": "Dosage varies with soil pH, canopy size, and local expert recommendations. This is not a substitute for soil testing."
+      }
+    },
+    "supply": {
+      "title": "Supply for Apple Regions",
+      "paragraphs": ["We supply retail and bulk packs to apple-growing districts."],
+      "items": [
+        { "label": "Himachal Pradesh:", "text": "Shimla, Kullu, Kinnaur, Mandi—see our HP page for local detail." },
+        { "label": "Jammu & Kashmir:", "text": "Valley orchards—see our J&K page for timing notes." },
+        { "label": "50 kg bags:", "text": "Roughly 6–10 mature trees per bag at standard dose." }
+      ]
+    },
+    "bestSuited": {
+      "title": "Regional Guides",
+      "items": [
+        { "text": "Detailed HP orchard application and FAQs" },
+        { "text": "J&K apple and saffron supply information" },
+        { "text": "Farming guides: monsoon timing and NPK vs vermicompost" }
+      ]
+    },
+    "faqTitle": "Apple Orchard Vermicompost — FAQs",
+    "faqs": [
+      {
+        "question": "When is the best time to apply in apple orchards?",
+        "answer": "April–May before active growth is the most common window. A lighter post-harvest application can help restore organic matter before dormancy."
+      },
+      {
+        "question": "Can I mix vermicompost with chemical fertiliser?",
+        "answer": "Yes, but keep a gap of several days if applying fungicides or strong chemicals the same week—you want to protect the microbes you added."
+      },
+      {
+        "question": "Do you deliver to upper hill districts?",
+        "answer": "Yes. Freight and MOQ for remote districts are discussed on enquiry via WhatsApp or phone."
+      }
+    ],
+    "links": [
+      { "path": "/himachal-pradesh", "label": "Himachal Pradesh" },
+      { "path": "/jammu-kashmir", "label": "Jammu & Kashmir" },
+      { "path": "/bulk-vermicompost", "label": "Bulk Supply" },
+      { "path": "/blogs/hp-apple-farmer-success-satva-vermicompost", "label": "Apple Orchard Field Guide" }
+    ],
+    "cta": { "title": "Get Orchard Dosage Guidance", "description": "Share your district and approximate tree count for pack and freight guidance." },
+    "seo": {
+      "title": "Vermicompost for Apple Orchards - Usage, Timing & Bulk Supply | Satva",
+      "description": "Learn how Satva vermicompost supports apple orchard soil health, root growth, moisture retention, and nutrient availability. Get crop-wise dosage guidance and bulk supply."
+    },
+    "schemaDescription": "Vermicompost for apple orchards with dosage guidance and bulk supply across North India.",
+    "areaServed": ["India"],
+    "breadcrumbName": "Apple Orchards"
+  },
+  "hi": {
+    "productCta": "पैक चुनें और कोट लें",
+    "whatsappCta": "सेब बागान खुराक गाइड",
+    "badge": "सेब बागान",
+    "heroTitle": "सेब बागानों के लिए वर्मीकम्पोस्ट — उपयोग, समय और थोक सप्लाई",
+    "heroLead": "सेब उत्पादकों के लिए प्रीमियम वर्मीकम्पोस्ट: जैविक पदार्थ, जड़ स्वास्थ्य और नमी धारण। हिमाचल, जम्मू-कश्मीर और अन्य सेब क्षेत्रों में 50 किलो और थोक।",
+    "sectionsBeforeTable": [
+      {
+        "title": "सेब बागानों को जैविक मिट्टी देखभाल क्यों चाहिए",
+        "paragraphs": [
+          "कई बागान थकी, अम्लीय मिट्टी और रासायनिक कार्यक्रमों से प्रभावित हैं। वर्मीकम्पोस्ट स्थिर जैविक पदार्थ और लाभकारी जीव जोड़ता है।",
+          "सत्व का फ़ॉर्मूला Trichoderma, Azotobacter, PSB और वनस्पति अर्क से समृद्ध है। खुराक मिट्टी परीक्षण और स्थानीय सलाह पर निर्भर करती है।"
+        ]
+      }
+    ],
+    "table": {
+      "title": "सेब पेड़ों के लिए शुरुआती खुराक",
+      "headers": ["पेड़ चरण", "खुराक", "समय"],
+      "rows": [
+        ["परिपक्व पेड़", "5–8 kg प्रति पेड़", "अप्रैल–मई; हल्का फसल के बाद"],
+        ["युवा पेड़", "2–4 kg प्रति पेड़", "वसंत"],
+        ["कमज़ोर ब्लॉक", "5–8 kg + मिट्टी परीक्षण", "सीज़न पुनर्प्राप्ति"]
+      ],
+      "intro": "सामान्य मार्गदर्शन। बड़े बागान के लिए हमसे संपर्क करें।",
+      "note": { "label": "अस्वीकरण:", "text": "खुराक mिट्टी pH, छत्र और स्थानीय सिफारिश पर निर्भर करती है।" }
+    },
+    "supply": {
+      "title": "सेब क्षेत्रों के लिए सप्लाई",
+      "paragraphs": ["रिटेल और थोक पैक उपलब्ध।"],
+      "items": [
+        { "label": "हिमाचल:", "text": "HP पेज पर स्थानीय विवरण।" },
+        { "label": "J&K:", "text": "J&K पेज पर समय नोट्स।" },
+        { "label": "50 किलो बैग:", "text": "लगभग 6–10 परिपक्व पेड़ प्रति बैग।" }
+      ]
+    },
+    "bestSuited": { "title": "क्षेत्रीय गाइड", "items": [{ "text": "HP बागान विवरण" }, { "text": "J&K सप्लाई" }, { "text": "खेती गाइड लेख" }] },
+    "faqTitle": "सेब बागान — अक्सर पूछे जाने वाले प्रश्न",
+    "faqs": [
+      { "question": "सबसे अच्छा समय?", "answer": "अप्रैल–मई सक्रिय वृद्धि से पहले। फसल के बाद हल्का अनुप्रयोग भी मदद कर सकता है।" },
+      { "question": "रासायनिक उर्वरक के साथ?", "answer": "हाँ, लेकिन फंगिसाइड/तेज़ रसायन से कुछ दिन का अंतर रखें।" },
+      { "question": "ऊपरी पहाड़ी जिलों में डिलीवरी?", "answer": "हाँ। दूरस्थ जिलों के लिए फ्रेट पूछताछ पर।" }
+    ],
+    "links": [
+      { "path": "/himachal-pradesh", "label": "हिमाचल प्रदेश" },
+      { "path": "/jammu-kashmir", "label": "जम्मू-कश्मीर" },
+      { "path": "/bulk-vermicompost", "label": "थोक सप्लाई" },
+      { "path": "/blogs/hp-apple-farmer-success-satva-vermicompost", "label": "बागान फील्ड गाइड" }
+    ],
+    "cta": { "title": "बागान खुराक मार्गदर्शन", "description": "जिला और लगभग पेड़ संख्या साझा करें।" },
+    "seo": {
+      "title": "सेब बागान के लिए वर्मीकम्पोस्ट | सत्व ऑर्गेनिक्स",
+      "description": "सेब बागान मिट्टी स्वास्थ्य, जड़ वृद्धि और थोक सप्लाई के लिए सत्व वर्मीकम्पोस्ट।"
+    },
+    "schemaDescription": "सेब बागानों के लिए वर्मीकम्पोस्ट खुराक और थोक सप्लाई।",
+    "areaServed": ["India"],
+    "breadcrumbName": "सेब बागान"
+  }
+}

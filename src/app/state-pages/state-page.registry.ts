@@ -5,7 +5,7 @@ import himachalPradesh from '../../locale/state-pages/himachal-pradesh.json';
 import jammuKashmir from '../../locale/state-pages/jammu-kashmir.json';
 import punjabHaryana from '../../locale/state-pages/punjab-haryana.json';
 import uttarPradesh from '../../locale/state-pages/uttar-pradesh.json';
-import { StatePageTranslations } from './state-page-content';
+import { BuyerPageSlug, StatePageTranslations, StateRegionKey } from './state-page-content';
 
 export type StatePageSlug =
   | 'himachal-pradesh'
@@ -14,7 +14,9 @@ export type StatePageSlug =
   | 'punjab-haryana';
 
 export interface StatePageConfig {
-  regionKey: StatePageSlug;
+  regionKey: StatePageSlug | BuyerPageSlug;
+  /** B2B pack/trust copy source; defaults to regionKey when omitted. */
+  b2bRegionKey?: StateRegionKey;
   path: string;
   translations: StatePageTranslations;
 }

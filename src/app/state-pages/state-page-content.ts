@@ -89,3 +89,12 @@ export type StateRegionKey =
   | 'uttar-pradesh'
   | 'punjab-haryana'
   | 'pan-india-supply';
+
+export type BuyerPageSlug =
+  | 'bulk-vermicompost'
+  | 'apple-orchards'
+  | 'polyhouse-farmers'
+  | 'nurseries'
+  | 'dealer-program'
+  | 'quality-lab-reports'
+  | 'packaging-sizes';

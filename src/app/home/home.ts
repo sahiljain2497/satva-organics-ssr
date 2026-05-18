@@ -1,5 +1,6 @@
 import { NgOptimizedImage } from '@angular/common';
 import { Component, inject, signal } from '@angular/core';
+import { controlShowsError } from '../shared/utils/form-validation';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 
 import { SITE_URL } from '../core/constants/seo.constants';
@@ -22,18 +23,21 @@ export class Home {
   readonly locale = inject(LocaleService);
 
   protected readonly isVideoMuted = signal(true);
+  protected readonly partnerSubmitAttempted = signal(false);
 
   protected readonly partnerForm = this.formBuilder.nonNullable.group({
-    userType: ['Farmer', Validators.required],
+    userType: ['Farmer / Bulk', Validators.required],
     name: ['', Validators.required],
+    phone: ['', Validators.required],
+    location: [''],
     message: [''],
   });
 
   constructor() {
     this.seo.setPageSeo({
-      title: 'Satva Organics – Pure Vermicompost for HP, J&K, UP & All India',
+      title: 'Satva Organics - Premium Vermicompost for Orchards, Polyhouses & Dealers',
       description:
-        'Satva Organics’ scientifically-enriched vermicompost boosts yields in orchards and fields. Progressive farmers across Himachal, J&K, and UP trust our premium organic fertilizer with botanical extracts and beneficial microbes.',
+        'Satva Organics supplies premium vermicompost for apple orchards, polyhouse vegetables, nurseries, bulk buyers, and agri-input dealers. Request crop-wise guidance or a bulk quote.',
       canonicalUrl: SITE_URL,
     });
     this.seo.injectJsonLd(localBusinessSchema());
@@ -43,13 +47,21 @@ export class Home {
     this.isVideoMuted.update((muted) => !muted);
   }
 
+  protected partnerFieldError(field: 'name' | 'phone'): boolean {
+    return controlShowsError(this.partnerForm, field, this.partnerSubmitAttempted());
+  }
+
   protected onPartnerSubmit(): void {
+    this.partnerSubmitAttempted.set(true);
     if (this.partnerForm.invalid) {
       this.partnerForm.markAllAsTouched();
       return;
     }
 
-    const message = this.whatsApp.buildPartnerMessage(this.partnerForm.getRawValue());
+    const message = this.whatsApp.buildPartnerMessage({
+      ...this.partnerForm.getRawValue(),
+      source: 'Homepage partner form',
+    });
     this.whatsApp.openChat(message);
   }
 }

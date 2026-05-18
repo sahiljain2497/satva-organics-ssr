@@ -1,3 +1,34 @@
+<section class="section buyer-paths bg-light">
+  <div class="container">
+    <div class="text-center reveal">
+      <h2 class="section-title">What are you looking for?</h2>
+      <p class="section-desc">Jump to the page that matches your requirement, or use the form below.</p>
+    </div>
+    <div class="buyer-path-grid reveal">
+      <a [routerLink]="locale.localPath('/bulk-vermicompost')" class="buyer-path-card card">
+        <span class="buyer-path-icon">🚛</span>
+        <h3>Bulk / 50 kg bags</h3>
+        <p>Farms, FPOs, and institutional buyers</p>
+      </a>
+      <a [routerLink]="locale.localPath('/apple-orchards')" class="buyer-path-card card">
+        <span class="buyer-path-icon">🍎</span>
+        <h3>Apple orchards</h3>
+        <p>Dosage, timing, and bulk supply</p>
+      </a>
+      <a [routerLink]="locale.localPath('/dealer-program')" class="buyer-path-card card">
+        <span class="buyer-path-icon">🏪</span>
+        <h3>Dealer program</h3>
+        <p>Agri retailers and distributors</p>
+      </a>
+      <a [routerLink]="locale.localPath('/quality-lab-reports')" class="buyer-path-card card">
+        <span class="buyer-path-icon">✔</span>
+        <h3>Quality &amp; lab reports</h3>
+        <p>Batch checks and production process</p>
+      </a>
+    </div>
+  </div>
+</section>
+
 <section class="section contact-areas">
   <div class="container">
     <div class="text-center reveal">
@@ -125,7 +156,12 @@
       <div class="contact-form-wrapper reveal">
         <div class="card">
           <h2 class="mb-4" i18n="@@contact.form_title">Send a Message</h2>
-          <form [formGroup]="contactForm" (ngSubmit)="onContactSubmit()">
+          <form [formGroup]="contactForm" (ngSubmit)="onContactSubmit()" novalidate>
+            @if (submitAttempted() && contactForm.invalid) {
+              <div class="form-alert" role="alert">
+                Please fill in your name, phone number, and state/district before sending.
+              </div>
+            }
             <div class="form-group">
               <label i18n="@@form.name" for="c-name">Your Name</label>
               <input
@@ -133,9 +169,12 @@
                 id="c-name"
                 formControlName="name"
                 class="form-control"
-                required
+                [class.is-invalid]="fieldError('name')"
                 i18n-placeholder="@@placeholder.name"
               />
+              @if (fieldError('name')) {
+                <span class="form-error">Please enter your name</span>
+              }
             </div>
             <div class="form-group">
               <label i18n="@@form.phone" for="c-phone">Phone Number</label>
@@ -144,9 +183,26 @@
                 id="c-phone"
                 formControlName="phone"
                 class="form-control"
-                required
+                [class.is-invalid]="fieldError('phone')"
                 i18n-placeholder="@@placeholder.phone"
               />
+              @if (fieldError('phone')) {
+                <span class="form-error">Please enter your phone number</span>
+              }
+            </div>
+            <div class="form-group">
+              <label for="c-location">State / District</label>
+              <input
+                type="text"
+                id="c-location"
+                formControlName="location"
+                class="form-control"
+                [class.is-invalid]="fieldError('location')"
+                placeholder="e.g. Meerut, UP"
+              />
+              @if (fieldError('location')) {
+                <span class="form-error">Please enter your state or district</span>
+              }
             </div>
             <div class="form-group">
               <label i18n="@@form.requirement" for="c-req">Requirement</label>
@@ -154,6 +210,7 @@
                 <option value="Farmer/Bulk" i18n="@@opt.farmer_bulk">Farmer / Bulk Order</option>
                 <option value="Home Garden" i18n="@@opt.home_garden">Home Garden</option>
                 <option value="Nursery" i18n="@@opt.nursery_supply">Nursery Supply</option>
+                <option value="Polyhouse">Polyhouse Grower</option>
                 <option value="Distributor/Wholesale" i18n="@@opt.distributor">
                   Distributor / Wholesale
                 </option>
@@ -161,12 +218,13 @@
               </select>
             </div>
             <div class="form-group">
-              <label i18n="@@form.message" for="c-message">Message / Location</label>
+              <label i18n="@@form.message" for="c-message">Short message</label>
               <textarea
                 id="c-message"
                 formControlName="message"
                 class="form-control"
                 rows="3"
+                placeholder="Quantity, crop, or question..."
                 i18n-placeholder="@@placeholder.message"
               ></textarea>
             </div>

@@ -5,14 +5,19 @@ import { WHATSAPP_NUMBER } from '../constants/whatsapp.constants';
 export interface PartnerInquiry {
   userType: string;
   name: string;
+  phone?: string;
+  location?: string;
   message: string;
+  source?: string;
 }
 
 export interface ContactInquiry {
   name: string;
   phone: string;
+  location?: string;
   requirement: string;
   message: string;
+  source?: string;
 }
 
 export interface StateContactInquiry {
@@ -37,12 +42,30 @@ export class WhatsAppService {
     window.open(url, '_blank');
   }
 
-  buildPartnerMessage({ userType, name, message }: PartnerInquiry): string {
-    return $localize`:@@whatsapp.partner:Hi Satva, I am a ${userType}. My name is ${name}. Message: ${message}`;
+  buildPartnerMessage({ userType, name, phone, location, message, source }: PartnerInquiry): string {
+    const parts = [
+      'Hi Satva,',
+      source ? `Source: ${source}.` : '',
+      `I am a ${userType}.`,
+      `Name: ${name}.`,
+      phone ? `Phone: ${phone}.` : '',
+      location ? `Location: ${location}.` : '',
+      message ? `Message: ${message}` : '',
+    ].filter(Boolean);
+    return parts.join(' ');
   }
 
-  buildContactMessage({ name, phone, requirement, message }: ContactInquiry): string {
-    return $localize`:@@whatsapp.contact:Hi Satva, Name: ${name}, Phone: ${phone}, Req: ${requirement}, Msg: ${message}`;
+  buildContactMessage({ name, phone, location, requirement, message, source }: ContactInquiry): string {
+    const parts = [
+      'Hi Satva,',
+      source ? `Source: ${source}.` : '',
+      `Name: ${name},`,
+      `Phone: ${phone},`,
+      location ? `Location: ${location},` : '',
+      `Req: ${requirement},`,
+      message ? `Msg: ${message}` : '',
+    ].filter(Boolean);
+    return parts.join(' ');
   }
 
   buildStateContactMessage({ region, name, phone, message }: StateContactInquiry): string {

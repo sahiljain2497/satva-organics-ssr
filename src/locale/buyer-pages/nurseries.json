@@ -1,0 +1,130 @@
+{
+  "en": {
+    "productCta": "Choose Pack & Get Quote",
+    "whatsappCta": "Request Nursery Supply Quote",
+    "badge": "Nurseries",
+    "heroTitle": "Vermicompost for Nurseries & Saplings — Bulk Supply",
+    "heroLead": "Nursery growers need repeatable quality for potting mixes, saplings, and transplant survival. Satva vermicompost supports fruit plants, vegetable seedlings, ornamentals, and forestry nurseries with 1 kg trials through bulk supply.",
+    "sectionsBeforeTable": [
+      {
+        "title": "Why Nurseries Choose Satva",
+        "paragraphs": [
+          "Seedling media needs stable organic matter without burning tender roots. Vermicompost improves texture, moisture retention, and early root development when mixed at 10–20% of growing media.",
+          "Bulk nursery programmes benefit from batch consistency, clean 50 kg bags, and direct support from our Mohali team."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Nursery Application Guide",
+      "headers": ["Use case", "Mix / dose", "When"],
+      "rows": [
+        ["Potting mix", "10–15% by volume", "Before filling trays or pots"],
+        ["Transplant holes", "50–100 g per plant", "At transplant"],
+        ["Bed preparation", "150–200 kg per acre equivalent", "Open nursery beds"]
+      ],
+      "intro": "Adjust ratios for crop and media type. Heavy peat mixes may need lower percentages."
+    },
+    "supply": {
+      "title": "Packs for Nurseries",
+      "paragraphs": ["Ordering options:"],
+      "items": [
+        { "label": "1 kg:", "text": "Media trials and small batches." },
+        { "label": "50 kg:", "text": "Weekly or monthly nursery restock." },
+        { "label": "Bulk:", "text": "Large propagation units and institutional buyers." }
+      ]
+    },
+    "bestSuited": {
+      "title": "Learn More",
+      "items": [
+        { "text": "Shimla nursery field note (blog)" },
+        { "text": "Bulk vermicompost for repeat orders" },
+        { "text": "Quality checks before you buy" }
+      ]
+    },
+    "faqTitle": "Nursery Supply — FAQs",
+    "faqs": [
+      {
+        "question": "Is vermicompost safe for delicate seedlings?",
+        "answer": "Yes, when well-matured and used at recommended mix rates. Avoid raw or unfinished compost in seedling trays."
+      },
+      {
+        "question": "Can we get repeat monthly supply?",
+        "answer": "Yes. Discuss volume and district with us for scheduled supply and wholesale rates."
+      },
+      {
+        "question": "Do you supply to UP and HP nurseries?",
+        "answer": "Yes. We serve North India nursery clusters with freight coordinated on enquiry."
+      }
+    ],
+    "links": [
+      { "path": "/bulk-vermicompost", "label": "Bulk Supply" },
+      { "path": "/quality-lab-reports", "label": "Quality & Lab Reports" },
+      { "path": "/blogs/shimla-nursery-satva-vermicompost-case-study", "label": "Nursery Field Note" },
+      { "path": "/uttar-pradesh", "label": "Uttar Pradesh Supply" }
+    ],
+    "cta": { "title": "Nursery Supply Quote", "description": "Share your nursery location and monthly volume range." },
+    "seo": {
+      "title": "Vermicompost for Nurseries & Saplings - Bulk Supply | Satva",
+      "description": "Satva vermicompost supports nursery saplings, potting mixes, root growth, and transplant survival. Request bulk supply for fruit, vegetable, and ornamental nurseries."
+    },
+    "schemaDescription": "Vermicompost bulk supply for nurseries and sapling propagation.",
+    "areaServed": ["India"],
+    "breadcrumbName": "Nurseries"
+  },
+  "hi": {
+    "productCta": "पैक चुनें और कोट लें",
+    "whatsappCta": "नर्सरी कोट माँगें",
+    "badge": "नर्सरी",
+    "heroTitle": "नर्सरी और पौधों के लिए वर्मीकम्पोस्ट",
+    "heroLead": "नर्सरी को पॉटिंग मिक्स और पौध रोपाई के लिए बार-बार एक जैसी गुणवत्ता चाहिए। 1 किलो ट्रायल से थोक तक सत्व सप्लाई।",
+    "sectionsBeforeTable": [
+      {
+        "title": "नर्सरी सत्व क्यों चुनती हैं",
+        "paragraphs": [
+          "पौध मीडिया में नरम जड़ों के लिए पका जैविक पदार्थ चाहिए। 10–20% मिलावट से बनावट और नमी बेहतर होती है।",
+          "थोक कार्यक्रमों के लिए सुसंगत बैच और 50 किलो बैग।"
+        ]
+      }
+    ],
+    "table": {
+      "title": "नर्सरी उपयोग गाइड",
+      "headers": ["उपयोग", "मात्रा", "समय"],
+      "rows": [
+        ["पॉटिंग मिक्स", "10–15% मात्रा", "ट्रे भरने से पहले"],
+        ["रोपाई", "50–100 g प्रति पौध", "रोपाई पर"],
+        ["बेड", "150–200 kg प्रति एकड़", "खुला नर्सरी बेड"]
+      ],
+      "intro": "फसल और मीडिया के अनुसार समायोजित करें।"
+    },
+    "supply": {
+      "title": "नर्सरी पैक",
+      "paragraphs": ["ऑर्डर विकल्प:"],
+      "items": [
+        { "label": "1 किलो:", "text": "ट्रायल।" },
+        { "label": "50 किलो:", "text": "मासिक रीस्टॉक।" },
+        { "label": "थोक:", "text": "बड़ी प्रोपेगेशन यूनिट।" }
+      ]
+    },
+    "bestSuited": { "title": "और जानें", "items": [{ "text": "नर्सरी फील्ड नोट" }, { "text": "थोक" }, { "text": "गुणवत्ता जाँच" }] },
+    "faqTitle": "नर्सरी — अक्सर पूछे जाने वाले प्रश्न",
+    "faqs": [
+      { "question": "नाज़ुक पौधों के लिए सुरक्षित?", "answer": "हाँ, पकी खुराक पर। अधपका खाद न डालें।" },
+      { "question": "मासिक सप्लाई?", "answer": "हाँ। मात्रा और जिला चर्चा करें।" },
+      { "question": "यूपी/HP नर्सरी?", "answer": "हाँ। उत्तर भारत क्लस्टर।" }
+    ],
+    "links": [
+      { "path": "/bulk-vermicompost", "label": "थोक" },
+      { "path": "/quality-lab-reports", "label": "गुणवत्ता" },
+      { "path": "/blogs/shimla-nursery-satva-vermicompost-case-study", "label": "फील्ड नोट" },
+      { "path": "/uttar-pradesh", "label": "यूपी" }
+    ],
+    "cta": { "title": "नर्सरी कोट", "description": "स्थान और मासिक मात्रा बताएँ।" },
+    "seo": {
+      "title": "नर्सरी के लिए वर्मीकम्पोस्ट | सत्व",
+      "description": "पॉटिंग मिक्स, जड़ विकास और रोपाई के लिए सत्व वर्मीकम्पोस्ट थोक सप्लाई।"
+    },
+    "schemaDescription": "नर्सरी और पौध प्रसार के लिए वर्मीकम्पोस्ट।",
+    "areaServed": ["India"],
+    "breadcrumbName": "नर्सरी"
+  }
+}

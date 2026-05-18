@@ -974,6 +974,33 @@ img {
     box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.1);
 }
 
+.form-alert {
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    background: #fdecea;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+    color: #b71c1c;
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+.form-error {
+    display: block;
+    margin-top: 0.35rem;
+    font-size: 0.85rem;
+    color: #c62828;
+}
+
+.form-control.is-invalid {
+    border-color: #e53935;
+}
+
+.form-control.is-invalid:focus {
+    border-color: #e53935;
+    box-shadow: 0 0 0 3px rgba(229, 57, 53, 0.15);
+}
+
 textarea.form-control {
     resize: vertical;
 }
@@ -987,7 +1014,7 @@ textarea.form-control {
 
 .footer-content {
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1.2fr;
+    grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
     gap: 3rem 2.5rem;
     margin-bottom: 2.5rem;
     align-items: start;
@@ -1504,4 +1531,67 @@ textarea.form-control {
     .section-title.left {
         text-align: center;
     }
+}
+
+/* Buyer path cards (home + contact) */
+.buyer-path-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+    margin-top: 2rem;
+}
+
+.buyer-path-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.25rem;
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition);
+}
+
+.buyer-path-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+
+.buyer-path-icon {
+    font-size: 1.75rem;
+    line-height: 1;
+}
+
+.buyer-path-card h3 {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.buyer-path-card p {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin: 0;
+}
+
+.product-card-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.product-card-link:hover {
+    text-decoration: underline;
+}
+
+.blog-sales-cta {
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    background: var(--primary-light);
+    border-radius: var(--radius-md);
+}
+
+.blog-sales-cta p {
+    margin-bottom: 1rem;
 }

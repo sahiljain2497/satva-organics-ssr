@@ -10,8 +10,15 @@
         yield.
       </p>
       <div class="hero-btns">
-        <a href="/#partners" class="btn btn-primary" i18n="@@hero.cta_partner">Partner With Us</a>
-        <a href="/#products" class="btn btn-secondary" i18n="@@hero.cta_products">View Products</a>
+        <a [href]="locale.localPath('/bulk-vermicompost')" class="btn btn-primary" i18n="@@hero.cta_bulk"
+          >Request Bulk Quote</a
+        >
+        <a [href]="locale.localPath('/apple-orchards')" class="btn btn-secondary" i18n="@@hero.cta_apple"
+          >Apple Orchard Guide</a
+        >
+        <a [href]="locale.localPath('/dealer-program')" class="btn btn-outline" i18n="@@hero.cta_dealer"
+          >Dealer Program</a
+        >
       </div>
     </div>
     <div class="hero-image reveal">
@@ -156,12 +163,54 @@
   </div>
 </section>
 
+<!-- Buyer Paths -->
+<section class="section buyer-paths bg-light">
+  <div class="container">
+    <h2 class="section-title text-center" i18n="@@buyer.title">Find What You Need</h2>
+    <p class="text-center section-desc" i18n="@@buyer.desc">
+      Crop guides, bulk supply, nursery packs, and dealer partnerships — choose your path.
+    </p>
+    <div class="buyer-path-grid reveal">
+      <a [href]="locale.localPath('/bulk-vermicompost')" class="buyer-path-card card">
+        <span class="buyer-path-icon">🚛</span>
+        <h3 i18n="@@buyer.bulk">Bulk Vermicompost</h3>
+        <p i18n="@@buyer.bulk_desc">50 kg bags and tonne supply for farms and dealers.</p>
+      </a>
+      <a [href]="locale.localPath('/apple-orchards')" class="buyer-path-card card">
+        <span class="buyer-path-icon">🍎</span>
+        <h3 i18n="@@buyer.apple">Apple Orchards</h3>
+        <p i18n="@@buyer.apple_desc">Dosage, timing, and orchard soil recovery.</p>
+      </a>
+      <a [href]="locale.localPath('/polyhouse-farmers')" class="buyer-path-card card">
+        <span class="buyer-path-icon">🏠</span>
+        <h3 i18n="@@buyer.poly">Polyhouse Farmers</h3>
+        <p i18n="@@buyer.poly_desc">Tomato, capsicum, cucumber, and protected beds.</p>
+      </a>
+      <a [href]="locale.localPath('/nurseries')" class="buyer-path-card card">
+        <span class="buyer-path-icon">🌱</span>
+        <h3 i18n="@@buyer.nursery">Nurseries</h3>
+        <p i18n="@@buyer.nursery_desc">Potting mix, saplings, and repeat supply.</p>
+      </a>
+      <a [href]="locale.localPath('/dealer-program')" class="buyer-path-card card">
+        <span class="buyer-path-icon">🏪</span>
+        <h3 i18n="@@buyer.dealer">Dealer Program</h3>
+        <p i18n="@@buyer.dealer_desc">Agri shops and district distributors.</p>
+      </a>
+      <a [href]="locale.localPath('/quality-lab-reports')" class="buyer-path-card card">
+        <span class="buyer-path-icon">✔</span>
+        <h3 i18n="@@buyer.quality">Quality &amp; Lab Reports</h3>
+        <p i18n="@@buyer.quality_desc">Batch checks before you buy in bulk.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- Ideal For Section -->
 <section class="section ideal-for">
   <div class="container">
     <h2 class="section-title text-center" i18n="@@ideal.title">Ideal For All Crops</h2>
     <div class="ideal-wrapper reveal">
-      <a [href]="locale.localPath('/himachal-pradesh')" class="ideal-item ideal-item-link">
+      <a [href]="locale.localPath('/apple-orchards')" class="ideal-item ideal-item-link">
         <span class="ideal-icon">🍎</span>
         <span i18n="@@ideal.apple">Apple Orchards (HP &amp; Kashmir)</span>
       </a>
@@ -173,10 +222,14 @@
         <span class="ideal-icon">💐</span>
         <span i18n="@@ideal.flowers">Floriculture</span>
       </div>
-      <div class="ideal-item">
+      <a [href]="locale.localPath('/polyhouse-farmers')" class="ideal-item ideal-item-link">
         <span class="ideal-icon">🏠</span>
         <span i18n="@@ideal.poly">Polyhouse Crops</span>
-      </div>
+      </a>
+      <a [href]="locale.localPath('/nurseries')" class="ideal-item ideal-item-link">
+        <span class="ideal-icon">🌱</span>
+        <span i18n="@@ideal.nursery">Nurseries</span>
+      </a>
       <div class="ideal-item">
         <span class="ideal-icon">🌾</span>
         <span i18n="@@ideal.field">Field Crops</span>
@@ -201,6 +254,9 @@
 <section id="products" class="section products bg-light">
   <div class="container">
     <h2 class="section-title text-center" i18n="@@products.title">Packaging Options</h2>
+    <p class="text-center section-desc">
+      <a [href]="locale.localPath('/packaging-sizes')">View all pack sizes &rarr;</a>
+    </p>
     <div class="grid-4 product-grid">
       <!-- 1kg -->
       <div class="card product-card reveal">
@@ -241,8 +297,9 @@
         </div>
         <h3 i18n="@@prod.bulk">Bulk Supply</h3>
         <p i18n="@@prod.bulk_desc">
-          For Institutional Buyers. Custom branding & export packaging available.
+          For institutional buyers. Custom branding &amp; export packaging available.
         </p>
+        <a [href]="locale.localPath('/bulk-vermicompost')" class="product-card-link">Bulk supply details &rarr;</a>
       </div>
     </div>
   </div>
@@ -291,8 +348,9 @@
           </div>
           <div class="trust-point mt-4" style="background: none; padding: 0">
             <p class="small-text" i18n="@@trust.standards">
-              <strong>Quality Standards:</strong> Made from premium organic feedstock, Pathogen
-              controlled, Lab-tested microbial enrichment.
+              <strong>Quality Standards:</strong> Made from premium organic feedstock, pathogen
+              controlled, lab-tested microbial enrichment.
+              <a [href]="locale.localPath('/quality-lab-reports')">See quality &amp; lab reports &rarr;</a>
             </p>
           </div>
         </div>
@@ -316,14 +374,21 @@
           <p class="contact-loc">Mohali, India</p>
         </div>
       </div>
-      <form [formGroup]="partnerForm" (ngSubmit)="onPartnerSubmit()" class="partner-form card">
+      <form [formGroup]="partnerForm" (ngSubmit)="onPartnerSubmit()" class="partner-form card" novalidate>
         <h3 i18n="@@form.title" class="mb-3">Get in Touch</h3>
+        @if (partnerSubmitAttempted() && partnerForm.invalid) {
+          <div class="form-alert" role="alert">
+            Please enter your name and phone number before continuing on WhatsApp.
+          </div>
+        }
         <div class="form-group">
           <label i18n="@@form.who" for="user-type">I am a...</label>
           <select id="user-type" formControlName="userType" class="form-control">
-            <option value="Farmer">Farmer</option>
-            <option value="Distributor">Distributor</option>
-            <option value="Buyer">Export Buyer</option>
+            <option value="Farmer / Bulk">Farmer / Bulk Order</option>
+            <option value="Dealer">Dealer / Distributor</option>
+            <option value="Nursery">Nursery</option>
+            <option value="Polyhouse">Polyhouse Grower</option>
+            <option value="Home Garden">Home Garden</option>
             <option value="Other">Other</option>
           </select>
         </div>
@@ -334,7 +399,35 @@
             id="partner-name"
             formControlName="name"
             class="form-control"
+            [class.is-invalid]="partnerFieldError('name')"
             placeholder="Your Name"
+          />
+          @if (partnerFieldError('name')) {
+            <span class="form-error">Please enter your name</span>
+          }
+        </div>
+        <div class="form-group">
+          <label i18n="@@form.phone" for="partner-phone">Phone</label>
+          <input
+            type="tel"
+            id="partner-phone"
+            formControlName="phone"
+            class="form-control"
+            [class.is-invalid]="partnerFieldError('phone')"
+            placeholder="+91..."
+          />
+          @if (partnerFieldError('phone')) {
+            <span class="form-error">Please enter your phone number</span>
+          }
+        </div>
+        <div class="form-group">
+          <label for="partner-location">State / District</label>
+          <input
+            type="text"
+            id="partner-location"
+            formControlName="location"
+            class="form-control"
+            placeholder="e.g. Shimla, HP"
           />
         </div>
         <div class="form-group">
