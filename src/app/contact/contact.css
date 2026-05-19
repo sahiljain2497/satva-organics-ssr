@@ -88,3 +88,72 @@
   margin-bottom: 1rem;
   line-height: 1.5;
 }
+
+@media (max-width: 900px) {
+  .section {
+    padding: 3.5rem 0;
+  }
+
+  .contact-areas {
+    padding-top: 1.5rem;
+  }
+
+  .section-title {
+    margin-bottom: 0.75rem;
+  }
+
+  .section-desc {
+    margin-bottom: 1.5rem;
+  }
+
+  .buyer-path-grid {
+    margin-top: 1.25rem;
+    gap: 1rem;
+  }
+
+  .buyer-path-card {
+    padding: 1.1rem;
+  }
+
+  .areas-grid {
+    margin-top: 1.25rem;
+    gap: 1rem;
+  }
+
+  .area-card {
+    padding: 1.25rem;
+  }
+
+  .area-card p {
+    margin-bottom: 0.65rem;
+  }
+
+  .contact-general-heading {
+    margin-bottom: 1.25rem;
+  }
+
+  .contact-section .details.mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .contact-section .details p {
+    margin-bottom: 0.75rem;
+  }
+
+  .contact-form-wrapper .mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .contact-form-wrapper .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .map-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .map-section iframe {
+    height: 300px !important;
+  }
+}
