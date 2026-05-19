@@ -51,8 +51,17 @@
 }
 
 @media (max-width: 900px) {
+  .section.state-quick-contact {
+    padding: 2.5rem 0;
+  }
+
   .state-quick-contact-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .state-quick-contact-form {
+    padding: 1.25rem;
   }
 
   .state-quick-contact-actions {

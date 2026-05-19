@@ -80,8 +80,26 @@
 }
 
 @media (max-width: 900px) {
+  .section.state-products {
+    padding: 2.5rem 0;
+  }
+
+  .state-products-header {
+    margin-bottom: 1.25rem;
+  }
+
+  .state-products-header .section-desc {
+    margin-bottom: 0.5rem;
+  }
+
   .state-products-grid {
     grid-template-columns: 1fr;
     max-width: 420px;
+    margin-bottom: 1.25rem;
+    gap: 1rem;
+  }
+
+  .state-product-card {
+    padding: 1.25rem;
   }
 }

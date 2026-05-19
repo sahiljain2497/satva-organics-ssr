@@ -234,9 +234,51 @@
 }
 
 @media (max-width: 900px) {
-  .state-products-grid {
-    grid-template-columns: 1fr;
-    max-width: 420px;
+  .state-hero {
+    padding: 2.5rem 0 2rem;
+  }
+
+  .section {
+    padding: 2.5rem 0;
+  }
+
+  .state-hero h1 {
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-btns {
+    margin-top: 1rem;
+  }
+
+  .state-content h2 {
+    margin: 1.25rem 0 0.75rem;
+  }
+
+  .state-content p,
+  .state-content li {
+    margin-bottom: 0.75rem;
+  }
+
+  .application-guide {
+    margin: 1rem 0;
+  }
+
+  .best-suited {
+    margin: 1rem 0;
+    padding: 0.85rem 1rem;
+  }
+
+  .state-summary {
+    margin: 1rem 0;
+    padding: 0.85rem 1rem;
+  }
+
+  .faq-item {
+    padding: 0.75rem 0;
+  }
+
+  .state-links {
+    margin-top: 1.25rem;
   }
 
   .hero-btns .btn {
